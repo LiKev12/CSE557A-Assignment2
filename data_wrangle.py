@@ -94,7 +94,10 @@ def format_data_gps():
     # before["timemins"] = ((before["timecode"].astype(int) - (before["timedays"].astype(int)-1) * 24*60*60 - before["timehrs"].astype(int) * 60*60)/60).astype(int)
     # before["timesec"] = ((before["timecode"].astype(int) - (before["timedays"].astype(int)-1) * 24*60*60 - before["timehrs"].astype(int) * 60*60 - before["timemins"].astype(int) * 60)).astype(int)
 
+
+    before.sort_values(['id', 'Timestamp'], ascending=[True, True], inplace=True)
     print(before)
+
 
     before.to_csv("gps_data.csv", index = False)
 
@@ -127,5 +130,5 @@ def format_loyalty_data():
 
 # format_data_car_assignments()
 # format_data_cc_data()
-# format_data_gps()
+format_data_gps()
 # format_loyalty_data()
