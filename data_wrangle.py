@@ -128,7 +128,91 @@ def format_loyalty_data():
 
     before.to_csv("loyalty.csv", index = False)
 
+
+def joinCarGPS():
+    os.chdir("Postprocess_Data")
+    gps = pd.read_csv("gps_data_byID_byTime.csv", encoding = 'latin-1')
+    car = pd.read_csv("car_data.csv", encoding = 'latin-1')
+    # print(gps)
+    # res = gps.set_index('id').join(car.set_index('CarID'))
+    res = gps.join(car.set_index('CarID'), on='id')
+    # print(res)
+
+
+    time_margin = 20
+
+
+
+
+    allFrames = []
+    for carID in range(1, 108):
+        print(carID)
+        infoByID = res.loc[res['id'] == carID]
+        if (infoByID.empty == False):
+            single_output = condenseTimePoints(infoByID, time_margin)
+            allFrames.append(single_output)
+
+
+    # infoByID = res.loc[res['id'] == 1]
+    # single_output = condenseTimePoints(infoByID, time_margin)
+    # print(single_output)
+
+    # single_output.to_csv("res1.csv", index=False)
+        
+    output = pd.concat(allFrames)
+
+    output.to_csv("res.csv", index=False)
+
+def condenseTimePoints(df, time_margin):
+    start_time = df['Timestamp'].iloc[0]
+    end_time = df['Timestamp'].iloc[-1]
+    # print(end_time)
+
+    start_point = start_time
+
+    listOfAvgs = []
+
+    while start_point < end_time:
+        end_point = start_point + time_margin
+        time_segment = df.loc[(df['Timestamp'] >= start_point) & (df['Timestamp'] <= end_point)]
+
+
+        if time_segment.empty == False:
+            avg_time_segment = time_segment.iloc[0:1]
+            # print(avg_time_segment)
+
+            avg_time_segment['Timestamp'] = int(round(time_segment['Timestamp'].mean()))
+            avg_time_segment['lat'] = time_segment['lat'].mean()
+            avg_time_segment['long'] = time_segment['long'].mean()
+            # print(time_segment)
+            listOfAvgs.append(avg_time_segment)
+            # print(avg_time_segment)
+
+
+        start_point += time_margin + 1
+
+
+    res = pd.concat(listOfAvgs)
+    return res
+
+    # print(start_time)
+
+
+
+
+    # print("hi")
+
+
+
+
+
+
+    
+
+
 # format_data_car_assignments()
 # format_data_cc_data()
-format_data_gps()
+# format_data_gps()
 # format_loyalty_data()
+
+joinCarGPS()
