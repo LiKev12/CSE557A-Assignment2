@@ -27,7 +27,13 @@ Filter.prototype.init = function() {
     $(this.ts2).trigger("newTimestamp2", {day: day, time: time});
   });
   $("#compare").on("click", (e) => {
-    this.checked = !this.checked;
-    $(this.compare).trigger("checked", this.checked);
+    let carId = $("#car-id-input").val();
+    let day1 = $("#timestamp-1-day").val();
+    let time1 = $("#timestamp-1-time").val();
+    let timestamp1 = {day: day1, time: time1}
+    let day2 = $("#timestamp-2-day").val();
+    let time2 = $("#timestamp-2-time").val();
+    let timestamp2 = {day: day2, time: time2}
+    $(this.compare).trigger("checked", [timestamp1, timestamp2, carId]);
   });
 };

@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="column" id="map">
-      <img src="Data/MC2-tourist.jpg" alt="Abila Map" id="abila-map">
+      <img src="Data/MC2-tourist.jpg" alt="Abila Map" id="abila-map"/>
     </div>
     <div class="column" id="filter">
       <section>
@@ -22,27 +22,28 @@
         <label for="timestamp-1-month">Month</label>
         <input type="text" name="timestamp-1-month" value="January" id="timestamp-1-month" disabled>
         <label for="timestamp-1-day">Day</label>
-        <input type="text" name="timestamp-1-day" value="" id="timestamp-1-day">
+        <input type="number" name="timestamp-1-day" value="" id="timestamp-1-day" min = "6" max = "17">
         <label for="timestamp-1-time">Time</label>
-        <input type="text" name="timestamp-1-time" value="" id="timestamp-1-time">
+        <input type="time" name="timestamp-1-time" step="2" id="timestamp-1-time">
         <input type="submit" name="timestamp-1-submit" value="Show" id="timestamp-1-submit">
       </section>
-      <hr />
-      <section>
-        <input type="checkbox" name="compare" value="" id="compare">
-        <label for="timestamp-1-time">Compare</label>
-      </section>
-      <hr />
+      
       <section>
         <p>Timestamp 2</p>
         <label for="timestamp-2-month">Month</label>
         <input type="text" name="timestamp-2-month" value="January" id="timestamp-2-month" disabled>
         <label for="timestamp-1-day">Day</label>
-        <input type="text" name="timestamp-2-day" value="" id="timestamp-2-day">
+        <input type="number" name="timestamp-2-day" value="" id="timestamp-2-day" min = "6" max = "17">
         <label for="timestamp-1-time">Time</label>
-        <input type="text" name="timestamp-2-time" value="" id="timestamp-2-time">
+        <input type="time" name="timestamp-2-time" step="2" id="timestamp-2-time">
         <input type="submit" name="timestamp-2-submit" value="Show" id="timestamp-2-submit">
       </section>
+
+      <hr />
+      <section>
+        <button id="compare" >Search</button>
+      </section>
+      <hr />
     </div>
   </body>
   <script src="js/d3.min.js"></script>

@@ -1,7 +1,11 @@
 // Root file that handles instances of all the charts and loads the visualization
+
+
 (function(){
     var instance = null;
-
+    var days = {6: 0, 7: 1, 8: 2, 9: 3, 10: 4, 11: 5, 12: 6, 13: 7, 14: 8, 15: 9, 16: 10, 17: 11}
+    var dayBase = 432000
+    var multiplier = 86400
     /*
      * Creates instances for every vis (classes created to handle each vis;
      * the classes are defined in the respective javascript files.
@@ -32,10 +36,30 @@
           // Call method in Map() to handle this
         });
 
-        $(compare).bind("checked", (event, checked) => {
-          console.log(checked ? "compare is checked" : "compare is unchecked");
-          // Call method in Map() to handle this
+        $(compare).bind("checked", (event, timestamp1, timestamp2, carId) => {
+          //console.log(checked ? "compare is checked" : "compare is unchecked");
+            var seconds1 = getSeconds(timestamp1.time)
+            var time1 = (dayBase+(days[timestamp1.day]*multiplier)) + seconds1
+
+            var seconds2 = getSeconds(timestamp2.time)
+            var time2 = (dayBase+(days[timestamp2.day]*multiplier)) + seconds2
+              map.getTripNewData("../Postprocess_Data/gps_data.csv", time1, time2, carId)
+          
         });
+    }
+
+
+    function getSeconds(time){
+      var a = time.split(':')
+      var seconds;
+      if(a.length < 3){
+        seconds = ((+a[0]) * 60 * 60) + ((+a[1])*60) 
+      }
+      else{
+        seconds = ((+a[0]) * 60 * 60) + ((+a[1])*60) + (+a[2])
+      }
+
+      return seconds
     }
 
     /**
