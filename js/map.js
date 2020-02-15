@@ -73,17 +73,23 @@ Map.prototype.wrangleData = function () {
   }
   let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
   if(!this.carIDs.size) {
+    // if there are no car ids selected, then add the car ids within the
+    // selected time range to this.carIDs
     for(let i = 0; i < temp.length; i++) {
       this.updateCarIDs(temp[i]);
     }
   } else {
-    this.carIDs.forEach((k, v, set) => {
-      if(!temp.includes(v)) {
-        this.removeCarIDs(v);
-        // TODO: removing the button should really be handled by the Filter object...
-        $("#btn-"+v).remove();
-      }
-    });
+    // IF we want to prioritize filtering by timestamp, then uncomment out this
+    // code. (e.g. user updates timestamps, and their previously applied car ids
+    // are updated to be)
+
+    // this.carIDs.forEach((k, v, set) => {
+    //   if(!temp.includes(v)) {
+    //     this.removeCarIDs(v);
+    //     // TODO: removing the button should really be handled by the Filter object...
+    //     $("#btn-"+v).remove();
+    //   }
+    // });
   }
 };
 

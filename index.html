@@ -31,7 +31,7 @@
         <div class="col-md-auto">
           <div class="row extra">
             <div class="col" id="cars-added">
-              <p>Cars Selected</p>
+              <p><b>Cars Selected</b></p>
             </div>
           </div>
           <div class="row">
@@ -51,12 +51,16 @@
             use the range slider to choose what days you are interested in.
             Adding a car will automatically overlay that car's GPS data to the
             map within the dates specified by the range slider. To avoid latency
-            issues, the map will not immediately update the range slider is
+            issues, the map will not immediately update when the range slider is
             changed. Rather, you must click on the "Update Dates" button to
             apply a new time range. Cars you have selected will appear in the
             column to the left of the map in the form of buttons. You can click
             on a button to remove that car's GPS data from the map. Paths are
             color coded by the car's ID.
+          </p>
+          <p>Note: If you have not selected any cars (the column to the left of
+            the map is empty), then selecting a date range will automatically
+            populate the column to the left with the car ids in that date range.
           </p>
           <h2>Example Use Cases</h2>
           <ul>
