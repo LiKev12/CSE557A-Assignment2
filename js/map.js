@@ -17,6 +17,21 @@ Map.prototype.init = function () {
     .attr("width", self.svgBounds.width)
     .attr("height", self.svgBounds.height)
 
+  self.tip = d3.tip()
+              .attr('class', 'car-tip')
+              .direction('se')
+              .offset(() => [0,0])
+              .html((d) => {
+        				let name = d.name.split("_");
+                let employmentType = d.employmentType;
+                let employmentTitle = d.employmentTitle;
+      				  let namePara = "<p>Emplyee: " + name[0] + " " + name[1] + "</p>"
+                let carIdPara = "<p>Car ID: " + d.id + "</p>"
+                let timestampPara = "<p>Timestamp: " + d.timestamp + "</p>"
+                return namePara + carIdPara + timestampPara;
+              });
+  self.svg.call(self.tip)
+
   // Potential problem: might lag even though map loaded
   // could be better to load in main.js
   self.getTripData("../Postprocess_Data/gps_data_a20.csv");
@@ -34,7 +49,9 @@ Map.prototype.drawPaths = function () {
     .attr("cx", (d) => self.x(d.long))
     .attr("cy", (d) => self.y(d.lat))
     .attr("r", 3)
-    .attr("fill", (d) => self.colorScale(d.id));
+    .attr("fill", (d) => self.colorScale(d.id))
+    .on("mouseover", self.tip.show)
+		.on("mouseout", self.tip.hide);
   self.paths.exit().remove();
 };
 

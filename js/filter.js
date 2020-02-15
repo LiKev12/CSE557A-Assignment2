@@ -23,7 +23,7 @@ Filter.prototype.init = function() {
     .width(self.svgWidth - self.margin.left)
     .height(self.svgHeight / 2)
     .ticks(0)
-    .step(1)
+    .step(10000)
     .default([this.timestampDomain[0], this.timestampDomain[1]])
     .handle(d3.symbol()
         .type(d3.symbolCircle)
