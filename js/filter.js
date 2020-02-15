@@ -23,7 +23,7 @@ Filter.prototype.init = function() {
     .width(self.svgWidth - self.margin.left)
     .height(self.svgHeight / 2)
     .ticks(0)
-    .step(10000)
+    .step(1)
     .default([this.timestampDomain[0], this.timestampDomain[1]])
     .handle(d3.symbol()
         .type(d3.symbolCircle)
@@ -69,8 +69,8 @@ Filter.prototype.createCarButton = function (carId) {
   $(btnId).css("color", "white");
   $(btnId).on("click", (e) => {
     let carId = e.target.parentNode.type === "button" ? e.target.parentNode.value : e.target.value;
-    $(this.cardId).trigger("removeCarId", carId);
-    $(this.compare).trigger("draw");
     $(btnId).remove();
+    $(this.cardId).trigger("removeCarId", carId);
+    // $(this.compare).trigger("draw");
   });
 };

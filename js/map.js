@@ -71,6 +71,20 @@ Map.prototype.wrangleData = function () {
       }
     });
   }
+  let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
+  if(!this.carIDs.size) {
+    for(let i = 0; i < temp.length; i++) {
+      this.updateCarIDs(temp[i]);
+    }
+  } else {
+    this.carIDs.forEach((k, v, set) => {
+      if(!temp.includes(v)) {
+        this.removeCarIDs(v);
+        // TODO: removing the button should really be handled by the Filter object...
+        $("#btn-"+v).remove();
+      }
+    });
+  }
 };
 
 Map.prototype.updateTimestampRange = function (ts1, ts2) {
@@ -85,6 +99,7 @@ Map.prototype.updateCarIDs = function (carId) {
     this.carIDs.add(carId);
   }
   $(this.filterHandler).trigger("createCarButton", [success, carId]);
+  return success;
 };
 
 Map.prototype.removeCarIDs = function (carId) {
