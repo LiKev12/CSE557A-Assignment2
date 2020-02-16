@@ -54,6 +54,39 @@ Map.prototype.consolelog = function (input) {
 }
 
 Map.prototype.wrangleData = function () {
+<<<<<<< HEAD
+=======
+  if(!this.carIDs.size && !this.timestampRange.length) {
+    this.tripDataDraw = this.tripData
+  } else {
+    const ts1 = this.timestampRange[0];
+    const ts2 = this.timestampRange[1];
+    this.tripDataDraw = this.tripData.filter((d) => {
+      if(this.carIDs.size && this.timestampRange.length) {
+        return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
+      } else if (this.carIDs.size) {
+        return this.carIDs.has(d.id);
+      } else {
+        return ts1 <= d.timestamp && d.timestamp <= ts2;
+      }
+    });
+  }
+  let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
+  if(!this.carIDs.size) {
+    for(let i = 0; i < temp.length; i++) {
+      this.updateCarIDs(temp[i]);
+    }
+  } else {
+    this.carIDs.forEach((k, v, set) => {
+      if(!temp.includes(v)) {
+        this.removeCarIDs(v);
+        // TODO: removing the button should really be handled by the Filter object...
+        $("#btn-"+v).remove();
+      }
+    });
+  }
+};
+>>>>>>> parent of 292a49b... fixed user guide and timestamp filter
 
 };
 
