@@ -1,4 +1,7 @@
-function Map() {
+function Map(_handler) {
+  this.filterHandler = _handler;
+  this.timestampRange = [];
+  this.carIDs = new Set();
   this.init();
 }
 
@@ -14,48 +17,45 @@ Map.prototype.init = function () {
     .attr("width", self.svgBounds.width)
     .attr("height", self.svgBounds.height)
 
-  $("svg").css({ top: 10, left: 10, position: 'absolute' });
-
-  var projection = d3.geoMercator().scale(16000);
-  
-
-  var path = d3.geoPath().projection(projection);
-
-  // d3.json("../Data/Geospatial/world-110m.geojson", function (error, abila) {
-  //   if (error) return console.error(error);
-
-  //   self.svg.append("path").attr("d", path(abila));
-    
-    
-  // });
-
-  // d3.json("../Data/Geospatial/abila.json", function (error, abila) {
-  //   if (error) return console.error(error);
-
-  //   self.svg.append("path").attr("d", path(abila));
-    
-    
-  // });
-
+  self.tip = d3.tip()
+              .attr('class', 'car-tip')
+              .direction('se')
+              .offset(() => [0,0])
+              .html((d) => {
+        				let name = d.name.split("_");
+                let employmentType = d.employmentType;
+                let employmentTitle = d.employmentTitle;
+      				  let namePara = "<p>Emplyee: " + name[0] + " " + name[1] + "</p>"
+                let carIdPara = "<p>Car ID: " + d.id + "</p>"
+                let timestampPara = "<p>Timestamp: " + d.timestamp + "</p>"
+                return namePara + carIdPara + timestampPara;
+              });
+  self.svg.call(self.tip)
 
   // Potential problem: might lag even though map loaded
   // could be better to load in main.js
-
-  this.getTripData("../Data/gps.csv");
-
-  this.getCardData("../Data/cc_data.csv", "ccData");
-  this.getCardData("../Data/loyalty_data.csv", "loyaltyData");
+  self.getTripData("../Postprocess_Data/gps_data_a20.csv");
+  self.getCardData("../Data/cc_data.csv", "ccData");
+  self.getCardData("../Data/loyalty_data.csv", "loyaltyData");
 };
 
-
-
-Map.prototype.consolelog = function (input) {
-  console.log(input)
-}
+Map.prototype.drawPaths = function () {
+  let self = this;
+  self.paths = self.svg.selectAll("circle").data(this.tripDataDraw);
+  self.paths.enter()
+    .append("circle")
+    .merge(self.paths)
+    .attr("class", (d) => "path-dot-"+d.id)
+    .attr("cx", (d) => self.x(d.long))
+    .attr("cy", (d) => self.y(d.lat))
+    .attr("r", 3)
+    .attr("fill", (d) => self.colorScale(d.id))
+    .on("mouseover", self.tip.show)
+		.on("mouseout", self.tip.hide);
+  self.paths.exit().remove();
+};
 
 Map.prototype.wrangleData = function () {
-<<<<<<< HEAD
-=======
   if(!this.carIDs.size && !this.timestampRange.length) {
     this.tripDataDraw = this.tripData
   } else {
@@ -73,116 +73,85 @@ Map.prototype.wrangleData = function () {
   }
   let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
   if(!this.carIDs.size) {
+    // if there are no car ids selected, then add the car ids within the
+    // selected time range to this.carIDs
     for(let i = 0; i < temp.length; i++) {
       this.updateCarIDs(temp[i]);
     }
   } else {
-    this.carIDs.forEach((k, v, set) => {
-      if(!temp.includes(v)) {
-        this.removeCarIDs(v);
-        // TODO: removing the button should really be handled by the Filter object...
-        $("#btn-"+v).remove();
-      }
-    });
+    // IF we want to prioritize filtering by timestamp, then uncomment out this
+    // code. (e.g. user updates timestamps, and their previously applied car ids
+    // are updated to be)
+
+    // this.carIDs.forEach((k, v, set) => {
+    //   if(!temp.includes(v)) {
+    //     this.removeCarIDs(v);
+    //     // TODO: removing the button should really be handled by the Filter object...
+    //     $("#btn-"+v).remove();
+    //   }
+    // });
   }
 };
->>>>>>> parent of 292a49b... fixed user guide and timestamp filter
 
+Map.prototype.updateTimestampRange = function (ts1, ts2) {
+  this.timestampRange = [ts1, ts2];
 };
 
-Map.prototype.filterData = function (data, time1, time2, id) {
-  let svg = d3.selectAll("svg")
-  svg.selectAll("path").remove()
-  data = data.filter(function (d) {
-    return d.timestamp > time1 && d.timestamp < time2 && d.id == +id
-  })
+Map.prototype.updateCarIDs = function (carId) {
+  let success = true;
+  if(this.carIDs.has(carId)) {
+    success = false;
+  } else {
+    this.carIDs.add(carId);
+  }
+  $(this.filterHandler).trigger("createCarButton", [success, carId]);
+  return success;
+};
 
-  console.log(data)
-
-  let maxLat = data.reduce((max, data) => max.lat > data.lat ? max : data);
-  let minLat = data.reduce((max, data) => max.lat < data.lat ? max : data);
-
-  let maxLong = data.reduce((max, data) => max.long > data.long ? max : data);
-  let minLong = data.reduce((max, data) => max.long < data.long ? max : data);
-
-  console.log("svg height " + parseInt(svg.style("height")))
-
-  let x = d3.scaleLinear()
-    .domain([minLong.long, maxLong.long])
-    .range([0, parseInt(svg.style("width")) * .5]);
-
-  var y = d3.scaleLinear()
-    .domain([minLat.lat, maxLat.lat])
-    .range([0, parseInt(svg.style("height")) * .5]);
-
-
-  var lineFunction = d3.line()
-    .x(function (d) { return x(d.long); })
-    .y(function (d) { return y(d.lat); });
-
-  // var projection = d3.geoMercator();
-  
-
-  // var path = d3.geoPath().projection(projection);
-
-  // d3.json("../Data/Geospatial/world-110m.geojson", function (error, abila) {
-  //   if (error) return console.error(error);
-
-  //   svg.append("path").attr("d", path(abila));
-    
-    
-  // });
-
-  // d3.json("../Data/Geospatial/abila.json", function (error, abila) {
-  //   if (error) return console.error(error);
-
-  //   svg.append("path").attr("d", path(abila));
-    
-    
-  // });
-
-  var selection = d3.selectAll("svg")
-    .append("path")
-    .attr("d", lineFunction(data))
-    .attr("stroke", "blue")
-    .attr("stroke-width", 2)
-    .attr("fill", "none");
-
-}
-
-Map.prototype.getTripNewData = function (filepath, time1, time2, id) {
-  d3.csv(filepath).row((d) => {
-    return {
-      timestamp: +d.Timestamp,
-      id: +d.Id,
-      lat: +d.Lat,
-      long: +d.Long
-    }
-  }).get((error, rows) => {
-    if (error) {
-      console.log(error);
-      return;
-    }
-    this.tripData = rows;
-    this.filterData(this.tripData, time1, time2, id)
-  });
+Map.prototype.removeCarIDs = function (carId) {
+  this.carIDs.delete(carId);
+  d3.selectAll(".path-dot-"+carId).remove();
 };
 
 Map.prototype.getTripData = function (filepath) {
+  var self = this;
   d3.csv(filepath).row((d) => {
     return {
-      timestamp: d.Timestamp,
-      id: d.id,
+      timestamp: +d.Timestamp,
+      id: +d.id,
       lat: +d.lat,
-      long: +d.long
+      long: +d.long,
+      name: d.Name,
+      employmentType: d.CurrentEmploymentType,
+      employmentTitle: d.CurrentEmploymentTitle
     }
   }).get((error, rows) => {
-    if (error) {
-      console.log(error);
-      return;
-    }
+    if (error) throw error;
     this.tripData = rows;
-    console.log(this.tripData);
+    let domain = d3.extent(this.tripData, (row) => row.timestamp);
+
+    // range generated using: http://jnnnnn.github.io/category-colors-2L-inplace.html
+    // range of values are "perceptually different", different dots are more clear
+    // using ordinal scale vs the sequential
+    let range = ["#0bb414", "#fe22fd", "#ff5e07", "#26a5df", "#eb74a2", "#b09a50",
+                "#9b7ffc", "#09a781", "#9d8f98", "#df755a", "#87a705", "#d98902",
+                "#e65dd2", "#a88fd2", "#549fa5", "#62a34e", "#87a37c", "#3195fb",
+                "#fc5b71", "#c19176", "#d162fc", "#b09b0f", "#fc5f46", "#fa52a8",
+                "#d67bcb", "#c97e8b", "#0cb25c", "#899bc3", "#c68542", "#ed7c3b",
+                "#8fa446", "#60ae32", "#bd80ae", "#8c92f6", "#f842e0"];
+    self.colorScale = d3.scaleOrdinal()
+                        .domain(d3.extent(this.tripData, (row) => row.id))
+                        .range(range);
+    // map x-axis, long -> width of containing div
+    self.x = d3.scaleLinear()
+         .domain(d3.extent(this.tripData, (row) => row.long))
+         .range([0, self.svgWidth]);
+    // map y-axis, lat -> height of containing div
+    self.y = d3.scaleLinear()
+        .domain(d3.extent(this.tripData, (row) => row.lat))
+        .range([self.svgHeight, 0]);
+
+    $(this.filterHandler).trigger("createFilter", [+domain[0], +domain[1], self.colorScale]);
   });
 };
 
@@ -196,12 +165,7 @@ Map.prototype.getCardData = function (filepath, attr) {
       lname: d.LastName
     }
   }).get((error, rows) => {
-    if (error) {
-      console.log(error);
-      return;
-    }
+    if (error) throw error;
     this[attr] = rows;
-    //console.log(this[attr]);
   });
 };
-
