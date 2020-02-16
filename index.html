@@ -5,48 +5,84 @@
     <title>Patterns at GAStech</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
   </head>
   <body>
-    <div class="column" id="map">
-      <img src="Data/MC2-tourist.jpg" alt="Abila Map" id="abila-map"/>
-    </div>
-    <div class="column" id="filter">
-      <section>
-        <label for="car-id-input">Car Id</label>
-        <input type="text" name="car-id" value="" id="car-id-input">
-        <input type="submit" name="car-id-submit" value="Show" id="car-id-submit">
-      </section>
-      <hr />
-      <section>
-        <p>Timestamp 1</p>
-        <label for="timestamp-1-month">Month</label>
-        <input type="text" name="timestamp-1-month" value="January" id="timestamp-1-month" disabled>
-        <label for="timestamp-1-day">Day</label>
-        <input type="number" name="timestamp-1-day" value="" id="timestamp-1-day" min = "6" max = "17">
-        <label for="timestamp-1-time">Time</label>
-        <input type="time" name="timestamp-1-time" step="2" id="timestamp-1-time">
-        <input type="submit" name="timestamp-1-submit" value="Show" id="timestamp-1-submit">
-      </section>
-      
-      <section>
-        <p>Timestamp 2</p>
-        <label for="timestamp-2-month">Month</label>
-        <input type="text" name="timestamp-2-month" value="January" id="timestamp-2-month" disabled>
-        <label for="timestamp-1-day">Day</label>
-        <input type="number" name="timestamp-2-day" value="" id="timestamp-2-day" min = "6" max = "17">
-        <label for="timestamp-1-time">Time</label>
-        <input type="time" name="timestamp-2-time" step="2" id="timestamp-2-time">
-        <input type="submit" name="timestamp-2-submit" value="Show" id="timestamp-2-submit">
-      </section>
-
-      <hr />
-      <section>
-        <button id="compare" >Search</button>
-      </section>
-      <hr />
+    <div class="container-fluid">
+      <div class="row" id="filter">
+        <div class="col-3">
+          <label for="car-id-input">Car ID</label>
+          <input type="number" name="car-id" value="" id="car-id-input">
+          <input type="submit" name="car-id-submit" value="Add" class="btn btn-primary" id="car-id-submit">
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col-3" id="value-range"></div>
+            <div class="col" id="range-slider"></div>
+          </div>
+        </div>
+        <button class="btn btn-primary" id="compare">Update Dates</button>
+      </div>
+      <div class="row">
+        <div class="col" id="map">
+          <img src="Data/MC2-tourist.jpg" alt="Abila Map" id="abila-map"/>
+        </div>
+        <div class="col-md-auto">
+          <div class="row extra">
+            <div class="col" id="cars-added">
+              <p><b>Cars Selected</b></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              transactions here soon
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col guide">
+          <h1>User Guide</h1>
+          <p>This is a visualization tool to analyze the daily routines of
+            employees at GAStech. The visualization showcases GPS data from
+            employee car rides and transactional data. Use the filters at the
+            top to add a car ID you are interested in learning more about, and
+            use the range slider to choose what days you are interested in.
+            Adding a car will automatically overlay that car's GPS data to the
+            map within the dates specified by the range slider. To avoid latency
+            issues, the map will not immediately update when the range slider is
+            changed. Rather, you must click on the "Update Dates" button to
+            apply a new time range. Cars you have selected will appear in the
+            column to the left of the map in the form of buttons. You can click
+            on a button to remove that car's GPS data from the map. Paths are
+            color coded by the car's ID.
+          </p>
+          <p>Note: If you have not selected any cars (the column to the left of
+            the map is empty), then selecting a date range will automatically
+            populate the column to the left with the car ids in that date range.
+          </p>
+          <h2>Example Use Cases</h2>
+          <ul>
+            <li>To see all GPS data, simply remove all selected cars (you can
+              see which ones you've selected in the column to the left of the
+              map), and set the range sliders as far apart as possible and click
+              "Update Dates".
+            </li>
+            <li>To see all GPS data of a certain car, type a car ID into the
+              "Car ID" input form, and press add.
+            </li>
+            <li>To see all GPS data on certain days, just move the range sliders
+              around and click "Update Dates".
+            </li>
+            <li>Combine these filters to look at more specific information!</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
   <script src="js/d3.min.js"></script>
+  <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
