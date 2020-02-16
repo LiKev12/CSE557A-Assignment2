@@ -2,97 +2,73 @@
 
 
 (function(){
-    var instance = null;
-    var days = {6: 0, 7: 1, 8: 2, 9: 3, 10: 4, 11: 5, 12: 6, 13: 7, 14: 8, 15: 9, 16: 10, 17: 11}
-    var dayBase = 432000
-    var multiplier = 86400
-    /*
-     * Creates instances for every vis (classes created to handle each vis;
-     * the classes are defined in the respective javascript files.
-     */
-    function init() {
-        // Creating instances for each visualization
-        let carId = {};
-        let ts1 = {};
-        let ts2 = {};
-        let compare = {};
-        var map = new Map();
-        var filter = new Filter(carId, ts1, ts2, compare);
+  var instance = null;
+  /*
+   * Creates instances for every vis (classes created to handle each vis;
+   * the classes are defined in the respective javascript files.
+   */
+  function init() {
+    // Creating instances for each visualization
+    let carId = {};
+    let timestampRange = {}
+    let compare = {};
+    let filterHandler = {};
+    var map = new Map(filterHandler);
+    var filter;
+    $(filterHandler).bind("createFilter", (event, l, u, colorScale) => {
+      filter = new Filter(carId, timestampRange, compare, [l,u], colorScale);
+    });
 
-        $(carId).bind("newCarId", (event, carId) => {
-          console.log(carId + " added!");
-          // Call method in Map() to handle this
-        });
-
-        $(ts1).bind("newTimestamp1", (event, timestamp) => {
-          console.log("ts1");
-          console.log(days[timestamp.day])
-          
-          // Call method in Map() to handle this
-        });
-
-        $(ts2).bind("newTimestamp2", (event, timestamp) => {
-          console.log("ts2");
-          console.log(timestamp);
-          // Call method in Map() to handle this
-        });
-
-        $(compare).bind("checked", (event, timestamp1, timestamp2, carId) => {
-          //console.log(checked ? "compare is checked" : "compare is unchecked");
-            console.log("carId: " + carId)
-            var seconds1 = getSeconds(timestamp1.time)
-            console.log(seconds1)
-            var time1 = (dayBase+(days[timestamp1.day]*multiplier)) + seconds1
-
-            var seconds2 = getSeconds(timestamp2.time)
-            var time2 = (dayBase+(days[timestamp2.day]*multiplier)) + seconds2
-
-            console.log(time1)
-            console.log(time2)
-
-              map.getTripNewData("../Postprocess_Data/gps_data.csv", time1, time2, carId)
-          
-        });
-    }
-
-
-    function getSeconds(time){
-      var a = time.split(':')
-      var seconds;
-      if(a.length < 3){
-        seconds = ((+a[0]) * 60 * 60) + ((+a[1])*60) 
+    $(filterHandler).bind("createCarButton", (event, success, carId) => {
+      if (success) {
+        filter.createCarButton(carId);
+      } else {
+        alert(`${carId} has already been added.`)
       }
-      else{
-        seconds = ((+a[0]) * 60 * 60) + ((+a[1])*60) + (+a[2])
+    });
+
+    $(carId).bind("addCarId", (event, carId) => {
+      map.updateCarIDs(+carId);
+    });
+
+    $(carId).bind("removeCarId", (event, carId) => {
+      map.removeCarIDs(+carId);
+    });
+
+    $(timestampRange).bind("newTimestamp", (event, ts1, ts2) => {
+      map.updateTimestampRange(ts1, ts2);
+    });
+
+    $(compare).bind("draw", (event, timestamp1, timestamp2, carId) => {
+      map.wrangleData();
+      map.drawPaths();
+    });
+  }
+
+  /**
+   *
+   * @constructor
+   */
+  function Main(){
+      if(instance  !== null){
+          throw new Error("Cannot instantiate more than one Class");
       }
+  }
 
-      return seconds
-    }
+  /**
+   *
+   * @returns {Main singleton class |*}
+   */
+  Main.getInstance = function(){
+      var self = this
+      if(self.instance == null){
+          self.instance = new Main();
 
-    /**
-     *
-     * @constructor
-     */
-    function Main(){
-        if(instance  !== null){
-            throw new Error("Cannot instantiate more than one Class");
-        }
-    }
+          //called only once when the class is initialized
+          init();
+      }
+      return instance;
+  }
 
-    /**
-     *
-     * @returns {Main singleton class |*}
-     */
-    Main.getInstance = function(){
-        var self = this
-        if(self.instance == null){
-            self.instance = new Main();
-
-            //called only once when the class is initialized
-            init();
-        }
-        return instance;
-    }
-
-    Main.getInstance();
+  Main.getInstance();
 })();
