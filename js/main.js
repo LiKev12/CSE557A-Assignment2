@@ -26,7 +26,8 @@
 
         $(ts1).bind("newTimestamp1", (event, timestamp) => {
           console.log("ts1");
-          console.log(timestamp);
+          console.log(days[timestamp.day])
+          
           // Call method in Map() to handle this
         });
 
@@ -38,11 +39,17 @@
 
         $(compare).bind("checked", (event, timestamp1, timestamp2, carId) => {
           //console.log(checked ? "compare is checked" : "compare is unchecked");
+            console.log("carId: " + carId)
             var seconds1 = getSeconds(timestamp1.time)
+            console.log(seconds1)
             var time1 = (dayBase+(days[timestamp1.day]*multiplier)) + seconds1
 
             var seconds2 = getSeconds(timestamp2.time)
             var time2 = (dayBase+(days[timestamp2.day]*multiplier)) + seconds2
+
+            console.log(time1)
+            console.log(time2)
+
               map.getTripNewData("../Postprocess_Data/gps_data.csv", time1, time2, carId)
           
         });

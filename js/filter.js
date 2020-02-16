@@ -17,6 +17,7 @@ Filter.prototype.init = function() {
     console.log("yo");
     let day = $("#timestamp-1-day").val();
     let time = $("#timestamp-1-time").val();
+    console.log(time);
     let timestamp = {day, time}
     $(this.ts1).trigger("newTimestamp1", timestamp);
   });
