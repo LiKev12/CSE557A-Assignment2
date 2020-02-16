@@ -54,8 +54,6 @@ Map.prototype.consolelog = function (input) {
 }
 
 Map.prototype.wrangleData = function () {
-<<<<<<< HEAD
-=======
   if(!this.carIDs.size && !this.timestampRange.length) {
     this.tripDataDraw = this.tripData
   } else {
@@ -86,7 +84,6 @@ Map.prototype.wrangleData = function () {
     });
   }
 };
->>>>>>> parent of 292a49b... fixed user guide and timestamp filter
 
 };
 
