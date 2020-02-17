@@ -1,6 +1,6 @@
 #map {
   margin-left: 10px;
-  max-width: 80%;
+  max-width: 70%;
 }
 
 #filter {
@@ -64,8 +64,8 @@
 
 .table-container {
   position: absolute;
-  width: 300px;
-  max-width: 300px;
+  width: 400px;
+  max-width: 400px;
   height: 70%;
   overflow: auto;
 }

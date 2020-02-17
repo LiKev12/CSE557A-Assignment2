@@ -59,10 +59,9 @@ Map.prototype.drawPaths = function () {
 };
 
 Map.prototype.drawCardTable = function () {
-  console.log("draw table");
+  // http://bl.ocks.org/yan2014/c9dd6919658991d33b87
   let self = this;
   this.arrayOfObjToArrayOfArray();
-  console.log(this.ccDataDraw);
   self.tableRows = self.tableBody.selectAll(".row-del")
     .data(this.ccDataDraw)
     .enter()
@@ -222,6 +221,7 @@ Map.prototype.filterDataset = function (attr) {
 
 Map.prototype.arrayOfObjToArrayOfArray = function () {
   for(let i = 0; i < this.ccDataDraw.length; i++) {
+    this.ccDataDraw[i].timestamp = getDateTime(this.ccDataDraw[i].timestamp);
     this.ccDataDraw[i] = Object.values(this.ccDataDraw[i]);
   }
 };
