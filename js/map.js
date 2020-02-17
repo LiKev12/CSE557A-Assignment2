@@ -27,8 +27,10 @@ Map.prototype.init = function () {
                 let employmentTitle = d.employmentTitle;
       				  let namePara = "<p>Emplyee: " + name[0] + " " + name[1] + "</p>"
                 let carIdPara = "<p>Car ID: " + d.id + "</p>"
-                let timestampPara = "<p>Timestamp: " + d.timestamp + "</p>"
-                return namePara + carIdPara + timestampPara;
+                let timestamp = getDateTime(d.timestamp)
+                let timestampPara = "<p>Timestamp: " + timestamp + "</p>"
+                let locPara = "<p>Long: " + d.long + " Lat:  " + d.lat +"</p>"
+                return namePara + carIdPara + timestampPara + locPara;
               });
   self.svg.call(self.tip)
 
