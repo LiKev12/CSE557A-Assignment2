@@ -36,9 +36,3 @@ function getDateTime(time_code) {
     let date_time = "01/" + getDays(time_code) + "/2014 " + getHours(time_code) + ":" + getMinutes(time_code) + ":" + getSeconds(time_code);
     return date_time;
 }
-
-let time_code = 458407;
-console.log(getDateTime(time_code))
-
-
-

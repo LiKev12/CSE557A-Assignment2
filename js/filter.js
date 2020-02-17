@@ -30,18 +30,17 @@ Filter.prototype.init = function() {
         .size(200)())
     .fill('#2196f3')
     .on('onchange', val => {
-      d3.selectAll("#value-range p").remove();
-      d3.select('#value-range').append("p").text("Date Range")
-      d3.select('#value-range').append("p").text(val.map(d3.format('.0f')).join('-'));
+      let ts1 = getDateTime(val[0]);
+      let ts2 = getDateTime(val[1]);
+      updateTimeRangeDisplay(val);
       $(this.timestampRange).trigger("newTimestamp", [val[0], val[1]]);
     });
 
     var gRange = self.svg.append("g")
                   .attr("transform", "translate(15, 15)");
     gRange.call(sliderRange);
-    d3.select('#value-range').append("p").text("Date Range")
-    d3.select('#value-range').append("p").text(sliderRange.value().join('-'));
-
+    updateTimeRangeDisplay(sliderRange.value());
+    // d3.select('#value-range').append("p").text(sliderRange.value().join('-'));
     this.initEventTriggers();
 };
 
@@ -74,3 +73,10 @@ Filter.prototype.createCarButton = function (carId) {
     // $(this.compare).trigger("draw");
   });
 };
+
+function updateTimeRangeDisplay(ts) {
+  d3.selectAll("#value-range p").remove();
+  d3.select('#value-range').append("p").append("b").text("Date Range")
+  // d3.select('#value-range').append("p").text(val.map(d3.format('.0f')).join('-'));
+  d3.select('#value-range').append("p").text(getDateTime(ts[0]) + "-" + getDateTime(ts[1]));
+}
