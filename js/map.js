@@ -220,8 +220,9 @@ Map.prototype.filterDataset = function (attr) {
 };
 
 Map.prototype.arrayOfObjToArrayOfArray = function () {
+  let temp = [];
   for(let i = 0; i < this.ccDataDraw.length; i++) {
-    this.ccDataDraw[i].timestamp = getDateTime(this.ccDataDraw[i].timestamp);
-    this.ccDataDraw[i] = Object.values(this.ccDataDraw[i]);
+    temp.push([getDateTime(this.ccDataDraw[i].timestamp), this.ccDataDraw[i].name, this.ccDataDraw[i].location, this.ccDataDraw[i].price]);
   }
+  this.ccDataDraw = temp;
 };
