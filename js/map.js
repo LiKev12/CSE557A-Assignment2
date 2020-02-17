@@ -33,12 +33,13 @@ Map.prototype.init = function () {
                 return namePara + carIdPara + timestampPara + locPara;
               });
   self.svg.call(self.tip)
+  self.tableBody = d3.select("#card-table-body");
 
   // Potential problem: might lag even though map loaded
   // could be better to load in main.js
   self.getTripData("../Postprocess_Data/gps_data_a20.csv");
-  self.getCardData("../Data/cc_data.csv", "ccData");
-  self.getCardData("../Data/loyalty_data.csv", "loyaltyData");
+  self.getCardData("../Postprocess_Data/cc_data.csv", "ccData");
+  self.getCardData("../Postprocess_Data/loyalty_data.csv", "loyaltyData");
 };
 
 Map.prototype.drawPaths = function () {
@@ -57,21 +58,35 @@ Map.prototype.drawPaths = function () {
   self.paths.exit().remove();
 };
 
+Map.prototype.drawCardTable = function () {
+  console.log("draw table");
+  let self = this;
+  this.arrayOfObjToArrayOfArray();
+  console.log(this.ccDataDraw);
+  self.tableRows = self.tableBody.selectAll(".row-del")
+    .data(this.ccDataDraw)
+    .enter()
+    .append("tr")
+    .attr("class", "row-del")
+  d3.selectAll(".row-del").data(this.ccDataDraw).exit().remove();
+  // self.tableRows.exit().remove();
+
+  self.tableCells = self.tableRows.selectAll("td").data((d) => d)
+    .enter()
+    .append("td")
+    .text((d) => d);
+  // self.tableCells.exit().remove();
+};
+
 Map.prototype.wrangleData = function () {
   if(!this.carIDs.size && !this.timestampRange.length) {
     this.tripDataDraw = this.tripData
+    this.ccDataDraw = this.ccData;
+    this.loyaltyDataDraw = this.loyaltyData;
   } else {
-    const ts1 = this.timestampRange[0];
-    const ts2 = this.timestampRange[1];
-    this.tripDataDraw = this.tripData.filter((d) => {
-      if(this.carIDs.size && this.timestampRange.length) {
-        return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
-      } else if (this.carIDs.size) {
-        return this.carIDs.has(d.id);
-      } else {
-        return ts1 <= d.timestamp && d.timestamp <= ts2;
-      }
-    });
+    this.filterDataset("tripData");
+    this.filterDataset("ccData");
+    this.filterDataset("loyaltyData");
   }
   let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
   if(!this.carIDs.size) {
@@ -113,6 +128,10 @@ Map.prototype.updateCarIDs = function (carId) {
 Map.prototype.removeCarIDs = function (carId) {
   this.carIDs.delete(carId);
   d3.selectAll(".path-dot-"+carId).remove();
+
+  // TODO: kinda janky...
+  this.filterDataset("ccData");
+  this.drawCardTable();
 };
 
 Map.prototype.getTripData = function (filepath) {
@@ -131,28 +150,8 @@ Map.prototype.getTripData = function (filepath) {
     if (error) throw error;
     this.tripData = rows;
     let domain = d3.extent(this.tripData, (row) => row.timestamp);
-
-    // range generated using: http://jnnnnn.github.io/category-colors-2L-inplace.html
-    // range of values are "perceptually different", different dots are more clear
-    // using ordinal scale vs the sequential
-    let range = ["#0bb414", "#fe22fd", "#ff5e07", "#26a5df", "#eb74a2", "#b09a50",
-                "#9b7ffc", "#09a781", "#9d8f98", "#df755a", "#87a705", "#d98902",
-                "#e65dd2", "#a88fd2", "#549fa5", "#62a34e", "#87a37c", "#3195fb",
-                "#fc5b71", "#c19176", "#d162fc", "#b09b0f", "#fc5f46", "#fa52a8",
-                "#d67bcb", "#c97e8b", "#0cb25c", "#899bc3", "#c68542", "#ed7c3b",
-                "#8fa446", "#60ae32", "#bd80ae", "#8c92f6", "#f842e0"];
-    self.colorScale = d3.scaleOrdinal()
-                        .domain(d3.extent(this.tripData, (row) => row.id))
-                        .range(range);
-    // map x-axis, long -> width of containing div
-    self.x = d3.scaleLinear()
-         .domain(d3.extent(this.tripData, (row) => row.long))
-         .range([0, self.svgWidth]);
-    // map y-axis, lat -> height of containing div
-    self.y = d3.scaleLinear()
-        .domain(d3.extent(this.tripData, (row) => row.lat))
-        .range([self.svgHeight, 0]);
-
+    self.setScales();
+    self.createCarIdEmployeeMap();
     $(this.filterHandler).trigger("createFilter", [+domain[0], +domain[1], self.colorScale]);
   });
 };
@@ -160,14 +159,69 @@ Map.prototype.getTripData = function (filepath) {
 Map.prototype.getCardData = function (filepath, attr) {
   d3.csv(filepath).row((d) => {
     return {
-      timestamp: d.timestamp,
-      location: d.location,
-      price: +d.price,
-      fname: d.FirstName,
-      lname: d.LastName
+      timestamp: +d.Timestamp,
+      location: d.Location,
+      price: +d.Price,
+      name: d.Name
     }
   }).get((error, rows) => {
     if (error) throw error;
     this[attr] = rows;
   });
+};
+
+Map.prototype.createCarIdEmployeeMap = function () {
+  this.carIdToEmplyee = {};
+  this.employeeToCarId = {};
+  for(let i = 0; i < this.tripData.length; i++) {
+    const carId = this.tripData[i].id;
+    const employee = this.tripData[i].name;
+    this.carIdToEmplyee[carId] &&  this.carIdToEmplyee[carId].indexOf(employee) ? this.carIdToEmplyee[carId].push(employee) : this.carIdToEmplyee[carId] = [employee];
+    employee !== "" && (this.employeeToCarId[employee] &&  this.employeeToCarId[employee].indexOf(carId)) ? this.employeeToCarId[employee].push(carId) : this.employeeToCarId[employee] = [carId];
+  }
+};
+
+Map.prototype.setScales = function () {
+  let self = this;
+  // range generated using: http://jnnnnn.github.io/category-colors-2L-inplace.html
+  // range of values are "perceptually different", different dots are more clear
+  // using ordinal scale vs the sequential
+  let range = ["#0bb414", "#fe22fd", "#ff5e07", "#26a5df", "#eb74a2", "#b09a50",
+              "#9b7ffc", "#09a781", "#9d8f98", "#df755a", "#87a705", "#d98902",
+              "#e65dd2", "#a88fd2", "#549fa5", "#62a34e", "#87a37c", "#3195fb",
+              "#fc5b71", "#c19176", "#d162fc", "#b09b0f", "#fc5f46", "#fa52a8",
+              "#d67bcb", "#c97e8b", "#0cb25c", "#899bc3", "#c68542", "#ed7c3b",
+              "#8fa446", "#60ae32", "#bd80ae", "#8c92f6", "#f842e0"];
+  self.colorScale = d3.scaleOrdinal()
+                      .domain(d3.extent(this.tripData, (row) => row.id))
+                      .range(range);
+  // map x-axis, long -> width of containing div
+  self.x = d3.scaleLinear()
+       .domain(d3.extent(this.tripData, (row) => row.long))
+       .range([0, self.svgWidth]);
+  // map y-axis, lat -> height of containing div
+  self.y = d3.scaleLinear()
+      .domain(d3.extent(this.tripData, (row) => row.lat))
+      .range([self.svgHeight, 0]);
+};
+
+Map.prototype.filterDataset = function (attr) {
+  const ts1 = this.timestampRange[0];
+  const ts2 = this.timestampRange[1];
+  this[attr+"Draw"] = this[attr].filter((d) => {
+    let currCarId = d.id ? d.id : +this.employeeToCarId[d.name];
+    if(this.carIDs.size && this.timestampRange.length) {
+      return this.carIDs.has(currCarId) && (ts1 <= d.timestamp && d.timestamp <= ts2);
+    } else if (this.carIDs.size) {
+      return this.carIDs.has(currCarId);
+    } else {
+      return ts1 <= d.timestamp && d.timestamp <= ts2;
+    }
+  });
+};
+
+Map.prototype.arrayOfObjToArrayOfArray = function () {
+  for(let i = 0; i < this.ccDataDraw.length; i++) {
+    this.ccDataDraw[i] = Object.values(this.ccDataDraw[i]);
+  }
 };

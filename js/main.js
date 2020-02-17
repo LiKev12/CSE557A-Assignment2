@@ -42,6 +42,7 @@
     $(compare).bind("draw", (event, timestamp1, timestamp2, carId) => {
       map.wrangleData();
       map.drawPaths();
+      map.drawCardTable();
     });
   }
 
