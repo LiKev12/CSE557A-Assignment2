@@ -25,11 +25,11 @@ Map.prototype.init = function () {
         				let name = d.name.split("_");
                 let employmentType = d.employmentType;
                 let employmentTitle = d.employmentTitle;
-      				  let namePara = "<p>Emplyee: " + name[0] + " " + name[1] + "</p>"
-                let carIdPara = "<p>Car ID: " + d.id + "</p>"
+      				  let namePara = "<p><b class='text-white'>Emplyee:</b> " + name[0] + " " + name[1] + "</p>"
+                let carIdPara = "<p><b class='text-white'>Car ID:</b> " + d.id + "</p>"
                 let timestamp = getDateTime(d.timestamp)
-                let timestampPara = "<p>Timestamp: " + timestamp + "</p>"
-                let locPara = "<p>Long: " + d.long + " Lat:  " + d.lat +"</p>"
+                let timestampPara = "<p><b class='text-white'>Timestamp:</b> " + timestamp + "</p>"
+                let locPara = "<p><b class='text-white'>Long:</b> " + d.long.toFixed(5) + " <b class='text-white'>Lat:</b>  " + d.lat.toFixed(5) +"</p>"
                 return namePara + carIdPara + timestampPara + locPara;
               });
   self.svg.call(self.tip)
