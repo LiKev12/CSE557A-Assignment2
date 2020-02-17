@@ -1,6 +1,7 @@
 import pandas as pd 
 import numpy as np
 import os
+import pprint
 
 
 
@@ -203,11 +204,163 @@ def condenseTimePoints(df, time_margin):
     # print("hi")
 
 
+def joinCC_Car():
+    os.chdir("Postprocess_Data")
 
+    cc = pd.read_csv("cc_data.csv", encoding = 'latin-1')
+    car = pd.read_csv("car_data.csv", encoding = 'latin-1')
+    res = cc.join(car.set_index('Name'), on='Name')
 
+    res["CarID"].fillna(0, inplace=True) # Unmatched ID is default 0
+    res['CarID'] = res['CarID'].astype(int)
 
+    res["CurrentEmploymentType"].fillna("Unknown", inplace=True) 
+    res["CurrentEmploymentTitle"].fillna("Unknown", inplace=True) 
 
     
+
+    print(res)
+
+    res.to_csv("cc_car_data.csv", index=False)
+
+
+def joinLoy_Car():
+    os.chdir("Postprocess_Data")
+
+    loy = pd.read_csv("loyalty_data.csv", encoding = 'latin-1')
+    car = pd.read_csv("car_data.csv", encoding = 'latin-1')
+    res = loy.join(car.set_index('Name'), on='Name')
+
+    res["CarID"].fillna(0, inplace=True) # Unmatched ID is default 0
+    res['CarID'] = res['CarID'].astype(int)
+
+    res["CurrentEmploymentType"].fillna("Unknown", inplace=True) 
+    res["CurrentEmploymentTitle"].fillna("Unknown", inplace=True) 
+
+    
+
+    print(res)
+
+    res.to_csv("loyalty_car_data.csv", index=False)
+
+    
+def getAllShoppingSpots():
+
+    os.chdir("Postprocess_Data")
+
+
+    loy = pd.read_csv("loyalty_car_data.csv", encoding = 'latin-1')
+    cc = pd.read_csv("cc_car_data.csv", encoding = 'latin-1')
+
+    allShops = set()
+
+    for index, row in loy.iterrows():
+        allShops.add(row['Location'])
+        # print(row['Location'])
+
+    for index, row in cc.iterrows():
+        allShops.add(row['Location'])
+
+
+    pprint.pprint(allShops)
+
+
+
+
+def getCoordinatesOfShops():
+    coords = {
+        'Abila Airport': (0,0),
+        'Abila Scrapyard': (4.3,5.5),
+        # 'Abila Zacharo': ,
+        'Ahaggo Museum': (11.8,5.9),
+        "Albert's Fine Clothing": (6.8,5.8),
+        'Bean There Done That': (5.3,7.3),
+        "Brew've Been Served": (17.4,1.3),
+        # 'Brewed Awakenings': ,
+        'Carlyle Chemical Inc.': (12.8,1.9),
+        'Chostus Hotel': (15.5,4.5),
+        'Coffee Cameleon': (14.7,1),
+        'Coffee Shack': (7.3,5.2),
+        # 'Daily Dealz': ,
+        'Desafio Golf Course': (9,8.5),
+        "Frank's Fuel": (2.5,5.2),
+        "Frydos Autosupply n' More": (18,1.9),
+        'Gelatogalore': (8,2.3),
+        'General Grocer': (7,2.4),
+        "Guy's Gyros": (16.5,1.5),
+        'Hallowed Grounds': (12.3,3),
+        # 'Hippokampos': ,
+        "Jack's Magical Beans": (10.6,4),
+        # 'Kalami Kafenion': ,
+        'Kronos Mart': (4.9,3.7),
+        # 'Kronos Pipe and Irrigation': ,
+        'Maximum Iron and Steel': (2.5,3),
+        # 'Nationwide Refinery': ,
+        # "Octavio's Office Supplies": ,
+        'Ouzeri Elian': (10.4,0.5),
+        'Roberts and Sons': (5.5,3),
+        # "Shoppers' Delight": ,
+        # 'Stewart and Sons Fabrication': ,
+        'U-Pump': (9.5,4)
+    }
+    # print(coords)
+
+    realCoords = {}
+    for key, value in coords.items():
+        realCoords[key] = (round(24.827+coords[key][0]*0.00429,4), round(36.0505 + coords[key][1] * 0.0043,4))
+        # coords[key][0] = 24.827+coords[key][0]*0.00429
+        # coords[key][1] = 36.0505 + coords[key][1] * 0.0043
+    pprint.pprint(realCoords)
+
+    return realCoords
+
+def addCoordsToPayments():
+    os.chdir("Postprocess_Data")
+    cc = pd.read_csv("cc_car_data.csv", encoding = 'latin-1')
+    loy = pd.read_csv("loyalty_car_data.csv", encoding = 'latin-1')
+
+
+    # Credit Data
+    cc['Longitude'] = 24.892
+    cc['Latitude'] = 36.089
+    coords = getCoordinatesOfShops()
+    for index, row in cc.iterrows():
+        key = cc.iloc[index]['Location']
+        # print(key)
+        if key in coords:
+            # df.at['C', 'x'] = 10
+            # cc['Longitude'] = coords[key][0]
+            # cc['Latitude'] = coords[key][1]
+            cc.at[index, 'Longitude'] = coords[key][0]
+            cc.at[index, 'Latitude'] = coords[key][1]
+
+    # Loyalty data
+    loy['Longitude'] = 24.892  #default
+    cc['Latitude'] = 36.089 # default
+    for index, row in loy.iterrows():
+        key = loy.iloc[index]['Location']
+        if key in coords:
+            loy.at[index, 'Longitude'] = coords[key][0]
+            loy.at[index, 'Latitude'] = coords[key][1]
+
+    cc['Payment_Method'] = 'Credit'
+    loy['Payment_Method'] = 'Loyalty'
+
+    frames = [cc, loy]
+
+    res = pd.concat(frames)
+    res = res.sort_values('Timestamp')
+    print(res)
+
+    res.to_csv("payment_data.csv", index=False)
+
+
+
+    # cc.to_csv("cc_coords.csv", index=False)
+
+    # FIX LATER
+    # print(cc)
+
 
 
 # format_data_car_assignments()
@@ -215,4 +368,12 @@ def condenseTimePoints(df, time_margin):
 # format_data_gps()
 # format_loyalty_data()
 
-joinCarGPS()
+# joinCarGPS()
+# joinCC_Car()
+# joinLoy_Car()
+
+
+# getAllShoppingSpots()
+# getCoordinatesOfShops()
+
+addCoordsToPayments()

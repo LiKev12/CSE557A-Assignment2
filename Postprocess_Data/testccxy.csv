@@ -1,0 +1,1492 @@
+Timestamp,Name,Location,Price,CarID,CurrentEmploymentType,CurrentEmploymentTitle,Longitude,Latitude
+458880,Vann_Edvard,Brew've Been Served,11.34,34,Security,Perimeter Control,24.9016,36.0561
+459240,Cocinaro_Hideki,Hallowed Grounds,52.22,12,Security,Site Control,24.8798,36.0634
+459300,Fusil_Stenig,Brew've Been Served,8.33,20,Security,Building Control,24.9016,36.0561
+459360,Frente_Birgitta,Hallowed Grounds,16.72,18,Engineering,Geologist,24.8798,36.0634
+459420,Flecha_Sven,Brew've Been Served,4.24,17,Information Technology,IT Technician,24.9016,36.0561
+459480,Lais_Cornelia,Brew've Been Served,4.17,0,Unknown,Unknown,24.9016,36.0561
+459720,Bergen_Linnea,Coffee Cameleon,28.73,6,Information Technology,IT Group Manager,24.8901,36.0548
+459780,Bramar_Mat,Brew've Been Served,9.6,0,Unknown,Unknown,24.9016,36.0561
+459780,Tempestad_Brand,Brew've Been Served,16.9,33,Engineering,Drill Technician,24.9016,36.0561
+460020,Arpa_Emile,Hallowed Grounds,16.53,0,Unknown,Unknown,24.8798,36.0634
+460080,Orilla_Kare,Hallowed Grounds,10.66,27,Engineering,Drill Technician,24.8798,36.0634
+460140,Ovan_Bertrand,Coffee Cameleon,8.39,29,Facilities,Facilities Group Manager,24.8901,36.0548
+460320,Osvaldo_Hennie,Brew've Been Served,32.83,21,Security,Perimeter Control,24.9016,36.0561
+460440,Calixto_Nils,Hallowed Grounds,16.88,8,Information Technology,IT Technician,24.8798,36.0634
+460440,Nubarron_Adra,Coffee Cameleon,11.86,25,Engineering,Geologist,24.8901,36.0548
+460440,Pantanal_Rachel,Hallowed Grounds,32.93,0,Unknown,Unknown,24.8798,36.0634
+460500,Alcazar_Lucas,Hallowed Grounds,8.05,1,Information Technology,IT Helpdesk,24.8798,36.0634
+460500,Lagos_Varja,Brew've Been Served,3.67,23,Security,Badging Office,24.9016,36.0561
+460740,Ferro_Inga,Brew've Been Served,8.88,13,Security,Site Control,24.9016,36.0561
+460800,Mies Haber_Ruscella,Brew've Been Served,4.27,0,Unknown,Unknown,24.9016,36.0561
+460800,Ribera_Anda,Hallowed Grounds,9.69,0,Unknown,Unknown,24.8798,36.0634
+460860,Dedos_Lidelse,Hallowed Grounds,10.07,14,Engineering,Engineering Group Manager,24.8798,36.0634
+461160,Bodrogi_Loreto,Brew've Been Served,18.24,15,Security,Site Control,24.9016,36.0561
+461160,Mies_Minke,Brew've Been Served,15.58,24,Security,Perimeter Control,24.9016,36.0561
+461220,Resumir_Felix,Brew've Been Served,5.66,30,Security,Security Group Manager,24.9016,36.0561
+461640,Forluniau_Carla,Coffee Cameleon,3.2,0,Unknown,Unknown,24.8901,36.0548
+461760,Herrero_Kanon,Brew've Been Served,14.97,22,Security,Badging Office,24.9016,36.0561
+461760,Lagos_Linda,Brew've Been Served,11.2,0,Unknown,Unknown,24.9016,36.0561
+461820,Coginian_Dante,Brew've Been Served,15.39,0,Unknown,Unknown,24.9016,36.0561
+462180,Hafon_Albina,Abila Airport,4540.08,0,Facilities,Truck Driver,24.827,36.0505
+464760,Hafon_Albina,Kronos Pipe and Irrigation,242.21,0,Facilities,Truck Driver,24.892,36.089
+468120,Morluniau_Cecilia,Nationwide Refinery,761.64,0,Facilities,Truck Driver,24.892,36.089
+469080,Hafon_Albina,Maximum Iron and Steel,2859.51,0,Facilities,Truck Driver,24.8377,36.0634
+473580,Morluniau_Cecilia,Stewart and Sons Fabrication,2144.62,0,Facilities,Truck Driver,24.892,36.089
+475020,Hafon_Albina,Carlyle Chemical Inc.,3959.66,0,Facilities,Truck Driver,24.8819,36.0587
+475200,Awelon_Varro,Coffee Shack,51.51,0,Unknown,Unknown,24.8583,36.0729
+475200,Azada_Lars,Bean There Done That,10.28,2,Engineering,Engineer,24.8497,36.0819
+475200,Balas_Felix,Bean There Done That,16.09,3,Engineering,Engineer,24.8497,36.0819
+475200,Barranco_Ingrid,Brewed Awakenings,5.72,4,Executive,SVP/CFO,24.892,36.089
+475200,Baza_Isak,Jack's Magical Beans,11.03,5,Information Technology,IT Technician,24.8725,36.0677
+475200,Borrasca_Isande,Brewed Awakenings,16.89,7,Engineering,Drill Technician,24.892,36.089
+475200,Calzas_Axel,Bean There Done That,8.54,9,Engineering,Drill Technician,24.8497,36.0819
+475200,Campo-Corrente_Ada,Brewed Awakenings,4.35,10,Executive,SVP/CIO,24.892,36.089
+475200,Cazar_Gustav,Bean There Done That,5.24,11,Engineering,Hydraulic Technician,24.8497,36.0819
+475200,Frente_Vira,Bean There Done That,4.27,19,Engineering,Hydraulic Technician,24.8497,36.0819
+475200,Orilla_Elsa,Jack's Magical Beans,18.59,28,Engineering,Drill Technician,24.8725,36.0677
+475200,Strum_Orhan,Jack's Magical Beans,27.84,32,Executive,SVP/COO,24.8725,36.0677
+475200,Vasco-Pais_Willem,Jack's Magical Beans,18.1,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+476160,Mies_Henk,Abila Airport,1873.79,0,Facilities,Truck Driver,24.827,36.0505
+478560,Campo-Corrente_Ada,KaterinaÃÂs CafÃÂ©,13.68,10,Executive,SVP/CIO,24.892,36.089
+478620,Strum_Orhan,Hippokampos,9.16,32,Executive,SVP/COO,24.892,36.089
+479880,Forluniau_Carla,Abila Zacharo,106.93,0,Unknown,Unknown,24.892,36.089
+479940,Bergen_Linnea,Gelatogalore,12.74,6,Information Technology,IT Group Manager,24.8613,36.0604
+479940,Lagos_Varja,Kalami Kafenion,70.1,23,Security,Badging Office,24.892,36.089
+480000,Ribera_Anda,Hippokampos,34.03,0,Unknown,Unknown,24.892,36.089
+480060,Alcazar_Lucas,Hippokampos,28.23,1,Information Technology,IT Helpdesk,24.892,36.089
+480120,Borrasca_Isande,Ouzeri Elian,38.9,7,Engineering,Drill Technician,24.8716,36.0526
+480180,Vann_Edvard,Hippokampos,13.26,34,Security,Perimeter Control,24.892,36.089
+480240,Azada_Lars,Guy's Gyros,15.44,2,Engineering,Engineer,24.8978,36.057
+480420,Barranco_Ingrid,Abila Zacharo,30.08,4,Executive,SVP/CFO,24.892,36.089
+480420,Herrero_Kanon,Abila Zacharo,50.14,22,Security,Badging Office,24.892,36.089
+480480,Lagos_Linda,KaterinaÃÂs CafÃÂ©,33.54,0,Unknown,Unknown,24.892,36.089
+480480,Mies Haber_Ruscella,Kalami Kafenion,8.64,0,Unknown,Unknown,24.892,36.089
+480600,Flecha_Sven,Guy's Gyros,16.92,17,Information Technology,IT Technician,24.8978,36.057
+480900,Pantanal_Rachel,Hippokampos,36.54,0,Unknown,Unknown,24.892,36.089
+480900,Vann_Isia,Abila Zacharo,92.05,16,Security,Perimeter Control,24.892,36.089
+481020,Fusil_Stenig,Ouzeri Elian,20.56,20,Security,Building Control,24.8716,36.0526
+481140,Onda_Marin,Guy's Gyros,11.22,26,Engineering,Drill Site Manager,24.8978,36.057
+481260,Calixto_Nils,Gelatogalore,22.64,8,Information Technology,IT Technician,24.8613,36.0604
+481320,Frente_Vira,Ouzeri Elian,20.4,19,Engineering,Hydraulic Technician,24.8716,36.0526
+481560,Balas_Felix,Guy's Gyros,30.82,3,Engineering,Engineer,24.8978,36.057
+481560,Baza_Isak,KaterinaÃÂs CafÃÂ©,18.56,5,Information Technology,IT Technician,24.892,36.089
+481560,Vasco-Pais_Willem,Guy's Gyros,99.67,35,Executive,Environmental Safety Advisor,24.8978,36.057
+481620,Cazar_Gustav,Kalami Kafenion,22.13,11,Engineering,Hydraulic Technician,24.892,36.089
+481680,Lais_Cornelia,Ouzeri Elian,20.74,0,Unknown,Unknown,24.8716,36.0526
+481680,Ovan_Bertrand,Ouzeri Elian,30.87,29,Facilities,Facilities Group Manager,24.8716,36.0526
+481800,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,13.59,14,Engineering,Engineering Group Manager,24.892,36.089
+481800,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,32.64,18,Engineering,Geologist,24.892,36.089
+481920,Mies_Minke,Kalami Kafenion,22.31,24,Security,Perimeter Control,24.892,36.089
+481920,Orilla_Kare,Gelatogalore,36.33,27,Engineering,Drill Technician,24.8613,36.0604
+481980,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,36.95,25,Engineering,Geologist,24.892,36.089
+482040,Osvaldo_Hennie,Abila Zacharo,23.15,21,Security,Perimeter Control,24.892,36.089
+482220,Calzas_Axel,Hippokampos,8.64,9,Engineering,Drill Technician,24.892,36.089
+482280,Coginian_Dante,Hippokampos,38.25,0,Unknown,Unknown,24.892,36.089
+482340,Bodrogi_Loreto,KaterinaÃÂs CafÃÂ©,39.41,15,Security,Site Control,24.892,36.089
+482400,Awelon_Varro,Kalami Kafenion,13.08,0,Unknown,Unknown,24.892,36.089
+482400,Ferro_Inga,Gelatogalore,23.41,13,Security,Site Control,24.8613,36.0604
+482640,Bramar_Mat,Hippokampos,30.88,0,Unknown,Unknown,24.892,36.089
+482700,Cocinaro_Hideki,Abila Zacharo,78.11,12,Security,Site Control,24.892,36.089
+483300,Arpa_Emile,Kalami Kafenion,27.4,0,Unknown,Unknown,24.892,36.089
+483420,Resumir_Felix,KaterinaÃÂs CafÃÂ©,19.65,30,Security,Security Group Manager,24.892,36.089
+486840,Hafon_Albina,Abila Airport,777.06,0,Facilities,Truck Driver,24.827,36.0505
+488340,Mies_Henk,Abila Airport,612.47,0,Facilities,Truck Driver,24.827,36.0505
+494880,Lagos_Varja,U-Pump,59.51,23,Security,Badging Office,24.8678,36.0677
+500160,Lagos_Linda,KaterinaÃÂs CafÃÂ©,78.65,0,Unknown,Unknown,24.892,36.089
+500880,Arpa_Emile,KaterinaÃÂs CafÃÂ©,26.46,0,Unknown,Unknown,24.892,36.089
+501480,Flecha_Sven,Guy's Gyros,39.29,17,Information Technology,IT Technician,24.8978,36.057
+503400,Orilla_Elsa,Frydos Autosupply n' More,273.87,28,Engineering,Drill Technician,24.9042,36.0587
+504420,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,23.63,6,Information Technology,IT Group Manager,24.892,36.089
+504480,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,12.32,14,Engineering,Engineering Group Manager,24.892,36.089
+504540,Resumir_Felix,Guy's Gyros,11.94,30,Security,Security Group Manager,24.8978,36.057
+504720,Coginian_Dante,Frydos Autosupply n' More,80.85,0,Unknown,Unknown,24.9042,36.0587
+504780,Lagos_Varja,Guy's Gyros,22.57,23,Security,Badging Office,24.8978,36.057
+504900,Fusil_Stenig,Guy's Gyros,117.82,20,Security,Building Control,24.8978,36.057
+504900,Lais_Cornelia,Frydos Autosupply n' More,175.87,0,Unknown,Unknown,24.9042,36.0587
+505140,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,21.66,0,Unknown,Unknown,24.892,36.089
+505200,Cazar_Gustav,Hippokampos,35.34,11,Engineering,Hydraulic Technician,24.892,36.089
+505440,Ferro_Inga,Guy's Gyros,28.94,13,Security,Site Control,24.8978,36.057
+505560,Alcazar_Lucas,Albert's Fine Clothing,276.9,1,Information Technology,IT Helpdesk,24.8562,36.0754
+505680,Cocinaro_Hideki,Guy's Gyros,95.29,12,Security,Site Control,24.8978,36.057
+505740,Frente_Vira,Hippokampos,85.5,19,Engineering,Hydraulic Technician,24.892,36.089
+505740,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,17.92,21,Security,Perimeter Control,24.892,36.089
+505800,Ribera_Anda,KaterinaÃÂs CafÃÂ©,28.0,0,Unknown,Unknown,24.892,36.089
+505980,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,15.52,29,Facilities,Facilities Group Manager,24.892,36.089
+506160,Calzas_Axel,Hippokampos,26.8,9,Engineering,Drill Technician,24.892,36.089
+506760,Awelon_Varro,Hippokampos,24.41,0,Unknown,Unknown,24.892,36.089
+506760,Azada_Lars,Hippokampos,21.33,2,Engineering,Engineer,24.892,36.089
+506820,Mies Haber_Ruscella,Frydos Autosupply n' More,149.3,0,Unknown,Unknown,24.9042,36.0587
+506940,Vann_Isia,Shoppers' Delight,293.67,16,Security,Perimeter Control,24.892,36.089
+507120,Barranco_Ingrid,Hippokampos,17.27,4,Executive,SVP/CFO,24.892,36.089
+507540,Orilla_Kare,KaterinaÃÂs CafÃÂ©,26.1,27,Engineering,Drill Technician,24.892,36.089
+507780,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,10.72,18,Engineering,Geologist,24.892,36.089
+507780,Mies_Minke,Albert's Fine Clothing,121.76,24,Security,Perimeter Control,24.8562,36.0754
+508260,Strum_Orhan,Hippokampos,28.14,32,Executive,SVP/COO,24.892,36.089
+508320,Bramar_Mat,KaterinaÃÂs CafÃÂ©,26.51,0,Unknown,Unknown,24.892,36.089
+508980,Nubarron_Adra,Frydos Autosupply n' More,197.32,25,Engineering,Geologist,24.9042,36.0587
+509520,Onda_Marin,Frydos Autosupply n' More,314.98,26,Engineering,Drill Site Manager,24.9042,36.0587
+510720,Campo-Corrente_Ada,Hippokampos,20.61,10,Executive,SVP/CIO,24.892,36.089
+545220,Flecha_Sven,Brew've Been Served,5.08,17,Information Technology,IT Technician,24.9016,36.0561
+545460,Lais_Cornelia,Brew've Been Served,12.74,0,Unknown,Unknown,24.9016,36.0561
+545580,Vann_Edvard,Brew've Been Served,7.09,34,Security,Perimeter Control,24.9016,36.0561
+545700,Calixto_Nils,Hallowed Grounds,14.05,8,Information Technology,IT Technician,24.8798,36.0634
+545820,Arpa_Emile,Hallowed Grounds,8.91,0,Unknown,Unknown,24.8798,36.0634
+546060,Dedos_Lidelse,Hallowed Grounds,19.59,14,Engineering,Engineering Group Manager,24.8798,36.0634
+546300,Fusil_Stenig,Brew've Been Served,19.6,20,Security,Building Control,24.9016,36.0561
+546360,Alcazar_Lucas,Hallowed Grounds,84.44,1,Information Technology,IT Helpdesk,24.8798,36.0634
+546360,Ovan_Bertrand,Coffee Cameleon,9.1,29,Facilities,Facilities Group Manager,24.8901,36.0548
+546420,Onda_Marin,Hallowed Grounds,7.88,26,Engineering,Drill Site Manager,24.8798,36.0634
+546480,Cocinaro_Hideki,Hallowed Grounds,18.97,12,Security,Site Control,24.8798,36.0634
+546540,Bergen_Linnea,Coffee Cameleon,27.66,6,Information Technology,IT Group Manager,24.8901,36.0548
+546600,Mies Haber_Ruscella,Brew've Been Served,4.39,0,Unknown,Unknown,24.9016,36.0561
+546600,Orilla_Kare,Hallowed Grounds,9.61,27,Engineering,Drill Technician,24.8798,36.0634
+546720,Mies_Minke,Brew've Been Served,3.0,24,Security,Perimeter Control,24.9016,36.0561
+546840,Herrero_Kanon,Brew've Been Served,11.92,22,Security,Badging Office,24.9016,36.0561
+546900,Lagos_Varja,Brew've Been Served,69.06,23,Security,Badging Office,24.9016,36.0561
+546960,Tempestad_Brand,Brew've Been Served,98.53,33,Engineering,Drill Technician,24.9016,36.0561
+547020,Ribera_Anda,Hallowed Grounds,10.33,0,Unknown,Unknown,24.8798,36.0634
+547080,Coginian_Dante,Brew've Been Served,17.4,0,Unknown,Unknown,24.9016,36.0561
+547200,Bramar_Mat,Brew've Been Served,11.91,0,Unknown,Unknown,24.9016,36.0561
+547200,Nubarron_Adra,Coffee Cameleon,11.55,25,Engineering,Geologist,24.8901,36.0548
+547260,Forluniau_Carla,Coffee Cameleon,52.44,0,Unknown,Unknown,24.8901,36.0548
+547260,Frente_Birgitta,Hallowed Grounds,9.92,18,Engineering,Geologist,24.8798,36.0634
+547260,Pantanal_Rachel,Hallowed Grounds,68.42,0,Unknown,Unknown,24.8798,36.0634
+547320,Osvaldo_Hennie,Brew've Been Served,14.49,21,Security,Perimeter Control,24.9016,36.0561
+547560,Ferro_Inga,Brew've Been Served,3.03,13,Security,Site Control,24.9016,36.0561
+547740,Lagos_Linda,Brew've Been Served,15.66,0,Unknown,Unknown,24.9016,36.0561
+548280,Resumir_Felix,Brew've Been Served,47.74,30,Security,Security Group Manager,24.9016,36.0561
+551820,Hawelon_Benito,Abila Airport,3840.37,0,Facilities,Truck Driver,24.827,36.0505
+554700,Hawelon_Benito,Stewart and Sons Fabrication,1200.9,0,Facilities,Truck Driver,24.892,36.089
+555060,Morluniau_Cecilia,Nationwide Refinery,1347.36,0,Facilities,Truck Driver,24.892,36.089
+559860,Morluniau_Cecilia,Stewart and Sons Fabrication,1843.33,0,Facilities,Truck Driver,24.892,36.089
+560340,Morlun_Valeria,Nationwide Refinery,1562.66,0,Facilities,Truck Driver,24.892,36.089
+561600,Awelon_Varro,Coffee Shack,16.63,0,Unknown,Unknown,24.8583,36.0729
+561600,Azada_Lars,Bean There Done That,51.25,2,Engineering,Engineer,24.8497,36.0819
+561600,Barranco_Ingrid,Brewed Awakenings,12.17,4,Executive,SVP/CFO,24.892,36.089
+561600,Baza_Isak,Jack's Magical Beans,23.68,5,Information Technology,IT Technician,24.8725,36.0677
+561600,Bodrogi_Loreto,Brewed Awakenings,64.84,15,Security,Site Control,24.892,36.089
+561600,Borrasca_Isande,Brewed Awakenings,71.59,7,Engineering,Drill Technician,24.892,36.089
+561600,Calzas_Axel,Bean There Done That,53.89,9,Engineering,Drill Technician,24.8497,36.0819
+561600,Campo-Corrente_Ada,Brewed Awakenings,6.72,10,Executive,SVP/CIO,24.892,36.089
+561600,Cazar_Gustav,Bean There Done That,8.03,11,Engineering,Hydraulic Technician,24.8497,36.0819
+561600,Frente_Vira,Bean There Done That,46.25,19,Engineering,Hydraulic Technician,24.8497,36.0819
+561600,Orilla_Elsa,Jack's Magical Beans,18.77,28,Engineering,Drill Technician,24.8725,36.0677
+561600,Strum_Orhan,Jack's Magical Beans,19.61,32,Executive,SVP/COO,24.8725,36.0677
+561600,Vasco-Pais_Willem,Jack's Magical Beans,69.84,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+561720,Hawelon_Benito,Nationwide Refinery,1071.04,0,Facilities,Truck Driver,24.892,36.089
+563340,Mies_Henk,Abila Airport,124.89,0,Facilities,Truck Driver,24.827,36.0505
+565680,Morlun_Valeria,KaterinaÃÂs CafÃÂ©,59.07,0,Facilities,Truck Driver,24.892,36.089
+565980,Strum_Orhan,Guy's Gyros,29.57,32,Executive,SVP/COO,24.8978,36.057
+566400,Azada_Lars,Abila Zacharo,13.52,2,Engineering,Engineer,24.892,36.089
+566400,Campo-Corrente_Ada,Gelatogalore,35.06,10,Executive,SVP/CIO,24.8613,36.0604
+566400,Vann_Isia,Guy's Gyros,38.56,16,Security,Perimeter Control,24.8978,36.057
+566640,Herrero_Kanon,Kalami Kafenion,45.05,22,Security,Badging Office,24.892,36.089
+566640,Mies Haber_Ruscella,Kalami Kafenion,11.64,0,Unknown,Unknown,24.892,36.089
+566700,Baza_Isak,Abila Zacharo,82.25,5,Information Technology,IT Technician,24.892,36.089
+566940,Nubarron_Adra,Ouzeri Elian,29.1,25,Engineering,Geologist,24.8716,36.0526
+567000,Onda_Marin,Gelatogalore,51.64,26,Engineering,Drill Site Manager,24.8613,36.0604
+567120,Bramar_Mat,Ouzeri Elian,28.37,0,Unknown,Unknown,24.8716,36.0526
+567180,Barranco_Ingrid,Abila Zacharo,52.72,4,Executive,SVP/CFO,24.892,36.089
+567180,Bergen_Linnea,Gelatogalore,34.04,6,Information Technology,IT Group Manager,24.8613,36.0604
+567180,Calixto_Nils,KaterinaÃÂs CafÃÂ©,22.27,8,Information Technology,IT Technician,24.892,36.089
+567180,Fusil_Stenig,Guy's Gyros,11.31,20,Security,Building Control,24.8978,36.057
+567180,Vann_Edvard,Kalami Kafenion,18.06,34,Security,Perimeter Control,24.892,36.089
+567240,Frente_Vira,Ouzeri Elian,64.84,19,Engineering,Hydraulic Technician,24.8716,36.0526
+567300,Vasco-Pais_Willem,Gelatogalore,8.98,35,Executive,Environmental Safety Advisor,24.8613,36.0604
+567420,Alcazar_Lucas,Gelatogalore,21.52,1,Information Technology,IT Helpdesk,24.8613,36.0604
+567540,Osvaldo_Hennie,Gelatogalore,17.21,21,Security,Perimeter Control,24.8613,36.0604
+567660,Lagos_Varja,KaterinaÃÂs CafÃÂ©,51.41,23,Security,Badging Office,24.892,36.089
+567660,Tempestad_Brand,Abila Zacharo,17.81,33,Engineering,Drill Technician,24.892,36.089
+567720,Lais_Cornelia,Ouzeri Elian,97.71,0,Unknown,Unknown,24.8716,36.0526
+567840,Forluniau_Carla,Abila Zacharo,32.4,0,Unknown,Unknown,24.892,36.089
+567900,Calzas_Axel,Kalami Kafenion,22.83,9,Engineering,Drill Technician,24.892,36.089
+567960,Balas_Felix,Guy's Gyros,10.11,3,Engineering,Engineer,24.8978,36.057
+567960,Cocinaro_Hideki,Kalami Kafenion,22.14,12,Security,Site Control,24.892,36.089
+568140,Pantanal_Rachel,Gelatogalore,36.5,0,Unknown,Unknown,24.8613,36.0604
+568200,Lagos_Linda,Ouzeri Elian,21.85,0,Unknown,Unknown,24.8716,36.0526
+568320,Dedos_Lidelse,Gelatogalore,71.77,14,Engineering,Engineering Group Manager,24.8613,36.0604
+568380,Bodrogi_Loreto,Hippokampos,51.69,15,Security,Site Control,24.892,36.089
+568440,Ovan_Bertrand,Gelatogalore,88.97,29,Facilities,Facilities Group Manager,24.8613,36.0604
+568500,Ferro_Inga,Abila Zacharo,65.9,13,Security,Site Control,24.892,36.089
+568560,Cazar_Gustav,Ouzeri Elian,16.2,11,Engineering,Hydraulic Technician,24.8716,36.0526
+568620,Coginian_Dante,KaterinaÃÂs CafÃÂ©,37.44,0,Unknown,Unknown,24.892,36.089
+568620,Ribera_Anda,Gelatogalore,15.4,0,Unknown,Unknown,24.8613,36.0604
+568800,Orilla_Kare,Hippokampos,76.11,27,Engineering,Drill Technician,24.892,36.089
+569220,Mies_Minke,KaterinaÃÂs CafÃÂ©,10.9,24,Security,Perimeter Control,24.892,36.089
+569340,Frente_Birgitta,Guy's Gyros,12.57,18,Engineering,Geologist,24.8978,36.057
+569340,Resumir_Felix,Ouzeri Elian,59.51,30,Security,Security Group Manager,24.8716,36.0526
+569460,Arpa_Emile,Hippokampos,37.57,0,Unknown,Unknown,24.892,36.089
+569760,Scozzese_Dylan,Abila Scrapyard,2149.28,0,Facilities,Truck Driver,24.8454,36.0742
+569940,Nant_Irene,Kronos Pipe and Irrigation,3920.82,0,Facilities,Truck Driver,24.892,36.089
+570840,Morlun_Valeria,Carlyle Chemical Inc.,4803.13,0,Facilities,Truck Driver,24.8819,36.0587
+572580,Scozzese_Dylan,Stewart and Sons Fabrication,962.2,0,Facilities,Truck Driver,24.892,36.089
+573600,Nant_Irene,Maximum Iron and Steel,3207.31,0,Facilities,Truck Driver,24.8377,36.0634
+574860,Mies_Henk,Abila Airport,3411.29,0,Facilities,Truck Driver,24.827,36.0505
+577440,Scozzese_Dylan,Nationwide Refinery,889.58,0,Facilities,Truck Driver,24.892,36.089
+589500,Ferro_Inga,Guy's Gyros,14.87,13,Security,Site Control,24.8978,36.057
+589680,Lagos_Varja,Guy's Gyros,31.23,23,Security,Badging Office,24.8978,36.057
+590460,Calzas_Axel,Hippokampos,20.17,9,Engineering,Drill Technician,24.892,36.089
+590520,Azada_Lars,Hippokampos,11.56,2,Engineering,Engineer,24.892,36.089
+590640,Frente_Vira,Albert's Fine Clothing,308.36,19,Engineering,Hydraulic Technician,24.8562,36.0754
+590940,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,19.49,6,Information Technology,IT Group Manager,24.892,36.089
+591000,Awelon_Varro,Albert's Fine Clothing,78.91,0,Unknown,Unknown,24.8562,36.0754
+591000,Flecha_Sven,Guy's Gyros,42.25,17,Information Technology,IT Technician,24.8978,36.057
+591000,Vann_Edvard,Guy's Gyros,26.82,34,Security,Perimeter Control,24.8978,36.057
+591060,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,10.07,25,Engineering,Geologist,24.892,36.089
+591060,Tempestad_Brand,Guy's Gyros,76.71,33,Engineering,Drill Technician,24.8978,36.057
+591120,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,55.63,14,Engineering,Engineering Group Manager,24.892,36.089
+591180,Calixto_Nils,KaterinaÃÂs CafÃÂ©,94.75,8,Information Technology,IT Technician,24.892,36.089
+591180,Coginian_Dante,KaterinaÃÂs CafÃÂ©,65.02,0,Unknown,Unknown,24.892,36.089
+591240,Bodrogi_Loreto,Guy's Gyros,62.33,15,Security,Site Control,24.8978,36.057
+591300,Orilla_Elsa,Ouzeri Elian,11.41,28,Engineering,Drill Technician,24.8716,36.0526
+591480,Lagos_Linda,KaterinaÃÂs CafÃÂ©,31.6,0,Unknown,Unknown,24.892,36.089
+591540,Vann_Isia,Guy's Gyros,89.76,16,Security,Perimeter Control,24.8978,36.057
+591600,Resumir_Felix,Frydos Autosupply n' More,312.73,30,Security,Security Group Manager,24.9042,36.0587
+592320,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,19.53,29,Facilities,Facilities Group Manager,24.892,36.089
+592380,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,17.26,18,Engineering,Geologist,24.892,36.089
+592380,Ribera_Anda,KaterinaÃÂs CafÃÂ©,25.54,0,Unknown,Unknown,24.892,36.089
+592440,Cazar_Gustav,Hippokampos,70.19,11,Engineering,Hydraulic Technician,24.892,36.089
+592440,Lais_Cornelia,Guy's Gyros,23.12,0,Unknown,Unknown,24.8978,36.057
+593220,Orilla_Kare,KaterinaÃÂs CafÃÂ©,32.83,27,Engineering,Drill Technician,24.892,36.089
+593340,Pantanal_Rachel,Ouzeri Elian,20.53,0,Unknown,Unknown,24.8716,36.0526
+593460,Strum_Orhan,Hippokampos,32.99,32,Executive,SVP/COO,24.892,36.089
+594060,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,33.29,21,Security,Perimeter Control,24.892,36.089
+594180,Borrasca_Isande,Hippokampos,21.2,7,Engineering,Drill Technician,24.892,36.089
+595020,Vasco-Pais_Willem,Hippokampos,37.88,35,Executive,Environmental Safety Advisor,24.892,36.089
+595140,Onda_Marin,KaterinaÃÂs CafÃÂ©,18.35,26,Engineering,Drill Site Manager,24.892,36.089
+595260,Barranco_Ingrid,Hippokampos,35.85,4,Executive,SVP/CFO,24.892,36.089
+597060,Campo-Corrente_Ada,Hippokampos,22.18,10,Executive,SVP/CIO,24.892,36.089
+631860,Vann_Isia,Brew've Been Served,15.66,16,Security,Perimeter Control,24.9016,36.0561
+632340,Cocinaro_Hideki,Hallowed Grounds,12.19,12,Security,Site Control,24.8798,36.0634
+632340,Dedos_Lidelse,Hallowed Grounds,8.15,14,Engineering,Engineering Group Manager,24.8798,36.0634
+632340,Onda_Marin,Hallowed Grounds,8.28,26,Engineering,Drill Site Manager,24.8798,36.0634
+632400,Arpa_Emile,Hallowed Grounds,5.85,0,Unknown,Unknown,24.8798,36.0634
+632520,Bramar_Mat,Brew've Been Served,3.09,0,Unknown,Unknown,24.9016,36.0561
+632580,Frente_Birgitta,Hallowed Grounds,3.4,18,Engineering,Geologist,24.8798,36.0634
+632820,Orilla_Kare,Hallowed Grounds,3.11,27,Engineering,Drill Technician,24.8798,36.0634
+632880,Bodrogi_Loreto,Brew've Been Served,32.92,15,Security,Site Control,24.9016,36.0561
+632880,Fusil_Stenig,Brew've Been Served,8.27,20,Security,Building Control,24.9016,36.0561
+632880,Tempestad_Brand,Brew've Been Served,19.17,33,Engineering,Drill Technician,24.9016,36.0561
+633000,Osvaldo_Hennie,Brew've Been Served,33.68,21,Security,Perimeter Control,24.9016,36.0561
+633000,Pantanal_Rachel,Hallowed Grounds,3.9,0,Unknown,Unknown,24.8798,36.0634
+633060,Bergen_Linnea,Coffee Cameleon,6.59,6,Information Technology,IT Group Manager,24.8901,36.0548
+633120,Ovan_Bertrand,Coffee Cameleon,12.26,29,Facilities,Facilities Group Manager,24.8901,36.0548
+633300,Calixto_Nils,Hallowed Grounds,79.92,8,Information Technology,IT Technician,24.8798,36.0634
+633300,Lagos_Varja,Brew've Been Served,91.87,23,Security,Badging Office,24.9016,36.0561
+633360,Alcazar_Lucas,Hallowed Grounds,12.86,1,Information Technology,IT Helpdesk,24.8798,36.0634
+633420,Lais_Cornelia,Brew've Been Served,74.88,0,Unknown,Unknown,24.9016,36.0561
+633420,Ribera_Anda,Hallowed Grounds,11.63,0,Unknown,Unknown,24.8798,36.0634
+633480,Mies Haber_Ruscella,Brew've Been Served,8.4,0,Unknown,Unknown,24.9016,36.0561
+633540,Nubarron_Adra,Coffee Cameleon,15.71,25,Engineering,Geologist,24.8901,36.0548
+633600,Vann_Edvard,Brew've Been Served,32.3,34,Security,Perimeter Control,24.9016,36.0561
+633660,Coginian_Dante,Brew've Been Served,3.92,0,Unknown,Unknown,24.9016,36.0561
+633660,Ferro_Inga,Brew've Been Served,17.13,13,Security,Site Control,24.9016,36.0561
+633660,Flecha_Sven,Brew've Been Served,3.42,17,Information Technology,IT Technician,24.9016,36.0561
+633780,Resumir_Felix,Brew've Been Served,10.15,30,Security,Security Group Manager,24.9016,36.0561
+634140,Lagos_Linda,Brew've Been Served,11.48,0,Unknown,Unknown,24.9016,36.0561
+634560,Herrero_Kanon,Brew've Been Served,7.26,22,Security,Badging Office,24.9016,36.0561
+634680,Mies_Minke,Brew've Been Served,6.3,24,Security,Perimeter Control,24.9016,36.0561
+634920,Forluniau_Carla,Coffee Cameleon,16.17,0,Unknown,Unknown,24.8901,36.0548
+639780,Morlun_Valeria,Carlyle Chemical Inc.,3048.31,0,Facilities,Truck Driver,24.8819,36.0587
+640440,Morlun_Adan,Nationwide Refinery,4513.16,0,Facilities,Truck Driver,24.892,36.089
+641640,Morluniau_Cecilia,Nationwide Refinery,3674.32,0,Facilities,Truck Driver,24.892,36.089
+646080,Morlun_Adan,Stewart and Sons Fabrication,1738.26,0,Facilities,Truck Driver,24.892,36.089
+647880,Morluniau_Cecilia,Stewart and Sons Fabrication,1673.77,0,Facilities,Truck Driver,24.892,36.089
+648000,Awelon_Varro,Coffee Shack,13.13,0,Unknown,Unknown,24.8583,36.0729
+648000,Azada_Lars,Bean There Done That,17.45,2,Engineering,Engineer,24.8497,36.0819
+648000,Balas_Felix,Bean There Done That,12.07,3,Engineering,Engineer,24.8497,36.0819
+648000,Barranco_Ingrid,Brewed Awakenings,11.73,4,Executive,SVP/CFO,24.892,36.089
+648000,Baza_Isak,Jack's Magical Beans,3.96,5,Information Technology,IT Technician,24.8725,36.0677
+648000,Borrasca_Isande,Brewed Awakenings,12.32,7,Engineering,Drill Technician,24.892,36.089
+648000,Calzas_Axel,Bean There Done That,8.06,9,Engineering,Drill Technician,24.8497,36.0819
+648000,Campo-Corrente_Ada,Brewed Awakenings,15.03,10,Executive,SVP/CIO,24.892,36.089
+648000,Cazar_Gustav,Bean There Done That,94.96,11,Engineering,Hydraulic Technician,24.8497,36.0819
+648000,Orilla_Elsa,Jack's Magical Beans,18.78,28,Engineering,Drill Technician,24.8725,36.0677
+648000,Strum_Orhan,Jack's Magical Beans,12.37,32,Executive,SVP/COO,24.8725,36.0677
+648000,Vasco-Pais_Willem,Jack's Magical Beans,31.25,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+649740,Bodrogi_Loreto,Frank's Fuel,65.34,15,Security,Site Control,24.8377,36.0729
+650700,Mies_Henk,Abila Airport,2723.18,0,Facilities,Truck Driver,24.827,36.0505
+651360,Borrasca_Isande,Chostus Hotel,107.51,7,Engineering,Drill Technician,24.8935,36.0699
+651780,Nant_Irene,Carlyle Chemical Inc.,4983.52,0,Facilities,Truck Driver,24.8819,36.0587
+652200,Mies Haber_Ruscella,Abila Zacharo,22.13,0,Unknown,Unknown,24.892,36.089
+652320,Campo-Corrente_Ada,Hippokampos,26.55,10,Executive,SVP/CIO,24.892,36.089
+652500,Vann_Edvard,Hippokampos,9.03,34,Security,Perimeter Control,24.892,36.089
+652740,Morlun_Valeria,KaterinaÃÂs CafÃÂ©,29.26,0,Facilities,Truck Driver,24.892,36.089
+652740,Tempestad_Brand,Chostus Hotel,111.89,33,Engineering,Drill Technician,24.8935,36.0699
+652860,Strum_Orhan,Ouzeri Elian,109.73,32,Executive,SVP/COO,24.8716,36.0526
+652980,Vasco-Pais_Willem,Abila Zacharo,36.85,35,Executive,Environmental Safety Advisor,24.892,36.089
+653160,Bergen_Linnea,Hippokampos,16.59,6,Information Technology,IT Group Manager,24.892,36.089
+653220,Lagos_Linda,Gelatogalore,32.79,0,Unknown,Unknown,24.8613,36.0604
+653280,Baza_Isak,KaterinaÃÂs CafÃÂ©,8.53,5,Information Technology,IT Technician,24.892,36.089
+653280,Osvaldo_Hennie,Gelatogalore,20.72,21,Security,Perimeter Control,24.8613,36.0604
+653340,Ovan_Bertrand,Kalami Kafenion,24.08,29,Facilities,Facilities Group Manager,24.892,36.089
+653460,Cazar_Gustav,Hippokampos,37.89,11,Engineering,Hydraulic Technician,24.892,36.089
+653520,Flecha_Sven,Guy's Gyros,30.12,17,Information Technology,IT Technician,24.8978,36.057
+653640,Azada_Lars,Abila Zacharo,14.41,2,Engineering,Engineer,24.892,36.089
+653640,Onda_Marin,KaterinaÃÂs CafÃÂ©,88.98,26,Engineering,Drill Site Manager,24.892,36.089
+653880,Herrero_Kanon,Gelatogalore,50.36,22,Security,Badging Office,24.8613,36.0604
+653940,Lagos_Varja,Gelatogalore,119.75,23,Security,Badging Office,24.8613,36.0604
+654000,Bodrogi_Loreto,Guy's Gyros,77.9,15,Security,Site Control,24.8978,36.057
+654060,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,26.45,25,Engineering,Geologist,24.892,36.089
+654120,Calixto_Nils,Gelatogalore,35.29,8,Information Technology,IT Technician,24.8613,36.0604
+654120,Coginian_Dante,Kalami Kafenion,22.49,0,Unknown,Unknown,24.892,36.089
+654120,Frente_Vira,KaterinaÃÂs CafÃÂ©,57.04,19,Engineering,Hydraulic Technician,24.892,36.089
+654180,Alcazar_Lucas,Hippokampos,39.8,1,Information Technology,IT Helpdesk,24.892,36.089
+654240,Vann_Isia,Kalami Kafenion,31.96,16,Security,Perimeter Control,24.892,36.089
+654300,Orilla_Kare,Kalami Kafenion,23.82,27,Engineering,Drill Technician,24.892,36.089
+654360,Pantanal_Rachel,Abila Zacharo,28.25,0,Unknown,Unknown,24.892,36.089
+654420,Calzas_Axel,KaterinaÃÂs CafÃÂ©,27.05,9,Engineering,Drill Technician,24.892,36.089
+654420,Forluniau_Carla,Gelatogalore,22.27,0,Unknown,Unknown,24.8613,36.0604
+654420,Lais_Cornelia,Ouzeri Elian,104.92,0,Unknown,Unknown,24.8716,36.0526
+654480,Balas_Felix,Hippokampos,28.79,3,Engineering,Engineer,24.892,36.089
+654480,Ferro_Inga,Gelatogalore,116.72,13,Security,Site Control,24.8613,36.0604
+654660,Dedos_Lidelse,Guy's Gyros,15.86,14,Engineering,Engineering Group Manager,24.8978,36.057
+654660,Resumir_Felix,Abila Zacharo,30.85,30,Security,Security Group Manager,24.892,36.089
+654720,Fusil_Stenig,Kalami Kafenion,14.77,20,Security,Building Control,24.892,36.089
+654780,Frente_Birgitta,Abila Zacharo,16.2,18,Engineering,Geologist,24.892,36.089
+655020,Mies_Minke,Guy's Gyros,10.34,24,Security,Perimeter Control,24.8978,36.057
+655560,Cocinaro_Hideki,KaterinaÃÂs CafÃÂ©,22.94,12,Security,Site Control,24.892,36.089
+655740,Nant_Irene,Kronos Pipe and Irrigation,3615.61,0,Facilities,Truck Driver,24.892,36.089
+656100,Awelon_Varro,Kalami Kafenion,34.98,0,Unknown,Unknown,24.892,36.089
+656220,Bramar_Mat,Gelatogalore,39.94,0,Unknown,Unknown,24.8613,36.0604
+656340,Arpa_Emile,Kalami Kafenion,31.43,0,Unknown,Unknown,24.892,36.089
+656760,Morlun_Valeria,Carlyle Chemical Inc.,4901.88,0,Facilities,Truck Driver,24.8819,36.0587
+659880,Nant_Irene,Maximum Iron and Steel,3136.01,0,Facilities,Truck Driver,24.8377,36.0634
+660540,Mies_Henk,Abila Airport,2769.12,0,Facilities,Truck Driver,24.827,36.0505
+674460,Azada_Lars,Hippokampos,10.52,2,Engineering,Engineer,24.892,36.089
+674880,Borrasca_Isande,Hippokampos,16.54,7,Engineering,Drill Technician,24.892,36.089
+675120,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,34.25,0,Unknown,Unknown,24.892,36.089
+675360,Vann_Isia,Guy's Gyros,15.69,16,Security,Perimeter Control,24.8978,36.057
+676080,Mies_Minke,Guy's Gyros,30.48,24,Security,Perimeter Control,24.8978,36.057
+676800,Lagos_Linda,KaterinaÃÂs CafÃÂ©,13.83,0,Unknown,Unknown,24.892,36.089
+676920,Frente_Vira,Hippokampos,32.66,19,Engineering,Hydraulic Technician,24.892,36.089
+677220,Flecha_Sven,Guy's Gyros,28.81,17,Information Technology,IT Technician,24.8978,36.057
+677220,Forluniau_Carla,Frydos Autosupply n' More,214.07,0,Unknown,Unknown,24.9042,36.0587
+677280,Lais_Cornelia,Guy's Gyros,33.02,0,Unknown,Unknown,24.8978,36.057
+677280,Onda_Marin,KaterinaÃÂs CafÃÂ©,31.59,26,Engineering,Drill Site Manager,24.892,36.089
+677520,Herrero_Kanon,Ouzeri Elian,62.2,22,Security,Badging Office,24.8716,36.0526
+677700,Lagos_Varja,Guy's Gyros,99.08,23,Security,Badging Office,24.8978,36.057
+677820,Bodrogi_Loreto,Frydos Autosupply n' More,182.56,15,Security,Site Control,24.9042,36.0587
+677820,Tempestad_Brand,Guy's Gyros,18.24,33,Engineering,Drill Technician,24.8978,36.057
+678420,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,33.31,25,Engineering,Geologist,24.892,36.089
+678480,Awelon_Varro,Hippokampos,96.75,0,Unknown,Unknown,24.892,36.089
+678480,Ribera_Anda,Frydos Autosupply n' More,268.89,0,Unknown,Unknown,24.9042,36.0587
+678660,Calixto_Nils,KaterinaÃÂs CafÃÂ©,36.6,8,Information Technology,IT Technician,24.892,36.089
+678900,Coginian_Dante,KaterinaÃÂs CafÃÂ©,16.93,0,Unknown,Unknown,24.892,36.089
+679320,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,92.83,29,Facilities,Facilities Group Manager,24.892,36.089
+679500,Balas_Felix,Albert's Fine Clothing,136.01,3,Engineering,Engineer,24.8562,36.0754
+679740,Campo-Corrente_Ada,Hippokampos,15.64,10,Executive,SVP/CIO,24.892,36.089
+679980,Barranco_Ingrid,Hippokampos,26.31,4,Executive,SVP/CFO,24.892,36.089
+680220,Resumir_Felix,Guy's Gyros,10.28,30,Security,Security Group Manager,24.8978,36.057
+680280,Ferro_Inga,Guy's Gyros,22.91,13,Security,Site Control,24.8978,36.057
+680400,Cocinaro_Hideki,General Grocer,265.84,12,Security,Site Control,24.857,36.0608
+680520,Bramar_Mat,KaterinaÃÂs CafÃÂ©,28.86,0,Unknown,Unknown,24.892,36.089
+680940,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,27.87,14,Engineering,Engineering Group Manager,24.892,36.089
+681360,Alcazar_Lucas,Ouzeri Elian,30.81,1,Information Technology,IT Helpdesk,24.8716,36.0526
+681420,Baza_Isak,Ouzeri Elian,29.85,5,Information Technology,IT Technician,24.8716,36.0526
+682320,Vasco-Pais_Willem,Hippokampos,78.99,35,Executive,Environmental Safety Advisor,24.892,36.089
+718500,Bergen_Linnea,Coffee Cameleon,12.47,6,Information Technology,IT Group Manager,24.8901,36.0548
+718560,Tempestad_Brand,Brew've Been Served,70.71,33,Engineering,Drill Technician,24.9016,36.0561
+718620,Onda_Marin,Hallowed Grounds,17.56,26,Engineering,Drill Site Manager,24.8798,36.0634
+718620,Ovan_Bertrand,Coffee Cameleon,19.99,29,Facilities,Facilities Group Manager,24.8901,36.0548
+718920,Cocinaro_Hideki,Hallowed Grounds,56.77,12,Security,Site Control,24.8798,36.0634
+718980,Lais_Cornelia,Brew've Been Served,5.43,0,Unknown,Unknown,24.9016,36.0561
+719160,Arpa_Emile,Hallowed Grounds,75.24,0,Unknown,Unknown,24.8798,36.0634
+719160,Bramar_Mat,Brew've Been Served,4.4,0,Unknown,Unknown,24.9016,36.0561
+719280,Flecha_Sven,Brew've Been Served,5.3,17,Information Technology,IT Technician,24.9016,36.0561
+719280,Vann_Isia,Brew've Been Served,34.85,16,Security,Perimeter Control,24.9016,36.0561
+719280,Vann_Edvard,Brew've Been Served,5.13,34,Security,Perimeter Control,24.9016,36.0561
+719400,Alcazar_Lucas,Hallowed Grounds,34.45,1,Information Technology,IT Helpdesk,24.8798,36.0634
+719460,Calixto_Nils,Hallowed Grounds,19.22,8,Information Technology,IT Technician,24.8798,36.0634
+719760,Coginian_Dante,Brew've Been Served,98.25,0,Unknown,Unknown,24.9016,36.0561
+719820,Frente_Birgitta,Hallowed Grounds,18.48,18,Engineering,Geologist,24.8798,36.0634
+719820,Lagos_Linda,Brew've Been Served,5.26,0,Unknown,Unknown,24.9016,36.0561
+719820,Osvaldo_Hennie,Hallowed Grounds,50.25,21,Security,Perimeter Control,24.8798,36.0634
+719880,Resumir_Felix,Brew've Been Served,19.47,30,Security,Security Group Manager,24.9016,36.0561
+720000,Ferro_Inga,Brew've Been Served,6.61,13,Security,Site Control,24.9016,36.0561
+720000,Mies_Minke,Brew've Been Served,6.21,24,Security,Perimeter Control,24.9016,36.0561
+720060,Lagos_Varja,Brew've Been Served,92.12,23,Security,Badging Office,24.9016,36.0561
+720180,Nubarron_Adra,Coffee Cameleon,16.13,25,Engineering,Geologist,24.8901,36.0548
+720420,Orilla_Kare,Hallowed Grounds,65.68,27,Engineering,Drill Technician,24.8798,36.0634
+720840,Herrero_Kanon,Brew've Been Served,17.64,22,Security,Badging Office,24.9016,36.0561
+720900,Mies Haber_Ruscella,Brew've Been Served,5.57,0,Unknown,Unknown,24.9016,36.0561
+720900,Pantanal_Rachel,Hallowed Grounds,15.33,0,Unknown,Unknown,24.8798,36.0634
+725160,Hawelon_Benito,Abila Airport,2358.22,0,Facilities,Truck Driver,24.827,36.0505
+726840,Morlun_Valeria,Carlyle Chemical Inc.,529.47,0,Facilities,Truck Driver,24.8819,36.0587
+728160,Morluniau_Cecilia,Nationwide Refinery,674.28,0,Facilities,Truck Driver,24.892,36.089
+729480,Hawelon_Benito,Stewart and Sons Fabrication,1015.65,0,Facilities,Truck Driver,24.892,36.089
+732060,Nant_Irene,Carlyle Chemical Inc.,732.82,0,Facilities,Truck Driver,24.8819,36.0587
+732840,Morlun_Valeria,Nationwide Refinery,289.3,0,Facilities,Truck Driver,24.892,36.089
+733020,Morluniau_Cecilia,Stewart and Sons Fabrication,3544.0,0,Facilities,Truck Driver,24.892,36.089
+734400,Awelon_Varro,Coffee Shack,5.01,0,Unknown,Unknown,24.8583,36.0729
+734400,Azada_Lars,Bean There Done That,13.0,2,Engineering,Engineer,24.8497,36.0819
+734400,Barranco_Ingrid,Brewed Awakenings,11.76,4,Executive,SVP/CFO,24.892,36.089
+734400,Baza_Isak,Jack's Magical Beans,10.11,5,Information Technology,IT Technician,24.8725,36.0677
+734400,Bodrogi_Loreto,Jack's Magical Beans,6.0,15,Security,Site Control,24.8725,36.0677
+734400,Borrasca_Isande,Brewed Awakenings,13.16,7,Engineering,Drill Technician,24.892,36.089
+734400,Calzas_Axel,Bean There Done That,4.06,9,Engineering,Drill Technician,24.8497,36.0819
+734400,Campo-Corrente_Ada,Brewed Awakenings,17.66,10,Executive,SVP/CIO,24.892,36.089
+734400,Cazar_Gustav,Bean There Done That,15.53,11,Engineering,Hydraulic Technician,24.8497,36.0819
+734400,Orilla_Elsa,Jack's Magical Beans,12.13,28,Engineering,Drill Technician,24.8725,36.0677
+734400,Strum_Orhan,Jack's Magical Beans,15.55,32,Executive,SVP/COO,24.8725,36.0677
+734400,Vasco-Pais_Willem,Jack's Magical Beans,37.43,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+735180,Mies_Henk,Abila Airport,202.93,0,Facilities,Truck Driver,24.827,36.0505
+737340,Hawelon_Benito,Nationwide Refinery,1440.39,0,Facilities,Truck Driver,24.892,36.089
+737940,Campo-Corrente_Ada,Ouzeri Elian,31.03,10,Executive,SVP/CIO,24.8716,36.0526
+738180,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,17.02,6,Information Technology,IT Group Manager,24.892,36.089
+738720,Mies Haber_Ruscella,Gelatogalore,19.2,0,Unknown,Unknown,24.8613,36.0604
+739080,Scozzese_Dylan,Abila Airport,4792.5,0,Facilities,Truck Driver,24.827,36.0505
+739260,Barranco_Ingrid,Ouzeri Elian,26.09,4,Executive,SVP/CFO,24.8716,36.0526
+739260,Vann_Edvard,Gelatogalore,23.45,34,Security,Perimeter Control,24.8613,36.0604
+739260,Vann_Isia,Guy's Gyros,105.4,16,Security,Perimeter Control,24.8978,36.057
+739380,Baza_Isak,Gelatogalore,8.6,5,Information Technology,IT Technician,24.8613,36.0604
+739380,Borrasca_Isande,Gelatogalore,56.74,7,Engineering,Drill Technician,24.8613,36.0604
+739380,Fusil_Stenig,Ouzeri Elian,22.4,20,Security,Building Control,24.8716,36.0526
+739380,Morlun_Valeria,KaterinaÃÂs CafÃÂ©,16.98,0,Facilities,Truck Driver,24.892,36.089
+739440,Lagos_Varja,Abila Zacharo,8.16,23,Security,Badging Office,24.892,36.089
+739620,Frente_Vira,Kalami Kafenion,110.76,19,Engineering,Hydraulic Technician,24.892,36.089
+739620,Strum_Orhan,KaterinaÃÂs CafÃÂ©,25.85,32,Executive,SVP/COO,24.892,36.089
+739680,Calixto_Nils,Guy's Gyros,13.59,8,Information Technology,IT Technician,24.8978,36.057
+739740,Forluniau_Carla,Hippokampos,27.47,0,Unknown,Unknown,24.892,36.089
+739920,Vasco-Pais_Willem,Abila Zacharo,8.6,35,Executive,Environmental Safety Advisor,24.892,36.089
+740100,Bodrogi_Loreto,KaterinaÃÂs CafÃÂ©,10.42,15,Security,Site Control,24.892,36.089
+740100,Lagos_Linda,Gelatogalore,23.23,0,Unknown,Unknown,24.8613,36.0604
+740160,Tempestad_Brand,Hippokampos,27.93,33,Engineering,Drill Technician,24.892,36.089
+740220,Cazar_Gustav,Hippokampos,9.12,11,Engineering,Hydraulic Technician,24.892,36.089
+740280,Flecha_Sven,Kalami Kafenion,18.14,17,Information Technology,IT Technician,24.892,36.089
+740400,Dedos_Lidelse,Abila Zacharo,20.73,14,Engineering,Engineering Group Manager,24.892,36.089
+740400,Osvaldo_Hennie,Gelatogalore,11.94,21,Security,Perimeter Control,24.8613,36.0604
+740460,Alcazar_Lucas,Abila Zacharo,89.41,1,Information Technology,IT Helpdesk,24.892,36.089
+740460,Balas_Felix,Hippokampos,8.43,3,Engineering,Engineer,24.892,36.089
+740460,Lais_Cornelia,Hippokampos,39.22,0,Unknown,Unknown,24.892,36.089
+740580,Azada_Lars,Guy's Gyros,74.91,2,Engineering,Engineer,24.8978,36.057
+740640,Frente_Birgitta,Guy's Gyros,15.0,18,Engineering,Geologist,24.8978,36.057
+740700,Pantanal_Rachel,Gelatogalore,24.68,0,Unknown,Unknown,24.8613,36.0604
+740820,Herrero_Kanon,Abila Zacharo,48.39,22,Security,Badging Office,24.892,36.089
+741060,Onda_Marin,Hippokampos,13.84,26,Engineering,Drill Site Manager,24.892,36.089
+741180,Nubarron_Adra,Hippokampos,16.65,25,Engineering,Geologist,24.892,36.089
+741360,Bramar_Mat,Kalami Kafenion,19.84,0,Unknown,Unknown,24.892,36.089
+741360,Mies_Minke,Hippokampos,65.7,24,Security,Perimeter Control,24.892,36.089
+741360,Resumir_Felix,Guy's Gyros,8.87,30,Security,Security Group Manager,24.8978,36.057
+741780,Ribera_Anda,Kalami Kafenion,35.99,0,Unknown,Unknown,24.892,36.089
+741840,Arpa_Emile,Kalami Kafenion,10.94,0,Unknown,Unknown,24.892,36.089
+741840,Cocinaro_Hideki,Ouzeri Elian,32.89,12,Security,Site Control,24.8716,36.0526
+741960,Calzas_Axel,KaterinaÃÂs CafÃÂ©,8.01,9,Engineering,Drill Technician,24.892,36.089
+742140,Coginian_Dante,Guy's Gyros,27.69,0,Unknown,Unknown,24.8978,36.057
+742320,Scozzese_Dylan,Abila Scrapyard,1158.36,0,Facilities,Truck Driver,24.8454,36.0742
+742380,Ovan_Bertrand,Guy's Gyros,17.44,29,Facilities,Facilities Group Manager,24.8978,36.057
+742500,Ferro_Inga,Abila Zacharo,14.37,13,Security,Site Control,24.892,36.089
+742680,Awelon_Varro,Gelatogalore,36.75,0,Unknown,Unknown,24.8613,36.0604
+743160,Morlun_Valeria,Carlyle Chemical Inc.,382.43,0,Facilities,Truck Driver,24.8819,36.0587
+743280,Nant_Irene,Kronos Pipe and Irrigation,423.14,0,Facilities,Truck Driver,24.892,36.089
+745200,Scozzese_Dylan,Stewart and Sons Fabrication,918.6,0,Facilities,Truck Driver,24.892,36.089
+746160,Nant_Irene,Maximum Iron and Steel,1527.14,0,Facilities,Truck Driver,24.8377,36.0634
+748200,Mies_Henk,Abila Airport,4538.52,0,Facilities,Truck Driver,24.827,36.0505
+750120,Morlun_Valeria,Carlyle Chemical Inc.,2176.2,0,Facilities,Truck Driver,24.8819,36.0587
+750420,Scozzese_Dylan,Nationwide Refinery,1322.5,0,Facilities,Truck Driver,24.892,36.089
+761100,Arpa_Emile,KaterinaÃÂs CafÃÂ©,35.92,0,Unknown,Unknown,24.892,36.089
+761400,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,26.6,29,Facilities,Facilities Group Manager,24.892,36.089
+761520,Lagos_Varja,Frydos Autosupply n' More,138.02,23,Security,Badging Office,24.9042,36.0587
+762060,Vann_Isia,Guy's Gyros,31.81,16,Security,Perimeter Control,24.8978,36.057
+762120,Baza_Isak,Ouzeri Elian,27.08,5,Information Technology,IT Technician,24.8716,36.0526
+762180,Orilla_Elsa,Ouzeri Elian,31.07,28,Engineering,Drill Technician,24.8716,36.0526
+762720,Fusil_Stenig,Guy's Gyros,29.96,20,Security,Building Control,24.8978,36.057
+763500,Borrasca_Isande,Hippokampos,15.02,7,Engineering,Drill Technician,24.892,36.089
+763560,Bramar_Mat,KaterinaÃÂs CafÃÂ©,26.6,0,Unknown,Unknown,24.892,36.089
+763680,Orilla_Kare,KaterinaÃÂs CafÃÂ©,19.02,27,Engineering,Drill Technician,24.892,36.089
+763740,Ribera_Anda,KaterinaÃÂs CafÃÂ©,90.97,0,Unknown,Unknown,24.892,36.089
+764100,Calzas_Axel,Hippokampos,70.68,9,Engineering,Drill Technician,24.892,36.089
+764340,Vann_Edvard,General Grocer,285.34,34,Security,Perimeter Control,24.857,36.0608
+764400,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,91.14,21,Security,Perimeter Control,24.892,36.089
+764400,Resumir_Felix,Frydos Autosupply n' More,31.24,30,Security,Security Group Manager,24.9042,36.0587
+764460,Awelon_Varro,Albert's Fine Clothing,224.52,0,Unknown,Unknown,24.8562,36.0754
+764460,Cazar_Gustav,Frydos Autosupply n' More,120.65,11,Engineering,Hydraulic Technician,24.9042,36.0587
+764520,Coginian_Dante,KaterinaÃÂs CafÃÂ©,29.82,0,Unknown,Unknown,24.892,36.089
+764580,Calixto_Nils,Guy's Gyros,8.23,8,Information Technology,IT Technician,24.8978,36.057
+764640,Herrero_Kanon,Guy's Gyros,18.26,22,Security,Badging Office,24.8978,36.057
+764820,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,53.78,0,Unknown,Unknown,24.892,36.089
+764940,Bergen_Linnea,Guy's Gyros,23.34,6,Information Technology,IT Group Manager,24.8978,36.057
+765480,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,30.69,0,Unknown,Unknown,24.892,36.089
+765480,Lais_Cornelia,Guy's Gyros,8.23,0,Unknown,Unknown,24.8978,36.057
+765540,Flecha_Sven,Guy's Gyros,35.05,17,Information Technology,IT Technician,24.8978,36.057
+765660,Vasco-Pais_Willem,Hippokampos,9.13,35,Executive,Environmental Safety Advisor,24.892,36.089
+765900,Bodrogi_Loreto,Frydos Autosupply n' More,276.75,15,Security,Site Control,24.9042,36.0587
+766860,Frente_Vira,Hippokampos,24.96,19,Engineering,Hydraulic Technician,24.892,36.089
+767340,Mies_Minke,Guy's Gyros,31.31,24,Security,Perimeter Control,24.8978,36.057
+767520,Strum_Orhan,Hippokampos,23.66,32,Executive,SVP/COO,24.892,36.089
+767580,Pantanal_Rachel,Shoppers' Delight,258.43,0,Unknown,Unknown,24.892,36.089
+767880,Onda_Marin,KaterinaÃÂs CafÃÂ©,8.57,26,Engineering,Drill Site Manager,24.892,36.089
+768420,Campo-Corrente_Ada,Albert's Fine Clothing,229.98,10,Executive,SVP/CIO,24.8562,36.0754
+769080,Balas_Felix,Hippokampos,10.12,3,Engineering,Engineer,24.892,36.089
+804840,Arpa_Emile,Hallowed Grounds,16.75,0,Unknown,Unknown,24.8798,36.0634
+804900,Fusil_Stenig,Brew've Been Served,15.85,20,Security,Building Control,24.9016,36.0561
+805200,Bergen_Linnea,Coffee Cameleon,8.51,6,Information Technology,IT Group Manager,24.8901,36.0548
+805260,Dedos_Lidelse,Hallowed Grounds,12.03,14,Engineering,Engineering Group Manager,24.8798,36.0634
+805260,Frente_Birgitta,Hallowed Grounds,8.34,18,Engineering,Geologist,24.8798,36.0634
+805260,Onda_Marin,Hallowed Grounds,11.49,26,Engineering,Drill Site Manager,24.8798,36.0634
+805500,Lagos_Varja,Brew've Been Served,5.01,23,Security,Badging Office,24.9016,36.0561
+805500,Orilla_Kare,Hallowed Grounds,11.38,27,Engineering,Drill Technician,24.8798,36.0634
+805560,Pantanal_Rachel,Hallowed Grounds,17.63,0,Unknown,Unknown,24.8798,36.0634
+805620,Bramar_Mat,Brew've Been Served,44.88,0,Unknown,Unknown,24.9016,36.0561
+805620,Ovan_Bertrand,Coffee Cameleon,11.54,29,Facilities,Facilities Group Manager,24.8901,36.0548
+805680,Osvaldo_Hennie,Brew've Been Served,13.32,21,Security,Perimeter Control,24.9016,36.0561
+805740,Calixto_Nils,Hallowed Grounds,10.34,8,Information Technology,IT Technician,24.8798,36.0634
+805740,Tempestad_Brand,Brew've Been Served,89.93,33,Engineering,Drill Technician,24.9016,36.0561
+805800,Cocinaro_Hideki,Hallowed Grounds,10.76,12,Security,Site Control,24.8798,36.0634
+805860,Mies Haber_Ruscella,Brew've Been Served,12.77,0,Unknown,Unknown,24.9016,36.0561
+806040,Flecha_Sven,Brew've Been Served,83.44,17,Information Technology,IT Technician,24.9016,36.0561
+806040,Forluniau_Carla,Coffee Cameleon,9.69,0,Unknown,Unknown,24.8901,36.0548
+806100,Lais_Cornelia,Brew've Been Served,85.91,0,Unknown,Unknown,24.9016,36.0561
+806160,Vann_Edvard,Brew've Been Served,97.25,34,Security,Perimeter Control,24.9016,36.0561
+806160,Vann_Isia,Brew've Been Served,90.72,16,Security,Perimeter Control,24.9016,36.0561
+806340,Hawelon_Claudio,Abila Airport,4039.36,0,Facilities,Truck Driver,24.827,36.0505
+806460,Herrero_Kanon,Brew've Been Served,5.89,22,Security,Badging Office,24.9016,36.0561
+806460,Resumir_Felix,Brew've Been Served,5.31,30,Security,Security Group Manager,24.9016,36.0561
+806760,Ribera_Anda,Hallowed Grounds,9.34,0,Unknown,Unknown,24.8798,36.0634
+806940,Bodrogi_Loreto,Brew've Been Served,14.45,15,Security,Site Control,24.9016,36.0561
+806940,Ferro_Inga,Brew've Been Served,3.03,13,Security,Site Control,24.9016,36.0561
+807060,Nubarron_Adra,Coffee Cameleon,13.25,25,Engineering,Geologist,24.8901,36.0548
+807420,Coginian_Dante,Brew've Been Served,8.47,0,Unknown,Unknown,24.9016,36.0561
+807420,Mies_Minke,Brew've Been Served,12.64,24,Security,Perimeter Control,24.9016,36.0561
+807600,Lagos_Linda,Brew've Been Served,14.36,0,Unknown,Unknown,24.9016,36.0561
+810540,Hawelon_Claudio,Carlyle Chemical Inc.,227.81,0,Facilities,Truck Driver,24.8819,36.0587
+811800,Barranco_Ingrid,Kronos Mart,203.91,4,Executive,SVP/CFO,24.848,36.0664
+813600,Morluniau_Cecilia,Nationwide Refinery,1552.82,0,Facilities,Truck Driver,24.892,36.089
+816000,Hawelon_Claudio,Nationwide Refinery,2302.73,0,Facilities,Truck Driver,24.892,36.089
+820140,Morluniau_Cecilia,Stewart and Sons Fabrication,4074.1,0,Facilities,Truck Driver,24.892,36.089
+820800,Azada_Lars,Bean There Done That,15.39,2,Engineering,Engineer,24.8497,36.0819
+820800,Balas_Felix,Bean There Done That,3.92,3,Engineering,Engineer,24.8497,36.0819
+820800,Barranco_Ingrid,Brewed Awakenings,13.82,4,Executive,SVP/CFO,24.892,36.089
+820800,Baza_Isak,Jack's Magical Beans,15.69,5,Information Technology,IT Technician,24.8725,36.0677
+820800,Borrasca_Isande,Brewed Awakenings,6.17,7,Engineering,Drill Technician,24.892,36.089
+820800,Calzas_Axel,Bean There Done That,13.41,9,Engineering,Drill Technician,24.8497,36.0819
+820800,Campo-Corrente_Ada,Brewed Awakenings,13.9,10,Executive,SVP/CIO,24.892,36.089
+820800,Cazar_Gustav,Bean There Done That,18.67,11,Engineering,Hydraulic Technician,24.8497,36.0819
+820800,Frente_Vira,Bean There Done That,9.3,19,Engineering,Hydraulic Technician,24.8497,36.0819
+820800,Orilla_Elsa,Jack's Magical Beans,16.29,28,Engineering,Drill Technician,24.8725,36.0677
+820800,Strum_Orhan,Jack's Magical Beans,5.46,32,Executive,SVP/COO,24.8725,36.0677
+820800,Vasco-Pais_Willem,Jack's Magical Beans,8.22,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+821400,Hawelon_Claudio,Stewart and Sons Fabrication,4195.49,0,Facilities,Truck Driver,24.892,36.089
+824880,Tempestad_Brand,Chostus Hotel,133.25,33,Engineering,Drill Technician,24.8935,36.0699
+825060,Borrasca_Isande,Chostus Hotel,197.41,7,Engineering,Drill Technician,24.8935,36.0699
+825120,Strum_Orhan,Guy's Gyros,36.44,32,Executive,SVP/COO,24.8978,36.057
+825360,Alcazar_Lucas,Ouzeri Elian,30.71,1,Information Technology,IT Helpdesk,24.8716,36.0526
+825600,Vann_Edvard,Hippokampos,79.26,34,Security,Perimeter Control,24.892,36.089
+825900,Fusil_Stenig,Guy's Gyros,26.76,20,Security,Building Control,24.8978,36.057
+826020,Bergen_Linnea,Guy's Gyros,15.93,6,Information Technology,IT Group Manager,24.8978,36.057
+826140,Baza_Isak,Abila Zacharo,113.33,5,Information Technology,IT Technician,24.892,36.089
+826200,Barranco_Ingrid,KaterinaÃÂs CafÃÂ©,34.76,4,Executive,SVP/CFO,24.892,36.089
+826200,Lagos_Varja,Kalami Kafenion,35.69,23,Security,Badging Office,24.892,36.089
+826500,Azada_Lars,Gelatogalore,26.15,2,Engineering,Engineer,24.8613,36.0604
+826500,Bodrogi_Loreto,Ouzeri Elian,35.24,15,Security,Site Control,24.8716,36.0526
+826500,Orilla_Elsa,Kalami Kafenion,101.5,28,Engineering,Drill Technician,24.892,36.089
+826560,Onda_Marin,Abila Zacharo,36.73,26,Engineering,Drill Site Manager,24.892,36.089
+826560,Vann_Isia,KaterinaÃÂs CafÃÂ©,25.36,16,Security,Perimeter Control,24.892,36.089
+826680,Flecha_Sven,Guy's Gyros,26.68,17,Information Technology,IT Technician,24.8978,36.057
+826680,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,21.22,0,Unknown,Unknown,24.892,36.089
+826800,Vasco-Pais_Willem,Hippokampos,32.01,35,Executive,Environmental Safety Advisor,24.892,36.089
+827040,Lagos_Linda,Guy's Gyros,38.15,0,Unknown,Unknown,24.8978,36.057
+827040,Osvaldo_Hennie,Ouzeri Elian,20.46,21,Security,Perimeter Control,24.8716,36.0526
+827100,Mies Haber_Ruscella,Kalami Kafenion,27.48,0,Unknown,Unknown,24.892,36.089
+827160,Pantanal_Rachel,Abila Zacharo,31.34,0,Unknown,Unknown,24.892,36.089
+827220,Balas_Felix,Guy's Gyros,31.5,3,Engineering,Engineer,24.8978,36.057
+827220,Frente_Vira,KaterinaÃÂs CafÃÂ©,25.62,19,Engineering,Hydraulic Technician,24.892,36.089
+827220,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,24.33,25,Engineering,Geologist,24.892,36.089
+827400,Calzas_Axel,Ouzeri Elian,15.25,9,Engineering,Drill Technician,24.8716,36.0526
+827520,Cazar_Gustav,Guy's Gyros,31.05,11,Engineering,Hydraulic Technician,24.8978,36.057
+827580,Mies_Minke,Kalami Kafenion,24.3,24,Security,Perimeter Control,24.892,36.089
+827820,Arpa_Emile,Guy's Gyros,16.34,0,Unknown,Unknown,24.8978,36.057
+827820,Lais_Cornelia,Ouzeri Elian,24.74,0,Unknown,Unknown,24.8716,36.0526
+827880,Resumir_Felix,Hippokampos,39.89,30,Security,Security Group Manager,24.892,36.089
+827940,Dedos_Lidelse,Abila Zacharo,8.22,14,Engineering,Engineering Group Manager,24.892,36.089
+828060,Orilla_Kare,Abila Zacharo,16.12,27,Engineering,Drill Technician,24.892,36.089
+828180,Ferro_Inga,Abila Zacharo,36.38,13,Security,Site Control,24.892,36.089
+828420,Awelon_Varro,Hippokampos,11.61,0,Unknown,Unknown,24.892,36.089
+828420,Frente_Birgitta,Ouzeri Elian,30.93,18,Engineering,Geologist,24.8716,36.0526
+828480,Cocinaro_Hideki,KaterinaÃÂs CafÃÂ©,77.62,12,Security,Site Control,24.892,36.089
+828540,Ribera_Anda,Abila Zacharo,9.32,0,Unknown,Unknown,24.892,36.089
+828660,Coginian_Dante,Gelatogalore,32.19,0,Unknown,Unknown,24.8613,36.0604
+829200,Bramar_Mat,Hippokampos,10.16,0,Unknown,Unknown,24.892,36.089
+830460,Vann_Edvard,Octavio's Office Supplies,139.72,34,Security,Perimeter Control,24.892,36.089
+835620,Bergen_Linnea,Octavio's Office Supplies,64.51,6,Information Technology,IT Group Manager,24.892,36.089
+845520,Baza_Isak,Ouzeri Elian,19.92,5,Information Technology,IT Technician,24.8716,36.0526
+845820,Calixto_Nils,Frydos Autosupply n' More,98.39,8,Information Technology,IT Technician,24.9042,36.0587
+848700,Fusil_Stenig,Guy's Gyros,23.61,20,Security,Building Control,24.8978,36.057
+848760,Azada_Lars,Hippokampos,48.22,2,Engineering,Engineer,24.892,36.089
+849000,Arpa_Emile,KaterinaÃÂs CafÃÂ©,19.57,0,Unknown,Unknown,24.892,36.089
+849240,Vann_Edvard,Guy's Gyros,27.78,34,Security,Perimeter Control,24.8978,36.057
+849360,Awelon_Varro,Hippokampos,19.88,0,Unknown,Unknown,24.892,36.089
+849360,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,21.89,29,Facilities,Facilities Group Manager,24.892,36.089
+849720,Coginian_Dante,Frydos Autosupply n' More,43.65,0,Unknown,Unknown,24.9042,36.0587
+850080,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,15.76,21,Security,Perimeter Control,24.892,36.089
+850140,Barranco_Ingrid,Hippokampos,70.48,4,Executive,SVP/CFO,24.892,36.089
+850140,Lagos_Linda,KaterinaÃÂs CafÃÂ©,8.14,0,Unknown,Unknown,24.892,36.089
+850140,Resumir_Felix,Guy's Gyros,29.81,30,Security,Security Group Manager,24.8978,36.057
+850260,Frente_Vira,Albert's Fine Clothing,126.13,19,Engineering,Hydraulic Technician,24.8562,36.0754
+850500,Flecha_Sven,Frydos Autosupply n' More,237.08,17,Information Technology,IT Technician,24.9042,36.0587
+850620,Ferro_Inga,Shoppers' Delight,279.53,13,Security,Site Control,24.892,36.089
+850800,Cocinaro_Hideki,Guy's Gyros,35.54,12,Security,Site Control,24.8978,36.057
+850980,Bodrogi_Loreto,Guy's Gyros,37.37,15,Security,Site Control,24.8978,36.057
+852120,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,21.28,0,Unknown,Unknown,24.892,36.089
+852600,Campo-Corrente_Ada,Hippokampos,17.21,10,Executive,SVP/CIO,24.892,36.089
+853860,Vann_Isia,Roberts and Sons,241.2,16,Security,Perimeter Control,24.8506,36.0634
+853980,Lais_Cornelia,Guy's Gyros,25.81,0,Unknown,Unknown,24.8978,36.057
+854220,Strum_Orhan,Hippokampos,27.0,32,Executive,SVP/COO,24.892,36.089
+854880,Mies_Minke,General Grocer,227.28,24,Security,Perimeter Control,24.857,36.0608
+858060,Vasco-Pais_Willem,Hippokampos,79.97,35,Executive,Environmental Safety Advisor,24.892,36.089
+911940,Strum_Orhan,KaterinaÃÂs CafÃÂ©,45.22,32,Executive,SVP/COO,24.892,36.089
+912180,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,45.21,0,Unknown,Unknown,24.892,36.089
+912720,Frente_Vira,KaterinaÃÂs CafÃÂ©,29.1,19,Engineering,Hydraulic Technician,24.892,36.089
+912720,Onda_Marin,Abila Zacharo,54.82,26,Engineering,Drill Site Manager,24.892,36.089
+912780,Borrasca_Isande,Abila Zacharo,89.54,7,Engineering,Drill Technician,24.892,36.089
+912900,Frente_Birgitta,Gelatogalore,17.31,18,Engineering,Geologist,24.8613,36.0604
+912960,Mies_Minke,Hippokampos,103.38,24,Security,Perimeter Control,24.892,36.089
+913020,Alcazar_Lucas,Hippokampos,75.62,1,Information Technology,IT Helpdesk,24.892,36.089
+913020,Ribera_Anda,Hippokampos,82.23,0,Unknown,Unknown,24.892,36.089
+913200,Arpa_Emile,Ouzeri Elian,19.11,0,Unknown,Unknown,24.8716,36.0526
+913380,Lagos_Varja,KaterinaÃÂs CafÃÂ©,71.65,23,Security,Badging Office,24.892,36.089
+913620,Barranco_Ingrid,Hippokampos,31.1,4,Executive,SVP/CFO,24.892,36.089
+913800,Cazar_Gustav,KaterinaÃÂs CafÃÂ©,23.45,11,Engineering,Hydraulic Technician,24.892,36.089
+913860,Bergen_Linnea,Abila Zacharo,32.02,6,Information Technology,IT Group Manager,24.892,36.089
+914340,Bodrogi_Loreto,Gelatogalore,18.74,15,Security,Site Control,24.8613,36.0604
+914940,Awelon_Varro,Kalami Kafenion,35.66,0,Unknown,Unknown,24.892,36.089
+915360,Cocinaro_Hideki,Kalami Kafenion,39.36,12,Security,Site Control,24.892,36.089
+915420,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,26.02,25,Engineering,Geologist,24.892,36.089
+915540,Resumir_Felix,Abila Zacharo,45.2,30,Security,Security Group Manager,24.892,36.089
+918900,Frente_Birgitta,Shoppers' Delight,157.45,18,Engineering,Geologist,24.892,36.089
+919200,Forluniau_Carla,Shoppers' Delight,238.52,0,Unknown,Unknown,24.892,36.089
+919860,Arpa_Emile,General Grocer,78.02,0,Unknown,Unknown,24.857,36.0608
+921600,Onda_Marin,Roberts and Sons,256.24,26,Engineering,Drill Site Manager,24.8506,36.0634
+921660,Mies_Minke,Albert's Fine Clothing,211.47,24,Security,Perimeter Control,24.8562,36.0754
+922140,Barranco_Ingrid,Frydos Autosupply n' More,52.73,4,Executive,SVP/CFO,24.9042,36.0587
+923040,Vann_Edvard,Ahaggo Museum,89.32,34,Security,Perimeter Control,24.8776,36.0759
+926160,Tempestad_Brand,Ahaggo Museum,52.14,33,Engineering,Drill Technician,24.8776,36.0759
+932880,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,55.67,18,Engineering,Geologist,24.892,36.089
+933420,Ferro_Inga,Kalami Kafenion,23.86,13,Security,Site Control,24.892,36.089
+933660,Baza_Isak,Ouzeri Elian,69.36,5,Information Technology,IT Technician,24.8716,36.0526
+933960,Barranco_Ingrid,Hippokampos,66.21,4,Executive,SVP/CFO,24.892,36.089
+934020,Strum_Orhan,Albert's Fine Clothing,105.33,32,Executive,SVP/COO,24.8562,36.0754
+934020,Tempestad_Brand,Hippokampos,32.63,33,Engineering,Drill Technician,24.892,36.089
+934140,Vann_Edvard,Hippokampos,63.21,34,Security,Perimeter Control,24.892,36.089
+934260,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,33.18,25,Engineering,Geologist,24.892,36.089
+934320,Ribera_Anda,KaterinaÃÂs CafÃÂ©,20.71,0,Unknown,Unknown,24.892,36.089
+934380,Calzas_Axel,Hippokampos,11.13,9,Engineering,Drill Technician,24.892,36.089
+934440,Fusil_Stenig,Guy's Gyros,55.36,20,Security,Building Control,24.8978,36.057
+934800,Borrasca_Isande,KaterinaÃÂs CafÃÂ©,57.36,7,Engineering,Drill Technician,24.892,36.089
+935040,Alcazar_Lucas,Shoppers' Delight,149.2,1,Information Technology,IT Helpdesk,24.892,36.089
+935100,Campo-Corrente_Ada,Hippokampos,63.21,10,Executive,SVP/CIO,24.892,36.089
+935400,Calixto_Nils,KaterinaÃÂs CafÃÂ©,12.55,8,Information Technology,IT Technician,24.892,36.089
+935460,Onda_Marin,KaterinaÃÂs CafÃÂ©,45.68,26,Engineering,Drill Site Manager,24.892,36.089
+935520,Lagos_Linda,KaterinaÃÂs CafÃÂ©,15.72,0,Unknown,Unknown,24.892,36.089
+935580,Balas_Felix,Hippokampos,67.37,3,Engineering,Engineer,24.892,36.089
+935820,Lais_Cornelia,Guy's Gyros,36.2,0,Unknown,Unknown,24.8978,36.057
+936000,Bramar_Mat,KaterinaÃÂs CafÃÂ©,25.76,0,Unknown,Unknown,24.892,36.089
+936240,Herrero_Kanon,Kalami Kafenion,50.2,22,Security,Badging Office,24.892,36.089
+936240,Pantanal_Rachel,Ouzeri Elian,16.69,0,Unknown,Unknown,24.8716,36.0526
+936360,Coginian_Dante,KaterinaÃÂs CafÃÂ©,52.45,0,Unknown,Unknown,24.892,36.089
+936360,Flecha_Sven,Guy's Gyros,33.65,17,Information Technology,IT Technician,24.8978,36.057
+936540,Vann_Isia,Guy's Gyros,16.33,16,Security,Perimeter Control,24.8978,36.057
+936780,Mies Haber_Ruscella,Frydos Autosupply n' More,211.15,0,Unknown,Unknown,24.9042,36.0587
+936780,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,9.78,21,Security,Perimeter Control,24.892,36.089
+936900,Ovan_Bertrand,Frydos Autosupply n' More,114.98,29,Facilities,Facilities Group Manager,24.9042,36.0587
+937320,Arpa_Emile,Frydos Autosupply n' More,236.25,0,Unknown,Unknown,24.9042,36.0587
+937380,Azada_Lars,Hippokampos,70.23,2,Engineering,Engineer,24.892,36.089
+937440,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,94.68,0,Unknown,Unknown,24.892,36.089
+937560,Resumir_Felix,Frydos Autosupply n' More,261.0,30,Security,Security Group Manager,24.9042,36.0587
+937620,Awelon_Varro,Hippokampos,69.8,0,Unknown,Unknown,24.892,36.089
+937800,Cocinaro_Hideki,Kalami Kafenion,46.78,12,Security,Site Control,24.892,36.089
+938760,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,57.6,14,Engineering,Engineering Group Manager,24.892,36.089
+963540,Strum_Orhan,Kronos Mart,277.26,32,Executive,SVP/COO,24.848,36.0664
+997380,Campo-Corrente_Ada,Ouzeri Elian,38.55,10,Executive,SVP/CIO,24.8716,36.0526
+998220,Mies Haber_Ruscella,Ouzeri Elian,98.45,0,Unknown,Unknown,24.8716,36.0526
+998700,Nubarron_Adra,Hippokampos,12.55,25,Engineering,Geologist,24.892,36.089
+998880,Ferro_Inga,Ouzeri Elian,24.72,13,Security,Site Control,24.8716,36.0526
+999000,Onda_Marin,Ouzeri Elian,72.32,26,Engineering,Drill Site Manager,24.8716,36.0526
+999060,Resumir_Felix,Guy's Gyros,34.74,30,Security,Security Group Manager,24.8978,36.057
+999120,Strum_Orhan,Ouzeri Elian,117.22,32,Executive,SVP/COO,24.8716,36.0526
+999300,Awelon_Varro,Hippokampos,29.2,0,Unknown,Unknown,24.892,36.089
+999600,Herrero_Kanon,Gelatogalore,20.09,22,Security,Badging Office,24.8613,36.0604
+999900,Tempestad_Brand,Abila Zacharo,11.2,33,Engineering,Drill Technician,24.892,36.089
+999900,Vasco-Pais_Willem,Desafio Golf Course,129.33,35,Executive,Environmental Safety Advisor,24.8656,36.087
+1000320,Borrasca_Isande,Kalami Kafenion,54.36,7,Engineering,Drill Technician,24.892,36.089
+1000440,Calixto_Nils,Hippokampos,8.54,8,Information Technology,IT Technician,24.892,36.089
+1000500,Orilla_Kare,Kalami Kafenion,14.59,27,Engineering,Drill Technician,24.892,36.089
+1001040,Dedos_Lidelse,Hippokampos,12.57,14,Engineering,Engineering Group Manager,24.892,36.089
+1001160,Alcazar_Lucas,Hippokampos,71.99,1,Information Technology,IT Helpdesk,24.892,36.089
+1001580,Barranco_Ingrid,Desafio Golf Course,220.77,4,Executive,SVP/CFO,24.8656,36.087
+1001640,Campo-Corrente_Ada,Desafio Golf Course,198.46,10,Executive,SVP/CIO,24.8656,36.087
+1001760,Arpa_Emile,Guy's Gyros,30.47,0,Unknown,Unknown,24.8978,36.057
+1005000,Onda_Marin,Shoppers' Delight,135.78,26,Engineering,Drill Site Manager,24.892,36.089
+1005840,Herrero_Kanon,Shoppers' Delight,86.22,22,Security,Badging Office,24.892,36.089
+1006320,Ferro_Inga,Shoppers' Delight,204.37,13,Security,Site Control,24.892,36.089
+1007160,Awelon_Varro,General Grocer,159.3,0,Unknown,Unknown,24.857,36.0608
+1007340,Nubarron_Adra,Albert's Fine Clothing,195.81,25,Engineering,Geologist,24.8562,36.0754
+1008480,Ovan_Bertrand,Shoppers' Delight,51.5,29,Facilities,Facilities Group Manager,24.892,36.089
+1009620,Resumir_Felix,Ahaggo Museum,120.2,30,Security,Security Group Manager,24.8776,36.0759
+1019880,Calixto_Nils,KaterinaÃÂs CafÃÂ©,12.64,8,Information Technology,IT Technician,24.892,36.089
+1020060,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,11.81,6,Information Technology,IT Group Manager,24.892,36.089
+1020120,Cazar_Gustav,Hippokampos,27.15,11,Engineering,Hydraulic Technician,24.892,36.089
+1020360,Cocinaro_Hideki,Guy's Gyros,42.32,12,Security,Site Control,24.8978,36.057
+1020360,Flecha_Sven,Shoppers' Delight,211.03,17,Information Technology,IT Technician,24.892,36.089
+1020540,Azada_Lars,Hippokampos,66.63,2,Engineering,Engineer,24.892,36.089
+1020720,Bodrogi_Loreto,Guy's Gyros,34.41,15,Security,Site Control,24.8978,36.057
+1020900,Frente_Vira,Hippokampos,49.23,19,Engineering,Hydraulic Technician,24.892,36.089
+1020960,Vann_Isia,Guy's Gyros,12.32,16,Security,Perimeter Control,24.8978,36.057
+1021380,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,40.94,0,Unknown,Unknown,24.892,36.089
+1021440,Campo-Corrente_Ada,Hippokampos,26.79,10,Executive,SVP/CIO,24.892,36.089
+1021620,Orilla_Kare,KaterinaÃÂs CafÃÂ©,17.36,27,Engineering,Drill Technician,24.892,36.089
+1021800,Herrero_Kanon,Gelatogalore,36.2,22,Security,Badging Office,24.8613,36.0604
+1021860,Strum_Orhan,Hippokampos,52.21,32,Executive,SVP/COO,24.892,36.089
+1021920,Lais_Cornelia,Frydos Autosupply n' More,88.93,0,Unknown,Unknown,24.9042,36.0587
+1022280,Calzas_Axel,Albert's Fine Clothing,63.36,9,Engineering,Drill Technician,24.8562,36.0754
+1022340,Baza_Isak,Ouzeri Elian,55.55,5,Information Technology,IT Technician,24.8716,36.0526
+1022640,Arpa_Emile,KaterinaÃÂs CafÃÂ©,39.3,0,Unknown,Unknown,24.892,36.089
+1022700,Balas_Felix,Hippokampos,78.21,3,Engineering,Engineer,24.892,36.089
+1023060,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,67.14,29,Facilities,Facilities Group Manager,24.892,36.089
+1023120,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,15.37,21,Security,Perimeter Control,24.892,36.089
+1023180,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,39.55,25,Engineering,Geologist,24.892,36.089
+1023300,Borrasca_Isande,Hippokampos,69.41,7,Engineering,Drill Technician,24.892,36.089
+1023420,Lagos_Linda,KaterinaÃÂs CafÃÂ©,16.34,0,Unknown,Unknown,24.892,36.089
+1024500,Bramar_Mat,KaterinaÃÂs CafÃÂ©,40.25,0,Unknown,Unknown,24.892,36.089
+1024680,Barranco_Ingrid,Hippokampos,63.32,4,Executive,SVP/CFO,24.892,36.089
+1024980,Coginian_Dante,Frydos Autosupply n' More,161.96,0,Unknown,Unknown,24.9042,36.0587
+1025280,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,87.09,14,Engineering,Engineering Group Manager,24.892,36.089
+1047600,Mies Haber_Ruscella,Kronos Mart,147.3,0,Unknown,Unknown,24.848,36.0664
+1058640,Alcazar_Lucas,Daily Dealz,2.01,1,Information Technology,IT Helpdesk,24.892,36.089
+1063920,Calixto_Nils,Hallowed Grounds,9.16,8,Information Technology,IT Technician,24.8798,36.0634
+1064160,Lais_Cornelia,Brew've Been Served,16.39,0,Unknown,Unknown,24.9016,36.0561
+1064280,Flecha_Sven,Brew've Been Served,8.04,17,Information Technology,IT Technician,24.9016,36.0561
+1064400,Ovan_Bertrand,Coffee Cameleon,19.93,29,Facilities,Facilities Group Manager,24.8901,36.0548
+1064400,Tempestad_Brand,Brew've Been Served,8.0,33,Engineering,Drill Technician,24.9016,36.0561
+1064520,Onda_Marin,Hallowed Grounds,3.02,26,Engineering,Drill Site Manager,24.8798,36.0634
+1064580,Fusil_Stenig,Brew've Been Served,24.18,20,Security,Building Control,24.9016,36.0561
+1064580,Orilla_Kare,Hallowed Grounds,13.68,27,Engineering,Drill Technician,24.8798,36.0634
+1064580,Vann_Edvard,Brew've Been Served,18.71,34,Security,Perimeter Control,24.9016,36.0561
+1064640,Osvaldo_Hennie,Hallowed Grounds,5.85,21,Security,Perimeter Control,24.8798,36.0634
+1065180,Vann_Isia,Brew've Been Served,19.64,16,Security,Perimeter Control,24.9016,36.0561
+1065240,Cocinaro_Hideki,Hallowed Grounds,19.18,12,Security,Site Control,24.8798,36.0634
+1065300,Forluniau_Carla,Coffee Cameleon,17.49,0,Unknown,Unknown,24.8901,36.0548
+1065300,Mies Haber_Ruscella,Brew've Been Served,6.08,0,Unknown,Unknown,24.9016,36.0561
+1065360,Bramar_Mat,Brew've Been Served,9.53,0,Unknown,Unknown,24.9016,36.0561
+1065420,Lagos_Varja,Brew've Been Served,78.23,23,Security,Badging Office,24.9016,36.0561
+1065420,Ribera_Anda,Hallowed Grounds,6.32,0,Unknown,Unknown,24.8798,36.0634
+1065600,Lagos_Linda,Brew've Been Served,13.37,0,Unknown,Unknown,24.9016,36.0561
+1065660,Fusil_Stenig,Kronos Mart,159.06,20,Security,Building Control,24.848,36.0664
+1065720,Bergen_Linnea,Coffee Cameleon,4.88,6,Information Technology,IT Group Manager,24.8901,36.0548
+1065840,Mies_Minke,Brew've Been Served,16.05,24,Security,Perimeter Control,24.9016,36.0561
+1065960,Pantanal_Rachel,Hallowed Grounds,55.96,0,Unknown,Unknown,24.8798,36.0634
+1066020,Herrero_Kanon,Brew've Been Served,11.49,22,Security,Badging Office,24.9016,36.0561
+1066320,Nubarron_Adra,Coffee Cameleon,17.76,25,Engineering,Geologist,24.8901,36.0548
+1066500,Hafon_Albina,Abila Airport,3617.47,0,Facilities,Truck Driver,24.827,36.0505
+1066860,Resumir_Felix,Brew've Been Served,13.19,30,Security,Security Group Manager,24.9016,36.0561
+1066920,Ferro_Inga,Brew've Been Served,6.69,13,Security,Site Control,24.9016,36.0561
+1066980,Coginian_Dante,Brew've Been Served,19.89,0,Unknown,Unknown,24.9016,36.0561
+1069080,Hafon_Albina,Kronos Pipe and Irrigation,2892.74,0,Facilities,Truck Driver,24.892,36.089
+1073520,Morluniau_Cecilia,Nationwide Refinery,204.58,0,Facilities,Truck Driver,24.892,36.089
+1074000,Hafon_Albina,Maximum Iron and Steel,689.85,0,Facilities,Truck Driver,24.8377,36.0634
+1080000,Awelon_Varro,Coffee Shack,4.09,0,Unknown,Unknown,24.8583,36.0729
+1080000,Azada_Lars,Bean There Done That,7.93,2,Engineering,Engineer,24.8497,36.0819
+1080000,Balas_Felix,Bean There Done That,98.02,3,Engineering,Engineer,24.8497,36.0819
+1080000,Barranco_Ingrid,Brewed Awakenings,12.69,4,Executive,SVP/CFO,24.892,36.089
+1080000,Baza_Isak,Jack's Magical Beans,18.31,5,Information Technology,IT Technician,24.8725,36.0677
+1080000,Borrasca_Isande,Brewed Awakenings,56.4,7,Engineering,Drill Technician,24.892,36.089
+1080000,Calzas_Axel,Bean There Done That,19.56,9,Engineering,Drill Technician,24.8497,36.0819
+1080000,Campo-Corrente_Ada,Brewed Awakenings,16.25,10,Executive,SVP/CIO,24.892,36.089
+1080000,Cazar_Gustav,Bean There Done That,5.54,11,Engineering,Hydraulic Technician,24.8497,36.0819
+1080000,Dedos_Lidelse,Bean There Done That,10.37,14,Engineering,Engineering Group Manager,24.8497,36.0819
+1080000,Frente_Birgitta,Bean There Done That,15.24,18,Engineering,Geologist,24.8497,36.0819
+1080000,Frente_Vira,Bean There Done That,18.59,19,Engineering,Hydraulic Technician,24.8497,36.0819
+1080000,Hafon_Albina,Carlyle Chemical Inc.,1718.96,0,Facilities,Truck Driver,24.8819,36.0587
+1080000,Orilla_Elsa,Jack's Magical Beans,5.22,28,Engineering,Drill Technician,24.8725,36.0677
+1080000,Strum_Orhan,Jack's Magical Beans,9.64,32,Executive,SVP/COO,24.8725,36.0677
+1080000,Vasco-Pais_Willem,Jack's Magical Beans,17.52,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+1080660,Mies_Henk,Abila Airport,4417.03,0,Facilities,Truck Driver,24.827,36.0505
+1081620,Mies_Minke,Hippokampos,17.17,24,Security,Perimeter Control,24.892,36.089
+1083300,Hafon_Albina,Ouzeri Elian,19.82,0,Facilities,Truck Driver,24.8716,36.0526
+1083780,Strum_Orhan,Gelatogalore,32.83,32,Executive,SVP/COO,24.8613,36.0604
+1084680,Alcazar_Lucas,U-Pump,55.25,1,Information Technology,IT Helpdesk,24.8678,36.0677
+1084740,Campo-Corrente_Ada,Gelatogalore,46.45,10,Executive,SVP/CIO,24.8613,36.0604
+1084800,Fusil_Stenig,Abila Zacharo,79.95,20,Security,Building Control,24.892,36.089
+1084860,Herrero_Kanon,Abila Zacharo,64.5,22,Security,Badging Office,24.892,36.089
+1084980,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,38.98,0,Unknown,Unknown,24.892,36.089
+1085040,Bergen_Linnea,Hippokampos,35.73,6,Information Technology,IT Group Manager,24.892,36.089
+1085220,Tempestad_Brand,Abila Zacharo,8.72,33,Engineering,Drill Technician,24.892,36.089
+1085280,Alcazar_Lucas,Hippokampos,30.51,1,Information Technology,IT Helpdesk,24.892,36.089
+1085580,Borrasca_Isande,Guy's Gyros,27.49,7,Engineering,Drill Technician,24.8978,36.057
+1085640,Baza_Isak,KaterinaÃÂs CafÃÂ©,26.15,5,Information Technology,IT Technician,24.892,36.089
+1085640,Cazar_Gustav,Abila Zacharo,27.3,11,Engineering,Hydraulic Technician,24.892,36.089
+1085640,Vann_Isia,Hippokampos,59.9,16,Security,Perimeter Control,24.892,36.089
+1085760,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,17.21,21,Security,Perimeter Control,24.892,36.089
+1085820,Vann_Edvard,Ouzeri Elian,95.03,34,Security,Perimeter Control,24.8716,36.0526
+1085940,Nubarron_Adra,Guy's Gyros,37.37,25,Engineering,Geologist,24.8978,36.057
+1086000,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,8.29,14,Engineering,Engineering Group Manager,24.892,36.089
+1086000,Vasco-Pais_Willem,Guy's Gyros,29.25,35,Executive,Environmental Safety Advisor,24.8978,36.057
+1086060,Azada_Lars,Gelatogalore,36.93,2,Engineering,Engineer,24.8613,36.0604
+1086120,Balas_Felix,Abila Zacharo,11.99,3,Engineering,Engineer,24.892,36.089
+1086480,Bodrogi_Loreto,Abila Zacharo,116.32,15,Security,Site Control,24.892,36.089
+1086480,Onda_Marin,Ouzeri Elian,8.32,26,Engineering,Drill Site Manager,24.8716,36.0526
+1086480,Orilla_Kare,KaterinaÃÂs CafÃÂ©,24.26,27,Engineering,Drill Technician,24.892,36.089
+1086600,Flecha_Sven,Hippokampos,91.97,17,Information Technology,IT Technician,24.892,36.089
+1086660,Ferro_Inga,Abila Zacharo,17.41,13,Security,Site Control,24.892,36.089
+1086660,Lagos_Linda,Guy's Gyros,21.03,0,Unknown,Unknown,24.8978,36.057
+1086720,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,29.55,29,Facilities,Facilities Group Manager,24.892,36.089
+1086900,Lais_Cornelia,Kalami Kafenion,20.33,0,Unknown,Unknown,24.892,36.089
+1087200,Awelon_Varro,Guy's Gyros,38.07,0,Unknown,Unknown,24.8978,36.057
+1087200,Coginian_Dante,Gelatogalore,36.24,0,Unknown,Unknown,24.8613,36.0604
+1087260,Pantanal_Rachel,Gelatogalore,117.17,0,Unknown,Unknown,24.8613,36.0604
+1087440,Frente_Birgitta,Hippokampos,25.09,18,Engineering,Geologist,24.892,36.089
+1087560,Calzas_Axel,Ouzeri Elian,29.75,9,Engineering,Drill Technician,24.8716,36.0526
+1087980,Resumir_Felix,Guy's Gyros,12.76,30,Security,Security Group Manager,24.8978,36.057
+1088460,Bramar_Mat,Hippokampos,26.96,0,Unknown,Unknown,24.892,36.089
+1089180,Arpa_Emile,Guy's Gyros,116.87,0,Unknown,Unknown,24.8978,36.057
+1097760,Mies_Henk,Abila Airport,2228.08,0,Facilities,Truck Driver,24.827,36.0505
+1106400,Alcazar_Lucas,Frydos Autosupply n' More,10000.0,1,Information Technology,IT Helpdesk,24.9042,36.0587
+1106820,Bodrogi_Loreto,Shoppers' Delight,216.43,15,Security,Site Control,24.892,36.089
+1107000,Alcazar_Lucas,Ouzeri Elian,28.75,1,Information Technology,IT Helpdesk,24.8716,36.0526
+1107660,Arpa_Emile,Frydos Autosupply n' More,188.57,0,Unknown,Unknown,24.9042,36.0587
+1108200,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,89.83,29,Facilities,Facilities Group Manager,24.892,36.089
+1108740,Lagos_Linda,Frydos Autosupply n' More,64.6,0,Unknown,Unknown,24.9042,36.0587
+1108740,Ribera_Anda,KaterinaÃÂs CafÃÂ©,30.84,0,Unknown,Unknown,24.892,36.089
+1109340,Vann_Isia,Guy's Gyros,22.34,16,Security,Perimeter Control,24.8978,36.057
+1109460,Vann_Edvard,Guy's Gyros,20.47,34,Security,Perimeter Control,24.8978,36.057
+1109700,Flecha_Sven,Guy's Gyros,36.89,17,Information Technology,IT Technician,24.8978,36.057
+1109880,Ferro_Inga,Guy's Gyros,15.84,13,Security,Site Control,24.8978,36.057
+1110240,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,35.7,25,Engineering,Geologist,24.892,36.089
+1110780,Onda_Marin,KaterinaÃÂs CafÃÂ©,91.36,26,Engineering,Drill Site Manager,24.892,36.089
+1110900,Barranco_Ingrid,Albert's Fine Clothing,288.0,4,Executive,SVP/CFO,24.8562,36.0754
+1110900,Vasco-Pais_Willem,Hippokampos,29.22,35,Executive,Environmental Safety Advisor,24.892,36.089
+1111320,Azada_Lars,Hippokampos,31.59,2,Engineering,Engineer,24.892,36.089
+1111320,Cazar_Gustav,Albert's Fine Clothing,49.48,11,Engineering,Hydraulic Technician,24.8562,36.0754
+1111320,Herrero_Kanon,Guy's Gyros,88.57,22,Security,Badging Office,24.8978,36.057
+1111380,Pantanal_Rachel,Ouzeri Elian,21.83,0,Unknown,Unknown,24.8716,36.0526
+1111440,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,93.57,0,Unknown,Unknown,24.892,36.089
+1111440,Tempestad_Brand,Guy's Gyros,15.55,33,Engineering,Drill Technician,24.8978,36.057
+1111500,Resumir_Felix,Shoppers' Delight,144.4,30,Security,Security Group Manager,24.892,36.089
+1111620,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,22.24,6,Information Technology,IT Group Manager,24.892,36.089
+1111860,Calixto_Nils,KaterinaÃÂs CafÃÂ©,55.82,8,Information Technology,IT Technician,24.892,36.089
+1112340,Cocinaro_Hideki,Guy's Gyros,37.5,12,Security,Site Control,24.8978,36.057
+1112400,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,27.59,14,Engineering,Engineering Group Manager,24.892,36.089
+1112880,Lais_Cornelia,Guy's Gyros,19.77,0,Unknown,Unknown,24.8978,36.057
+1113060,Forluniau_Carla,Frydos Autosupply n' More,202.05,0,Unknown,Unknown,24.9042,36.0587
+1113120,Campo-Corrente_Ada,Hippokampos,31.47,10,Executive,SVP/CIO,24.892,36.089
+1113180,Awelon_Varro,Hippokampos,32.29,0,Unknown,Unknown,24.892,36.089
+1113360,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,33.11,21,Security,Perimeter Control,24.892,36.089
+1114020,Strum_Orhan,Hippokampos,99.63,32,Executive,SVP/COO,24.892,36.089
+1150020,Lais_Cornelia,Brew've Been Served,14.67,0,Unknown,Unknown,24.9016,36.0561
+1150260,Vann_Edvard,Brew've Been Served,4.72,34,Security,Perimeter Control,24.9016,36.0561
+1150500,Calixto_Nils,Hallowed Grounds,10.75,8,Information Technology,IT Technician,24.8798,36.0634
+1150500,Vann_Isia,Brew've Been Served,7.31,16,Security,Perimeter Control,24.9016,36.0561
+1150620,Ovan_Bertrand,Coffee Cameleon,9.8,29,Facilities,Facilities Group Manager,24.8901,36.0548
+1150800,Tempestad_Brand,Brew've Been Served,5.87,33,Engineering,Drill Technician,24.9016,36.0561
+1150920,Onda_Marin,Hallowed Grounds,4.59,26,Engineering,Drill Site Manager,24.8798,36.0634
+1151040,Arpa_Emile,Hallowed Grounds,16.67,0,Unknown,Unknown,24.8798,36.0634
+1151100,Bramar_Mat,Brew've Been Served,14.04,0,Unknown,Unknown,24.9016,36.0561
+1151100,Cocinaro_Hideki,Hallowed Grounds,13.0,12,Security,Site Control,24.8798,36.0634
+1151100,Lagos_Varja,Brew've Been Served,10.96,23,Security,Badging Office,24.9016,36.0561
+1151100,Osvaldo_Hennie,Brew've Been Served,16.53,21,Security,Perimeter Control,24.9016,36.0561
+1151280,Bodrogi_Loreto,Brew've Been Served,6.45,15,Security,Site Control,24.9016,36.0561
+1151520,Forluniau_Carla,Coffee Cameleon,11.67,0,Unknown,Unknown,24.8901,36.0548
+1151580,Bergen_Linnea,Coffee Cameleon,15.63,6,Information Technology,IT Group Manager,24.8901,36.0548
+1151580,Coginian_Dante,Brew've Been Served,9.53,0,Unknown,Unknown,24.9016,36.0561
+1151580,Flecha_Sven,Brew've Been Served,8.24,17,Information Technology,IT Technician,24.9016,36.0561
+1151580,Fusil_Stenig,Brew've Been Served,3.66,20,Security,Building Control,24.9016,36.0561
+1151640,Dedos_Lidelse,Hallowed Grounds,19.99,14,Engineering,Engineering Group Manager,24.8798,36.0634
+1151640,Frente_Birgitta,Hallowed Grounds,50.21,18,Engineering,Geologist,24.8798,36.0634
+1151760,Nubarron_Adra,Coffee Cameleon,7.84,25,Engineering,Geologist,24.8901,36.0548
+1151880,Ferro_Inga,Brew've Been Served,11.94,13,Security,Site Control,24.9016,36.0561
+1152180,Herrero_Kanon,Brew've Been Served,3.21,22,Security,Badging Office,24.9016,36.0561
+1152420,Mies Haber_Ruscella,Brew've Been Served,16.39,0,Unknown,Unknown,24.9016,36.0561
+1152720,Orilla_Kare,Hallowed Grounds,39.52,27,Engineering,Drill Technician,24.8798,36.0634
+1152720,Pantanal_Rachel,Hallowed Grounds,10.65,0,Unknown,Unknown,24.8798,36.0634
+1152780,Lagos_Linda,Brew've Been Served,11.53,0,Unknown,Unknown,24.9016,36.0561
+1152780,Resumir_Felix,Brew've Been Served,12.31,30,Security,Security Group Manager,24.9016,36.0561
+1152960,Ribera_Anda,Hallowed Grounds,6.16,0,Unknown,Unknown,24.8798,36.0634
+1153200,Baza_Isak,Kronos Mart,58.85,5,Information Technology,IT Technician,24.848,36.0664
+1157640,Morlun_Valeria,Carlyle Chemical Inc.,3630.57,0,Facilities,Truck Driver,24.8819,36.0587
+1159380,Morluniau_Cecilia,Nationwide Refinery,965.72,0,Facilities,Truck Driver,24.892,36.089
+1162860,Hawelon_Benito,Stewart and Sons Fabrication,600.19,0,Facilities,Truck Driver,24.892,36.089
+1165500,Morlun_Valeria,Nationwide Refinery,570.95,0,Facilities,Truck Driver,24.892,36.089
+1166100,Morluniau_Cecilia,Stewart and Sons Fabrication,278.52,0,Facilities,Truck Driver,24.892,36.089
+1166400,Awelon_Varro,Coffee Shack,3.63,0,Unknown,Unknown,24.8583,36.0729
+1166400,Azada_Lars,Bean There Done That,7.28,2,Engineering,Engineer,24.8497,36.0819
+1166400,Balas_Felix,Bean There Done That,19.37,3,Engineering,Engineer,24.8497,36.0819
+1166400,Barranco_Ingrid,Brewed Awakenings,17.14,4,Executive,SVP/CFO,24.892,36.089
+1166400,Borrasca_Isande,Brewed Awakenings,8.3,7,Engineering,Drill Technician,24.892,36.089
+1166400,Calzas_Axel,Bean There Done That,14.56,9,Engineering,Drill Technician,24.8497,36.0819
+1166400,Campo-Corrente_Ada,Brewed Awakenings,11.35,10,Executive,SVP/CIO,24.892,36.089
+1166400,Cazar_Gustav,Bean There Done That,67.82,11,Engineering,Hydraulic Technician,24.8497,36.0819
+1166400,Frente_Vira,Bean There Done That,5.9,19,Engineering,Hydraulic Technician,24.8497,36.0819
+1166400,Orilla_Elsa,Jack's Magical Beans,63.36,28,Engineering,Drill Technician,24.8725,36.0677
+1166400,Strum_Orhan,Jack's Magical Beans,95.7,32,Executive,SVP/COO,24.8725,36.0677
+1168200,Mies_Henk,Abila Airport,228.41,0,Facilities,Truck Driver,24.827,36.0505
+1170000,Hawelon_Benito,Nationwide Refinery,1341.01,0,Facilities,Truck Driver,24.892,36.089
+1170360,Scozzese_Dylan,Abila Airport,3379.21,0,Facilities,Truck Driver,24.827,36.0505
+1170840,Strum_Orhan,KaterinaÃÂs CafÃÂ©,29.12,32,Executive,SVP/COO,24.892,36.089
+1171020,Bergen_Linnea,Hippokampos,36.01,6,Information Technology,IT Group Manager,24.892,36.089
+1171020,Borrasca_Isande,Chostus Hotel,109.54,7,Engineering,Drill Technician,24.8935,36.0699
+1171260,Morlun_Valeria,KaterinaÃÂs CafÃÂ©,34.45,0,Facilities,Truck Driver,24.892,36.089
+1171260,Tempestad_Brand,Chostus Hotel,113.08,33,Engineering,Drill Technician,24.8935,36.0699
+1171320,Frente_Vira,KaterinaÃÂs CafÃÂ©,10.03,19,Engineering,Hydraulic Technician,24.892,36.089
+1171440,Balas_Felix,Kalami Kafenion,17.38,3,Engineering,Engineer,24.892,36.089
+1171440,Campo-Corrente_Ada,Kalami Kafenion,15.15,10,Executive,SVP/CIO,24.892,36.089
+1171500,Barranco_Ingrid,Hippokampos,23.69,4,Executive,SVP/CFO,24.892,36.089
+1171920,Flecha_Sven,Gelatogalore,27.26,17,Information Technology,IT Technician,24.8613,36.0604
+1171920,Nubarron_Adra,Gelatogalore,32.82,25,Engineering,Geologist,24.8613,36.0604
+1171920,Vann_Isia,KaterinaÃÂs CafÃÂ©,20.95,16,Security,Perimeter Control,24.892,36.089
+1171980,Vasco-Pais_Willem,Gelatogalore,39.17,35,Executive,Environmental Safety Advisor,24.8613,36.0604
+1172040,Vann_Edvard,KaterinaÃÂs CafÃÂ©,29.1,34,Security,Perimeter Control,24.892,36.089
+1172100,Lagos_Linda,Abila Zacharo,31.09,0,Unknown,Unknown,24.892,36.089
+1172100,Osvaldo_Hennie,Abila Zacharo,15.26,21,Security,Perimeter Control,24.892,36.089
+1172160,Azada_Lars,Guy's Gyros,13.27,2,Engineering,Engineer,24.8978,36.057
+1172220,Bodrogi_Loreto,Hippokampos,19.07,15,Security,Site Control,24.892,36.089
+1172220,Onda_Marin,Abila Zacharo,10.24,26,Engineering,Drill Site Manager,24.892,36.089
+1172280,Fusil_Stenig,Abila Zacharo,8.41,20,Security,Building Control,24.892,36.089
+1172400,Lagos_Varja,Ouzeri Elian,107.32,23,Security,Badging Office,24.8716,36.0526
+1172400,Mies Haber_Ruscella,Kalami Kafenion,33.13,0,Unknown,Unknown,24.892,36.089
+1172460,Baza_Isak,Ouzeri Elian,79.58,5,Information Technology,IT Technician,24.8716,36.0526
+1172460,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,75.46,29,Facilities,Facilities Group Manager,24.892,36.089
+1172520,Calixto_Nils,Hippokampos,98.81,8,Information Technology,IT Technician,24.892,36.089
+1172520,Orilla_Kare,Kalami Kafenion,23.1,27,Engineering,Drill Technician,24.892,36.089
+1172580,Ribera_Anda,KaterinaÃÂs CafÃÂ©,31.69,0,Unknown,Unknown,24.892,36.089
+1172640,Dedos_Lidelse,Guy's Gyros,16.35,14,Engineering,Engineering Group Manager,24.8978,36.057
+1172940,Calzas_Axel,Gelatogalore,70.98,9,Engineering,Drill Technician,24.8613,36.0604
+1172940,Frente_Birgitta,Guy's Gyros,38.26,18,Engineering,Geologist,24.8978,36.057
+1173000,Bramar_Mat,Kalami Kafenion,27.65,0,Unknown,Unknown,24.892,36.089
+1173060,Cazar_Gustav,Kalami Kafenion,15.27,11,Engineering,Hydraulic Technician,24.892,36.089
+1173060,Cocinaro_Hideki,Ouzeri Elian,62.3,12,Security,Site Control,24.8716,36.0526
+1173180,Pantanal_Rachel,Ouzeri Elian,33.67,0,Unknown,Unknown,24.8716,36.0526
+1173420,Lais_Cornelia,Gelatogalore,35.97,0,Unknown,Unknown,24.8613,36.0604
+1173420,Resumir_Felix,Hippokampos,17.18,30,Security,Security Group Manager,24.892,36.089
+1173480,Ferro_Inga,KaterinaÃÂs CafÃÂ©,33.54,13,Security,Site Control,24.892,36.089
+1173540,Herrero_Kanon,Guy's Gyros,50.4,22,Security,Badging Office,24.8978,36.057
+1173660,Awelon_Varro,Ouzeri Elian,19.7,0,Unknown,Unknown,24.8716,36.0526
+1173780,Arpa_Emile,Gelatogalore,102.03,0,Unknown,Unknown,24.8613,36.0604
+1173780,Mies_Minke,Abila Zacharo,24.87,24,Security,Perimeter Control,24.892,36.089
+1174380,Scozzese_Dylan,Abila Scrapyard,4277.4,0,Facilities,Truck Driver,24.8454,36.0742
+1174560,Coginian_Dante,Hippokampos,16.73,0,Unknown,Unknown,24.892,36.089
+1174860,Morlun_Valeria,Carlyle Chemical Inc.,854.88,0,Facilities,Truck Driver,24.8819,36.0587
+1179120,Mies_Henk,Abila Airport,4918.39,0,Facilities,Truck Driver,24.827,36.0505
+1180140,Fusil_Stenig,Octavio's Office Supplies,131.73,20,Security,Building Control,24.892,36.089
+1181760,Morlun_Valeria,Carlyle Chemical Inc.,3470.99,0,Facilities,Truck Driver,24.8819,36.0587
+1182480,Scozzese_Dylan,Nationwide Refinery,4429.76,0,Facilities,Truck Driver,24.892,36.089
+1194240,Azada_Lars,Hippokampos,39.64,2,Engineering,Engineer,24.892,36.089
+1195140,Cocinaro_Hideki,Guy's Gyros,94.26,12,Security,Site Control,24.8978,36.057
+1195260,Vann_Edvard,Guy's Gyros,23.59,34,Security,Perimeter Control,24.8978,36.057
+1195500,Lagos_Varja,Albert's Fine Clothing,50.77,23,Security,Badging Office,24.8562,36.0754
+1195740,Calixto_Nils,KaterinaÃÂs CafÃÂ©,91.8,8,Information Technology,IT Technician,24.892,36.089
+1196100,Arpa_Emile,KaterinaÃÂs CafÃÂ©,27.67,0,Unknown,Unknown,24.892,36.089
+1196100,Fusil_Stenig,Guy's Gyros,18.11,20,Security,Building Control,24.8978,36.057
+1196220,Lais_Cornelia,Guy's Gyros,35.12,0,Unknown,Unknown,24.8978,36.057
+1196220,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,36.95,29,Facilities,Facilities Group Manager,24.892,36.089
+1196340,Flecha_Sven,Guy's Gyros,12.96,17,Information Technology,IT Technician,24.8978,36.057
+1196340,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,31.94,0,Unknown,Unknown,24.892,36.089
+1196520,Vasco-Pais_Willem,Hippokampos,9.55,35,Executive,Environmental Safety Advisor,24.892,36.089
+1196700,Bodrogi_Loreto,Guy's Gyros,10.85,15,Security,Site Control,24.8978,36.057
+1196760,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,12.65,14,Engineering,Engineering Group Manager,24.892,36.089
+1196940,Ferro_Inga,Guy's Gyros,25.28,13,Security,Site Control,24.8978,36.057
+1197120,Baza_Isak,Ouzeri Elian,11.86,5,Information Technology,IT Technician,24.8716,36.0526
+1197180,Mies_Minke,Frydos Autosupply n' More,42.72,24,Security,Perimeter Control,24.9042,36.0587
+1197240,Orilla_Kare,KaterinaÃÂs CafÃÂ©,11.89,27,Engineering,Drill Technician,24.892,36.089
+1197660,Orilla_Elsa,Ouzeri Elian,24.06,28,Engineering,Drill Technician,24.8716,36.0526
+1197720,Coginian_Dante,KaterinaÃÂs CafÃÂ©,46.61,0,Unknown,Unknown,24.892,36.089
+1197780,Resumir_Felix,Frydos Autosupply n' More,146.74,30,Security,Security Group Manager,24.9042,36.0587
+1197960,Pantanal_Rachel,Ouzeri Elian,80.95,0,Unknown,Unknown,24.8716,36.0526
+1198080,Campo-Corrente_Ada,Hippokampos,43.56,10,Executive,SVP/CIO,24.892,36.089
+1198200,Balas_Felix,Albert's Fine Clothing,228.72,3,Engineering,Engineer,24.8562,36.0754
+1198200,Lagos_Linda,KaterinaÃÂs CafÃÂ©,25.4,0,Unknown,Unknown,24.892,36.089
+1199040,Frente_Vira,Hippokampos,28.45,19,Engineering,Hydraulic Technician,24.892,36.089
+1199400,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,18.35,18,Engineering,Geologist,24.892,36.089
+1199640,Osvaldo_Hennie,Roberts and Sons,223.81,21,Security,Perimeter Control,24.8506,36.0634
+1200480,Bramar_Mat,Frydos Autosupply n' More,49.21,0,Unknown,Unknown,24.9042,36.0587
+1200660,Borrasca_Isande,Hippokampos,22.13,7,Engineering,Drill Technician,24.892,36.089
+1200660,Vann_Isia,Guy's Gyros,26.14,16,Security,Perimeter Control,24.8978,36.057
+1236780,Calixto_Nils,Hallowed Grounds,11.98,8,Information Technology,IT Technician,24.8798,36.0634
+1236840,Flecha_Sven,Brew've Been Served,3.71,17,Information Technology,IT Technician,24.9016,36.0561
+1236960,Frente_Birgitta,Hallowed Grounds,5.28,18,Engineering,Geologist,24.8798,36.0634
+1236960,Fusil_Stenig,Brew've Been Served,15.5,20,Security,Building Control,24.9016,36.0561
+1237140,Arpa_Emile,Hallowed Grounds,5.95,0,Unknown,Unknown,24.8798,36.0634
+1237200,Tempestad_Brand,Brew've Been Served,19.87,33,Engineering,Drill Technician,24.9016,36.0561
+1237440,Cocinaro_Hideki,Hallowed Grounds,12.17,12,Security,Site Control,24.8798,36.0634
+1237500,Nubarron_Adra,Coffee Cameleon,19.93,25,Engineering,Geologist,24.8901,36.0548
+1237500,Osvaldo_Hennie,Brew've Been Served,11.47,21,Security,Perimeter Control,24.9016,36.0561
+1237680,Ferro_Inga,Brew've Been Served,6.58,13,Security,Site Control,24.9016,36.0561
+1237740,Herrero_Kanon,Brew've Been Served,11.23,22,Security,Badging Office,24.9016,36.0561
+1237800,Vann_Isia,Brew've Been Served,19.24,16,Security,Perimeter Control,24.9016,36.0561
+1237860,Ovan_Bertrand,Coffee Cameleon,14.47,29,Facilities,Facilities Group Manager,24.8901,36.0548
+1237860,Ribera_Anda,Hallowed Grounds,78.69,0,Unknown,Unknown,24.8798,36.0634
+1238160,Bergen_Linnea,Coffee Cameleon,5.49,6,Information Technology,IT Group Manager,24.8901,36.0548
+1238220,Vann_Edvard,Brew've Been Served,4.92,34,Security,Perimeter Control,24.9016,36.0561
+1238280,Bramar_Mat,Brew've Been Served,3.14,0,Unknown,Unknown,24.9016,36.0561
+1238280,Lagos_Linda,Brew've Been Served,5.75,0,Unknown,Unknown,24.9016,36.0561
+1238280,Lagos_Varja,Brew've Been Served,14.06,23,Security,Badging Office,24.9016,36.0561
+1238340,Orilla_Kare,Hallowed Grounds,14.33,27,Engineering,Drill Technician,24.8798,36.0634
+1238400,Lais_Cornelia,Brew've Been Served,8.42,0,Unknown,Unknown,24.9016,36.0561
+1238400,Onda_Marin,Hallowed Grounds,15.27,26,Engineering,Drill Site Manager,24.8798,36.0634
+1238460,Mies_Minke,Brew've Been Served,49.7,24,Security,Perimeter Control,24.9016,36.0561
+1238520,Bodrogi_Loreto,Brew've Been Served,15.58,15,Security,Site Control,24.9016,36.0561
+1238700,Forluniau_Carla,Coffee Cameleon,56.31,0,Unknown,Unknown,24.8901,36.0548
+1238700,Mies Haber_Ruscella,Brew've Been Served,12.39,0,Unknown,Unknown,24.9016,36.0561
+1238760,Coginian_Dante,Brew've Been Served,3.47,0,Unknown,Unknown,24.9016,36.0561
+1239180,Pantanal_Rachel,Hallowed Grounds,14.39,0,Unknown,Unknown,24.8798,36.0634
+1239240,Resumir_Felix,Brew've Been Served,18.58,30,Security,Security Group Manager,24.9016,36.0561
+1244040,Morlun_Valeria,Carlyle Chemical Inc.,3608.08,0,Facilities,Truck Driver,24.8819,36.0587
+1245600,Morlun_Adan,Nationwide Refinery,1903.77,0,Facilities,Truck Driver,24.892,36.089
+1246440,Morluniau_Cecilia,Nationwide Refinery,1391.24,0,Facilities,Truck Driver,24.892,36.089
+1250280,Morlun_Adan,Stewart and Sons Fabrication,4545.38,0,Facilities,Truck Driver,24.892,36.089
+1251840,Morluniau_Cecilia,Stewart and Sons Fabrication,4740.68,0,Facilities,Truck Driver,24.892,36.089
+1252500,Morlun_Valeria,Nationwide Refinery,3004.98,0,Facilities,Truck Driver,24.892,36.089
+1252800,Balas_Felix,Bean There Done That,5.34,3,Engineering,Engineer,24.8497,36.0819
+1252800,Baza_Isak,Jack's Magical Beans,11.15,5,Information Technology,IT Technician,24.8725,36.0677
+1252800,Borrasca_Isande,Brewed Awakenings,91.62,7,Engineering,Drill Technician,24.892,36.089
+1252800,Calzas_Axel,Bean There Done That,93.13,9,Engineering,Drill Technician,24.8497,36.0819
+1252800,Campo-Corrente_Ada,Brewed Awakenings,3.62,10,Executive,SVP/CIO,24.892,36.089
+1252800,Cazar_Gustav,Bean There Done That,18.96,11,Engineering,Hydraulic Technician,24.8497,36.0819
+1252800,Frente_Vira,Bean There Done That,15.24,19,Engineering,Hydraulic Technician,24.8497,36.0819
+1252800,Orilla_Elsa,Jack's Magical Beans,5.3,28,Engineering,Drill Technician,24.8725,36.0677
+1252800,Strum_Orhan,Jack's Magical Beans,84.06,32,Executive,SVP/COO,24.8725,36.0677
+1252800,Vasco-Pais_Willem,Jack's Magical Beans,19.54,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+1254300,Mies_Henk,Abila Airport,3152.41,0,Facilities,Truck Driver,24.827,36.0505
+1256880,Strum_Orhan,Kalami Kafenion,22.39,32,Executive,SVP/COO,24.892,36.089
+1257000,Bergen_Linnea,Ouzeri Elian,8.93,6,Information Technology,IT Group Manager,24.8716,36.0526
+1257120,Campo-Corrente_Ada,Hippokampos,36.7,10,Executive,SVP/CIO,24.892,36.089
+1257120,Tempestad_Brand,Hippokampos,118.89,33,Engineering,Drill Technician,24.892,36.089
+1257180,Morlun_Valeria,KaterinaÃÂs CafÃÂ©,24.15,0,Facilities,Truck Driver,24.892,36.089
+1257420,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,88.56,0,Unknown,Unknown,24.892,36.089
+1257720,Azada_Lars,Guy's Gyros,14.37,2,Engineering,Engineer,24.8978,36.057
+1257720,Calixto_Nils,Abila Zacharo,31.0,8,Information Technology,IT Technician,24.892,36.089
+1257720,Lagos_Varja,Ouzeri Elian,12.9,23,Security,Badging Office,24.8716,36.0526
+1257840,Baza_Isak,Hippokampos,13.0,5,Information Technology,IT Technician,24.892,36.089
+1257960,Barranco_Ingrid,Abila Zacharo,23.51,4,Executive,SVP/CFO,24.892,36.089
+1258020,Herrero_Kanon,KaterinaÃÂs CafÃÂ©,55.6,22,Security,Badging Office,24.892,36.089
+1258260,Cazar_Gustav,Ouzeri Elian,36.47,11,Engineering,Hydraulic Technician,24.8716,36.0526
+1258500,Dedos_Lidelse,Kalami Kafenion,26.17,14,Engineering,Engineering Group Manager,24.892,36.089
+1258560,Lagos_Linda,Kalami Kafenion,37.15,0,Unknown,Unknown,24.892,36.089
+1258620,Mies Haber_Ruscella,Kalami Kafenion,38.5,0,Unknown,Unknown,24.892,36.089
+1258740,Osvaldo_Hennie,Hippokampos,8.75,21,Security,Perimeter Control,24.892,36.089
+1258740,Vasco-Pais_Willem,Gelatogalore,9.61,35,Executive,Environmental Safety Advisor,24.8613,36.0604
+1258800,Lais_Cornelia,Ouzeri Elian,25.7,0,Unknown,Unknown,24.8716,36.0526
+1258860,Borrasca_Isande,Hippokampos,82.61,7,Engineering,Drill Technician,24.892,36.089
+1258860,Vann_Isia,Guy's Gyros,49.34,16,Security,Perimeter Control,24.8978,36.057
+1258920,Calzas_Axel,Hippokampos,32.4,9,Engineering,Drill Technician,24.892,36.089
+1258920,Cocinaro_Hideki,Ouzeri Elian,22.86,12,Security,Site Control,24.8716,36.0526
+1259040,Nubarron_Adra,Guy's Gyros,15.89,25,Engineering,Geologist,24.8978,36.057
+1259100,Balas_Felix,Abila Zacharo,88.83,3,Engineering,Engineer,24.892,36.089
+1259100,Frente_Vira,Kalami Kafenion,47.86,19,Engineering,Hydraulic Technician,24.892,36.089
+1259100,Ribera_Anda,Guy's Gyros,12.19,0,Unknown,Unknown,24.8978,36.057
+1259160,Awelon_Varro,Gelatogalore,24.96,0,Unknown,Unknown,24.8613,36.0604
+1259160,Coginian_Dante,Guy's Gyros,16.58,0,Unknown,Unknown,24.8978,36.057
+1259220,Flecha_Sven,Abila Zacharo,20.44,17,Information Technology,IT Technician,24.892,36.089
+1259460,Arpa_Emile,Ouzeri Elian,26.61,0,Unknown,Unknown,24.8716,36.0526
+1259700,Bodrogi_Loreto,Gelatogalore,31.21,15,Security,Site Control,24.8613,36.0604
+1259880,Ferro_Inga,Gelatogalore,39.4,13,Security,Site Control,24.8613,36.0604
+1259880,Ovan_Bertrand,Abila Zacharo,33.8,29,Facilities,Facilities Group Manager,24.892,36.089
+1259940,Pantanal_Rachel,Gelatogalore,42.36,0,Unknown,Unknown,24.8613,36.0604
+1260000,Frente_Birgitta,Guy's Gyros,25.58,18,Engineering,Geologist,24.8978,36.057
+1260000,Onda_Marin,KaterinaÃÂs CafÃÂ©,12.12,26,Engineering,Drill Site Manager,24.892,36.089
+1260120,Mies_Minke,Hippokampos,118.23,24,Security,Perimeter Control,24.892,36.089
+1260120,Orilla_Kare,Abila Zacharo,24.53,27,Engineering,Drill Technician,24.892,36.089
+1260240,Bramar_Mat,Abila Zacharo,46.82,0,Unknown,Unknown,24.892,36.089
+1260720,Nant_Irene,Kronos Pipe and Irrigation,2564.0,0,Facilities,Truck Driver,24.892,36.089
+1260780,Resumir_Felix,Kalami Kafenion,28.82,30,Security,Security Group Manager,24.892,36.089
+1261500,Morlun_Valeria,Carlyle Chemical Inc.,1112.04,0,Facilities,Truck Driver,24.8819,36.0587
+1264260,Nant_Irene,Maximum Iron and Steel,4788.22,0,Facilities,Truck Driver,24.8377,36.0634
+1266000,Mies_Henk,Abila Airport,875.87,0,Facilities,Truck Driver,24.827,36.0505
+1270860,Morlun_Valeria,Carlyle Chemical Inc.,1392.73,0,Facilities,Truck Driver,24.8819,36.0587
+1279080,Orilla_Elsa,Ouzeri Elian,28.86,28,Engineering,Drill Technician,24.8716,36.0526
+1281000,Orilla_Kare,KaterinaÃÂs CafÃÂ©,39.23,27,Engineering,Drill Technician,24.892,36.089
+1281120,Borrasca_Isande,Frydos Autosupply n' More,18.91,7,Engineering,Drill Technician,24.9042,36.0587
+1281180,Lagos_Varja,Guy's Gyros,98.04,23,Security,Badging Office,24.8978,36.057
+1281300,Azada_Lars,Hippokampos,13.02,2,Engineering,Engineer,24.892,36.089
+1281300,Mies_Minke,Guy's Gyros,31.04,24,Security,Perimeter Control,24.8978,36.057
+1281360,Ferro_Inga,General Grocer,126.2,13,Security,Site Control,24.857,36.0608
+1281540,Arpa_Emile,KaterinaÃÂs CafÃÂ©,25.08,0,Unknown,Unknown,24.892,36.089
+1281600,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,29.84,25,Engineering,Geologist,24.892,36.089
+1281720,Vann_Isia,Guy's Gyros,28.75,16,Security,Perimeter Control,24.8978,36.057
+1281840,Tempestad_Brand,Frydos Autosupply n' More,235.27,33,Engineering,Drill Technician,24.9042,36.0587
+1281900,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,11.45,18,Engineering,Geologist,24.892,36.089
+1281960,Lais_Cornelia,Guy's Gyros,44.91,0,Unknown,Unknown,24.8978,36.057
+1282080,Fusil_Stenig,Guy's Gyros,36.35,20,Security,Building Control,24.8978,36.057
+1282200,Balas_Felix,Hippokampos,35.12,3,Engineering,Engineer,24.892,36.089
+1282200,Campo-Corrente_Ada,Shoppers' Delight,162.0,10,Executive,SVP/CIO,24.892,36.089
+1282560,Barranco_Ingrid,Hippokampos,11.8,4,Executive,SVP/CFO,24.892,36.089
+1282620,Lagos_Linda,KaterinaÃÂs CafÃÂ©,29.33,0,Unknown,Unknown,24.892,36.089
+1282980,Cazar_Gustav,Hippokampos,10.35,11,Engineering,Hydraulic Technician,24.892,36.089
+1282980,Onda_Marin,KaterinaÃÂs CafÃÂ©,39.63,26,Engineering,Drill Site Manager,24.892,36.089
+1283040,Calzas_Axel,Hippokampos,16.37,9,Engineering,Drill Technician,24.892,36.089
+1283160,Coginian_Dante,KaterinaÃÂs CafÃÂ©,61.61,0,Unknown,Unknown,24.892,36.089
+1283340,Baza_Isak,Ouzeri Elian,23.18,5,Information Technology,IT Technician,24.8716,36.0526
+1283340,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,29.66,0,Unknown,Unknown,24.892,36.089
+1283580,Dedos_Lidelse,Frydos Autosupply n' More,18.66,14,Engineering,Engineering Group Manager,24.9042,36.0587
+1284360,Awelon_Varro,Albert's Fine Clothing,228.15,0,Unknown,Unknown,24.8562,36.0754
+1285020,Bramar_Mat,Frydos Autosupply n' More,276.88,0,Unknown,Unknown,24.9042,36.0587
+1285140,Bodrogi_Loreto,Guy's Gyros,61.43,15,Security,Site Control,24.8978,36.057
+1285500,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,13.77,6,Information Technology,IT Group Manager,24.892,36.089
+1285500,Herrero_Kanon,Guy's Gyros,27.01,22,Security,Badging Office,24.8978,36.057
+1285500,Pantanal_Rachel,Ouzeri Elian,8.57,0,Unknown,Unknown,24.8716,36.0526
+1285680,Frente_Vira,Hippokampos,101.14,19,Engineering,Hydraulic Technician,24.892,36.089
+1286460,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,27.48,29,Facilities,Facilities Group Manager,24.892,36.089
+1287720,Strum_Orhan,Hippokampos,37.16,32,Executive,SVP/COO,24.892,36.089
+1323000,Cocinaro_Hideki,Kronos Mart,298.83,12,Security,Site Control,24.848,36.0664
+1323180,Lais_Cornelia,Brew've Been Served,25.05,0,Unknown,Unknown,24.9016,36.0561
+1323240,Vann_Isia,Brew've Been Served,8.18,16,Security,Perimeter Control,24.9016,36.0561
+1323360,Lagos_Varja,Brew've Been Served,19.9,23,Security,Badging Office,24.9016,36.0561
+1323480,Ovan_Bertrand,Coffee Cameleon,67.19,29,Facilities,Facilities Group Manager,24.8901,36.0548
+1323840,Calixto_Nils,Hallowed Grounds,13.84,8,Information Technology,IT Technician,24.8798,36.0634
+1323840,Cocinaro_Hideki,Hallowed Grounds,18.2,12,Security,Site Control,24.8798,36.0634
+1323840,Orilla_Kare,Hallowed Grounds,17.74,27,Engineering,Drill Technician,24.8798,36.0634
+1323900,Arpa_Emile,Hallowed Grounds,17.92,0,Unknown,Unknown,24.8798,36.0634
+1324200,Flecha_Sven,Brew've Been Served,7.31,17,Information Technology,IT Technician,24.9016,36.0561
+1324260,Frente_Birgitta,Hallowed Grounds,44.98,18,Engineering,Geologist,24.8798,36.0634
+1324260,Onda_Marin,Hallowed Grounds,9.6,26,Engineering,Drill Site Manager,24.8798,36.0634
+1324320,Herrero_Kanon,Brew've Been Served,12.67,22,Security,Badging Office,24.9016,36.0561
+1324380,Vann_Edvard,Brew've Been Served,4.7,34,Security,Perimeter Control,24.9016,36.0561
+1324440,Bramar_Mat,Brew've Been Served,83.84,0,Unknown,Unknown,24.9016,36.0561
+1324440,Dedos_Lidelse,Hallowed Grounds,7.22,14,Engineering,Engineering Group Manager,24.8798,36.0634
+1324500,Fusil_Stenig,Brew've Been Served,12.83,20,Security,Building Control,24.9016,36.0561
+1324560,Tempestad_Brand,Brew've Been Served,4.33,33,Engineering,Drill Technician,24.9016,36.0561
+1324920,Bodrogi_Loreto,Brew've Been Served,5.82,15,Security,Site Control,24.9016,36.0561
+1324980,Forluniau_Carla,Coffee Cameleon,63.14,0,Unknown,Unknown,24.8901,36.0548
+1324980,Osvaldo_Hennie,Hallowed Grounds,72.61,21,Security,Perimeter Control,24.8798,36.0634
+1324980,Resumir_Felix,Brew've Been Served,16.67,30,Security,Security Group Manager,24.9016,36.0561
+1325100,Alcazar_Lucas,Hallowed Grounds,12.19,1,Information Technology,IT Helpdesk,24.8798,36.0634
+1325220,Ribera_Anda,Hallowed Grounds,18.23,0,Unknown,Unknown,24.8798,36.0634
+1325280,Coginian_Dante,Brew've Been Served,90.33,0,Unknown,Unknown,24.9016,36.0561
+1325340,Mies_Minke,Brew've Been Served,17.44,24,Security,Perimeter Control,24.9016,36.0561
+1325340,Pantanal_Rachel,Hallowed Grounds,4.6,0,Unknown,Unknown,24.8798,36.0634
+1325940,Ferro_Inga,Brew've Been Served,16.9,13,Security,Site Control,24.9016,36.0561
+1326180,Lagos_Linda,Brew've Been Served,11.21,0,Unknown,Unknown,24.9016,36.0561
+1329480,Hawelon_Benito,Abila Airport,1676.53,0,Facilities,Truck Driver,24.827,36.0505
+1331520,Morlun_Valeria,Carlyle Chemical Inc.,419.93,0,Facilities,Truck Driver,24.8819,36.0587
+1332960,Morluniau_Cecilia,Nationwide Refinery,1494.44,0,Facilities,Truck Driver,24.892,36.089
+1335960,Hawelon_Benito,Stewart and Sons Fabrication,940.3,0,Facilities,Truck Driver,24.892,36.089
+1337100,Morlun_Valeria,Nationwide Refinery,4742.67,0,Facilities,Truck Driver,24.892,36.089
+1338300,Morluniau_Cecilia,Stewart and Sons Fabrication,4543.31,0,Facilities,Truck Driver,24.892,36.089
+1339200,Awelon_Varro,Coffee Shack,10.48,0,Unknown,Unknown,24.8583,36.0729
+1339200,Azada_Lars,Bean There Done That,19.82,2,Engineering,Engineer,24.8497,36.0819
+1339200,Balas_Felix,Bean There Done That,12.33,3,Engineering,Engineer,24.8497,36.0819
+1339200,Barranco_Ingrid,Brewed Awakenings,17.91,4,Executive,SVP/CFO,24.892,36.089
+1339200,Baza_Isak,Jack's Magical Beans,9.12,5,Information Technology,IT Technician,24.8725,36.0677
+1339200,Borrasca_Isande,Brewed Awakenings,6.53,7,Engineering,Drill Technician,24.892,36.089
+1339200,Calzas_Axel,Bean There Done That,5.56,9,Engineering,Drill Technician,24.8497,36.0819
+1339200,Campo-Corrente_Ada,Brewed Awakenings,6.39,10,Executive,SVP/CIO,24.892,36.089
+1339200,Cazar_Gustav,Bean There Done That,98.34,11,Engineering,Hydraulic Technician,24.8497,36.0819
+1339200,Frente_Vira,Bean There Done That,17.4,19,Engineering,Hydraulic Technician,24.8497,36.0819
+1339200,Orilla_Elsa,Jack's Magical Beans,14.86,28,Engineering,Drill Technician,24.8725,36.0677
+1339200,Strum_Orhan,Jack's Magical Beans,12.56,32,Executive,SVP/COO,24.8725,36.0677
+1339200,Vasco-Pais_Willem,Jack's Magical Beans,6.95,35,Executive,Environmental Safety Advisor,24.8725,36.0677
+1341120,Hawelon_Benito,Nationwide Refinery,2047.28,0,Facilities,Truck Driver,24.892,36.089
+1341600,Mies_Henk,Abila Airport,3917.3,0,Facilities,Truck Driver,24.827,36.0505
+1343820,Tempestad_Brand,KaterinaÃÂs CafÃÂ©,11.08,33,Engineering,Drill Technician,24.892,36.089
+1343940,Barranco_Ingrid,KaterinaÃÂs CafÃÂ©,27.82,4,Executive,SVP/CFO,24.892,36.089
+1343940,Campo-Corrente_Ada,Hippokampos,17.66,10,Executive,SVP/CIO,24.892,36.089
+1344120,Herrero_Kanon,Abila Zacharo,64.71,22,Security,Badging Office,24.892,36.089
+1344120,Scozzese_Dylan,Abila Airport,3138.98,0,Facilities,Truck Driver,24.827,36.0505
+1344120,Strum_Orhan,Hippokampos,26.15,32,Executive,SVP/COO,24.892,36.089
+1344180,Calixto_Nils,Guy's Gyros,31.48,8,Information Technology,IT Technician,24.8978,36.057
+1344180,Morlun_Valeria,KaterinaÃÂs CafÃÂ©,34.9,0,Facilities,Truck Driver,24.892,36.089
+1344360,Baza_Isak,Hippokampos,36.17,5,Information Technology,IT Technician,24.892,36.089
+1344420,Lagos_Varja,KaterinaÃÂs CafÃÂ©,34.02,23,Security,Badging Office,24.892,36.089
+1344420,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,39.74,0,Unknown,Unknown,24.892,36.089
+1344420,Ovan_Bertrand,Abila Zacharo,31.31,29,Facilities,Facilities Group Manager,24.892,36.089
+1344480,Alcazar_Lucas,Guy's Gyros,10.27,1,Information Technology,IT Helpdesk,24.8978,36.057
+1344600,Bergen_Linnea,Hippokampos,16.53,6,Information Technology,IT Group Manager,24.892,36.089
+1344600,Borrasca_Isande,Hippokampos,10.38,7,Engineering,Drill Technician,24.892,36.089
+1344780,Vasco-Pais_Willem,Gelatogalore,12.33,35,Executive,Environmental Safety Advisor,24.8613,36.0604
+1344900,Ribera_Anda,Hippokampos,13.05,0,Unknown,Unknown,24.892,36.089
+1344960,Azada_Lars,Hippokampos,31.14,2,Engineering,Engineer,24.892,36.089
+1345020,Osvaldo_Hennie,Gelatogalore,22.19,21,Security,Perimeter Control,24.8613,36.0604
+1345140,Vann_Edvard,Abila Zacharo,69.27,34,Security,Perimeter Control,24.892,36.089
+1345320,Ferro_Inga,Guy's Gyros,29.7,13,Security,Site Control,24.8978,36.057
+1345380,Cazar_Gustav,Hippokampos,14.89,11,Engineering,Hydraulic Technician,24.892,36.089
+1345380,Lais_Cornelia,KaterinaÃÂs CafÃÂ©,38.32,0,Unknown,Unknown,24.892,36.089
+1345440,Fusil_Stenig,Guy's Gyros,13.48,20,Security,Building Control,24.8978,36.057
+1345440,Vann_Isia,Hippokampos,18.18,16,Security,Perimeter Control,24.892,36.089
+1345500,Bodrogi_Loreto,Ouzeri Elian,12.47,15,Security,Site Control,24.8716,36.0526
+1345500,Coginian_Dante,Kalami Kafenion,9.27,0,Unknown,Unknown,24.892,36.089
+1345500,Nubarron_Adra,Ouzeri Elian,18.27,25,Engineering,Geologist,24.8716,36.0526
+1345620,Cocinaro_Hideki,Abila Zacharo,36.02,12,Security,Site Control,24.892,36.089
+1345680,Balas_Felix,Kalami Kafenion,91.38,3,Engineering,Engineer,24.892,36.089
+1345680,Bramar_Mat,Abila Zacharo,24.38,0,Unknown,Unknown,24.892,36.089
+1345680,Dedos_Lidelse,Gelatogalore,32.4,14,Engineering,Engineering Group Manager,24.8613,36.0604
+1345680,Frente_Birgitta,Hippokampos,29.93,18,Engineering,Geologist,24.892,36.089
+1345680,Orilla_Kare,Kalami Kafenion,11.83,27,Engineering,Drill Technician,24.892,36.089
+1345740,Flecha_Sven,Kalami Kafenion,8.86,17,Information Technology,IT Technician,24.892,36.089
+1346040,Onda_Marin,Hippokampos,8.07,26,Engineering,Drill Site Manager,24.892,36.089
+1346100,Lagos_Linda,Hippokampos,30.02,0,Unknown,Unknown,24.892,36.089
+1346100,Resumir_Felix,Abila Zacharo,8.43,30,Security,Security Group Manager,24.892,36.089
+1346400,Forluniau_Carla,Ouzeri Elian,8.52,0,Unknown,Unknown,24.8716,36.0526
+1346460,Awelon_Varro,Ouzeri Elian,8.47,0,Unknown,Unknown,24.8716,36.0526
+1346700,Calzas_Axel,Guy's Gyros,32.8,9,Engineering,Drill Technician,24.8978,36.057
+1353480,Lais_Cornelia,Octavio's Office Supplies,131.01,0,Unknown,Unknown,24.892,36.089
+1356960,Scozzese_Dylan,Abila Scrapyard,1897.05,0,Facilities,Truck Driver,24.8454,36.0742
+1357620,Mies_Minke,Gelatogalore,10.62,24,Security,Perimeter Control,24.8613,36.0604
+1358220,Morlun_Valeria,Carlyle Chemical Inc.,1814.24,0,Facilities,Truck Driver,24.8819,36.0587
+1363740,Lagos_Linda,KaterinaÃÂs CafÃÂ©,93.68,0,Unknown,Unknown,24.892,36.089
+1364640,Flecha_Sven,Guy's Gyros,25.57,17,Information Technology,IT Technician,24.8978,36.057
+1364940,Lagos_Varja,Guy's Gyros,8.31,23,Security,Badging Office,24.8978,36.057
+1366740,Calixto_Nils,KaterinaÃÂs CafÃÂ©,10.93,8,Information Technology,IT Technician,24.892,36.089
+1366800,Vann_Edvard,Guy's Gyros,37.8,34,Security,Perimeter Control,24.8978,36.057
+1367100,Dedos_Lidelse,Frydos Autosupply n' More,53.37,14,Engineering,Engineering Group Manager,24.9042,36.0587
+1367220,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,34.34,29,Facilities,Facilities Group Manager,24.892,36.089
+1368300,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,69.3,0,Unknown,Unknown,24.892,36.089
+1368480,Awelon_Varro,Albert's Fine Clothing,283.38,0,Unknown,Unknown,24.8562,36.0754
+1368540,Arpa_Emile,KaterinaÃÂs CafÃÂ©,18.79,0,Unknown,Unknown,24.892,36.089
+1368540,Resumir_Felix,Guy's Gyros,28.27,30,Security,Security Group Manager,24.8978,36.057
+1368780,Cazar_Gustav,Hippokampos,29.13,11,Engineering,Hydraulic Technician,24.892,36.089
+1368840,Tempestad_Brand,Guy's Gyros,111.31,33,Engineering,Drill Technician,24.8978,36.057
+1369020,Bodrogi_Loreto,Guy's Gyros,25.78,15,Security,Site Control,24.8978,36.057
+1369020,Fusil_Stenig,Guy's Gyros,30.76,20,Security,Building Control,24.8978,36.057
+1369380,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,13.91,18,Engineering,Geologist,24.892,36.089
+1369500,Baza_Isak,Ouzeri Elian,23.89,5,Information Technology,IT Technician,24.8716,36.0526
+1369500,Ferro_Inga,Albert's Fine Clothing,91.71,13,Security,Site Control,24.8562,36.0754
+1369500,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,35.43,0,Unknown,Unknown,24.892,36.089
+1369500,Mies_Minke,Roberts and Sons,155.76,24,Security,Perimeter Control,24.8506,36.0634
+1369500,Pantanal_Rachel,Ouzeri Elian,22.65,0,Unknown,Unknown,24.8716,36.0526
+1369680,Alcazar_Lucas,Ouzeri Elian,9.91,1,Information Technology,IT Helpdesk,24.8716,36.0526
+1369680,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,30.84,21,Security,Perimeter Control,24.892,36.089
+1370100,Cocinaro_Hideki,Guy's Gyros,11.31,12,Security,Site Control,24.8978,36.057
+1370160,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,19.44,25,Engineering,Geologist,24.892,36.089
+1370340,Coginian_Dante,KaterinaÃÂs CafÃÂ©,30.56,0,Unknown,Unknown,24.892,36.089
+1370520,Frente_Vira,Hippokampos,114.0,19,Engineering,Hydraulic Technician,24.892,36.089
+1370580,Vasco-Pais_Willem,Hippokampos,27.74,35,Executive,Environmental Safety Advisor,24.892,36.089
+1370700,Calzas_Axel,Shoppers' Delight,160.69,9,Engineering,Drill Technician,24.892,36.089
+1371000,Herrero_Kanon,Shoppers' Delight,16.84,22,Security,Badging Office,24.892,36.089
+1371060,Orilla_Kare,KaterinaÃÂs CafÃÂ©,34.58,27,Engineering,Drill Technician,24.892,36.089
+1371120,Vann_Isia,Roberts and Sons,240.66,16,Security,Perimeter Control,24.8506,36.0634
+1371240,Bramar_Mat,Frydos Autosupply n' More,130.01,0,Unknown,Unknown,24.9042,36.0587
+1371480,Campo-Corrente_Ada,Hippokampos,12.47,10,Executive,SVP/CIO,24.892,36.089
+1372380,Barranco_Ingrid,Hippokampos,20.84,4,Executive,SVP/CFO,24.892,36.089
+1372560,Orilla_Elsa,Ouzeri Elian,29.99,28,Engineering,Drill Technician,24.8716,36.0526
+1409340,Flecha_Sven,Brew've Been Served,52.56,17,Information Technology,IT Technician,24.9016,36.0561
+1409460,Onda_Marin,Hallowed Grounds,3.25,26,Engineering,Drill Site Manager,24.8798,36.0634
+1409580,Calixto_Nils,Hallowed Grounds,14.58,8,Information Technology,IT Technician,24.8798,36.0634
+1409760,Lais_Cornelia,Brew've Been Served,11.69,0,Unknown,Unknown,24.9016,36.0561
+1409880,Ovan_Bertrand,Coffee Cameleon,10.27,29,Facilities,Facilities Group Manager,24.8901,36.0548
+1409940,Frente_Birgitta,Hallowed Grounds,15.98,18,Engineering,Geologist,24.8798,36.0634
+1410060,Arpa_Emile,Hallowed Grounds,10.52,0,Unknown,Unknown,24.8798,36.0634
+1410600,Bramar_Mat,Brew've Been Served,8.07,0,Unknown,Unknown,24.9016,36.0561
+1410660,Bergen_Linnea,Coffee Cameleon,6.81,6,Information Technology,IT Group Manager,24.8901,36.0548
+1410720,Dedos_Lidelse,Hallowed Grounds,18.6,14,Engineering,Engineering Group Manager,24.8798,36.0634
+1410720,Fusil_Stenig,Coffee Cameleon,9.16,20,Security,Building Control,24.8901,36.0548
+1410960,Sanjorge Jr._Sten,Hallowed Grounds,9.72,31,Executive,President/CEO,24.8798,36.0634
+1411020,Vann_Isia,Brew've Been Served,10.52,16,Security,Perimeter Control,24.9016,36.0561
+1411140,Ribera_Anda,Hallowed Grounds,5.52,0,Unknown,Unknown,24.8798,36.0634
+1411140,Vann_Edvard,Brew've Been Served,19.39,34,Security,Perimeter Control,24.9016,36.0561
+1411380,Lagos_Varja,Brew've Been Served,13.66,23,Security,Badging Office,24.9016,36.0561
+1411380,Orilla_Kare,Hallowed Grounds,38.22,27,Engineering,Drill Technician,24.8798,36.0634
+1411440,Alcazar_Lucas,Hallowed Grounds,9.4,1,Information Technology,IT Helpdesk,24.8798,36.0634
+1411440,Osvaldo_Hennie,Brew've Been Served,16.62,21,Security,Perimeter Control,24.9016,36.0561
+1411620,Forluniau_Carla,Coffee Cameleon,7.49,0,Unknown,Unknown,24.8901,36.0548
+1411680,Azada_Lars,Kronos Mart,286.24,2,Engineering,Engineer,24.848,36.0664
+1411740,Coginian_Dante,Brew've Been Served,9.3,0,Unknown,Unknown,24.9016,36.0561
+1411920,Mies Haber_Ruscella,Brew've Been Served,18.15,0,Unknown,Unknown,24.9016,36.0561
+1411920,Pantanal_Rachel,Hallowed Grounds,6.39,0,Unknown,Unknown,24.8798,36.0634
+1411980,Mies_Minke,Coffee Cameleon,14.99,24,Security,Perimeter Control,24.8901,36.0548
+1412100,Bodrogi_Loreto,Brew've Been Served,3.09,15,Security,Site Control,24.9016,36.0561
+1412220,Resumir_Felix,Brew've Been Served,5.29,30,Security,Security Group Manager,24.9016,36.0561
+1412340,Lagos_Linda,Brew've Been Served,14.58,0,Unknown,Unknown,24.9016,36.0561
+1412520,Ferro_Inga,Brew've Been Served,15.46,13,Security,Site Control,24.9016,36.0561
+1412580,Herrero_Kanon,Brew've Been Served,51.04,22,Security,Badging Office,24.9016,36.0561
+1423920,Morluniau_Cecilia,Stewart and Sons Fabrication,1753.17,0,Facilities,Truck Driver,24.892,36.089
+1425600,Awelon_Varro,Coffee Shack,19.16,0,Unknown,Unknown,24.8583,36.0729
+1425600,Azada_Lars,Bean There Done That,19.67,2,Engineering,Engineer,24.8497,36.0819
+1425600,Balas_Felix,Bean There Done That,8.21,3,Engineering,Engineer,24.8497,36.0819
+1425600,Barranco_Ingrid,Brewed Awakenings,8.16,4,Executive,SVP/CFO,24.892,36.089
+1425600,Baza_Isak,Jack's Magical Beans,7.57,5,Information Technology,IT Technician,24.8725,36.0677
+1425600,Borrasca_Isande,Brewed Awakenings,88.69,7,Engineering,Drill Technician,24.892,36.089
+1425600,Calzas_Axel,Bean There Done That,19.56,9,Engineering,Drill Technician,24.8497,36.0819
+1425600,Campo-Corrente_Ada,Brewed Awakenings,6.0,10,Executive,SVP/CIO,24.892,36.089
+1425600,Cazar_Gustav,Bean There Done That,18.72,11,Engineering,Hydraulic Technician,24.8497,36.0819
+1425600,Frente_Vira,Bean There Done That,5.77,19,Engineering,Hydraulic Technician,24.8497,36.0819
+1425600,Orilla_Elsa,Jack's Magical Beans,19.11,28,Engineering,Drill Technician,24.8725,36.0677
+1429860,Campo-Corrente_Ada,Abila Zacharo,68.78,10,Executive,SVP/CIO,24.892,36.089
+1430160,Bergen_Linnea,Kalami Kafenion,140.78,6,Information Technology,IT Group Manager,24.892,36.089
+1430160,Forluniau_Carla,Hippokampos,38.21,0,Unknown,Unknown,24.892,36.089
+1430220,Strum_Orhan,Gelatogalore,15.84,32,Executive,SVP/COO,24.8613,36.0604
+1430280,Barranco_Ingrid,Guy's Gyros,8.64,4,Executive,SVP/CFO,24.8978,36.057
+1430460,Lagos_Varja,Guy's Gyros,22.18,23,Security,Badging Office,24.8978,36.057
+1430820,Vann_Edvard,Hippokampos,14.57,34,Security,Perimeter Control,24.892,36.089
+1430880,Sanjorge Jr._Sten,Abila Zacharo,15.95,31,Executive,President/CEO,24.892,36.089
+1431060,Fusil_Stenig,Hippokampos,15.77,20,Security,Building Control,24.892,36.089
+1431180,Balas_Felix,Gelatogalore,23.23,3,Engineering,Engineer,24.8613,36.0604
+1431420,Vasco-Pais_Willem,Kalami Kafenion,105.32,35,Executive,Environmental Safety Advisor,24.892,36.089
+1431480,Azada_Lars,Ouzeri Elian,14.01,2,Engineering,Engineer,24.8716,36.0526
+1431480,Bodrogi_Loreto,Guy's Gyros,39.14,15,Security,Site Control,24.8978,36.057
+1431480,Herrero_Kanon,Hippokampos,52.31,22,Security,Badging Office,24.892,36.089
+1431480,Mies Haber_Ruscella,Kalami Kafenion,39.43,0,Unknown,Unknown,24.892,36.089
+1431540,Osvaldo_Hennie,Kalami Kafenion,27.7,21,Security,Perimeter Control,24.892,36.089
+1431600,Onda_Marin,Gelatogalore,37.3,26,Engineering,Drill Site Manager,24.8613,36.0604
+1431660,Nubarron_Adra,Abila Zacharo,14.51,25,Engineering,Geologist,24.892,36.089
+1431720,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,21.01,29,Facilities,Facilities Group Manager,24.892,36.089
+1431900,Vann_Isia,Abila Zacharo,79.67,16,Security,Perimeter Control,24.892,36.089
+1432020,Pantanal_Rachel,Gelatogalore,18.1,0,Unknown,Unknown,24.8613,36.0604
+1432080,Cazar_Gustav,KaterinaÃÂs CafÃÂ©,13.11,11,Engineering,Hydraulic Technician,24.892,36.089
+1432140,Tempestad_Brand,Chostus Hotel,114.22,33,Engineering,Drill Technician,24.8935,36.0699
+1432260,Dedos_Lidelse,Kalami Kafenion,20.02,14,Engineering,Engineering Group Manager,24.892,36.089
+1432260,Ferro_Inga,Gelatogalore,34.59,13,Security,Site Control,24.8613,36.0604
+1432320,Frente_Birgitta,Hippokampos,108.35,18,Engineering,Geologist,24.892,36.089
+1432380,Lagos_Linda,Kalami Kafenion,24.21,0,Unknown,Unknown,24.892,36.089
+1432380,Mies_Minke,KaterinaÃÂs CafÃÂ©,35.52,24,Security,Perimeter Control,24.892,36.089
+1432440,Borrasca_Isande,Chostus Hotel,159.62,7,Engineering,Drill Technician,24.8935,36.0699
+1432500,Resumir_Felix,Guy's Gyros,32.31,30,Security,Security Group Manager,24.8978,36.057
+1432620,Orilla_Kare,Gelatogalore,21.62,27,Engineering,Drill Technician,24.8613,36.0604
+1432680,Calzas_Axel,Hippokampos,21.81,9,Engineering,Drill Technician,24.892,36.089
+1432680,Cocinaro_Hideki,Kalami Kafenion,27.73,12,Security,Site Control,24.892,36.089
+1432800,Coginian_Dante,Guy's Gyros,15.12,0,Unknown,Unknown,24.8978,36.057
+1433100,Awelon_Varro,Guy's Gyros,21.1,0,Unknown,Unknown,24.8978,36.057
+1433160,Lais_Cornelia,Abila Zacharo,51.95,0,Unknown,Unknown,24.892,36.089
+1433700,Bramar_Mat,KaterinaÃÂs CafÃÂ©,70.72,0,Unknown,Unknown,24.892,36.089
+1434720,Arpa_Emile,Ouzeri Elian,26.1,0,Unknown,Unknown,24.8716,36.0526
+1452240,Orilla_Kare,KaterinaÃÂs CafÃÂ©,22.18,27,Engineering,Drill Technician,24.892,36.089
+1452540,Fusil_Stenig,Guy's Gyros,19.68,20,Security,Building Control,24.8978,36.057
+1453200,Awelon_Varro,Hippokampos,19.76,0,Unknown,Unknown,24.892,36.089
+1453200,Baza_Isak,Ouzeri Elian,38.6,5,Information Technology,IT Technician,24.8716,36.0526
+1453440,Cazar_Gustav,Albert's Fine Clothing,39.41,11,Engineering,Hydraulic Technician,24.8562,36.0754
+1453560,Resumir_Felix,Guy's Gyros,16.83,30,Security,Security Group Manager,24.8978,36.057
+1453980,Vann_Edvard,Guy's Gyros,35.1,34,Security,Perimeter Control,24.8978,36.057
+1454220,Arpa_Emile,KaterinaÃÂs CafÃÂ©,34.93,0,Unknown,Unknown,24.892,36.089
+1454220,Bramar_Mat,Frydos Autosupply n' More,124.52,0,Unknown,Unknown,24.9042,36.0587
+1454580,Borrasca_Isande,Hippokampos,8.92,7,Engineering,Drill Technician,24.892,36.089
+1454700,Flecha_Sven,Shoppers' Delight,155.01,17,Information Technology,IT Technician,24.892,36.089
+1454820,Onda_Marin,KaterinaÃÂs CafÃÂ©,21.22,26,Engineering,Drill Site Manager,24.892,36.089
+1454820,Orilla_Elsa,Ouzeri Elian,70.21,28,Engineering,Drill Technician,24.8716,36.0526
+1455360,Lagos_Varja,Guy's Gyros,37.55,23,Security,Badging Office,24.8978,36.057
+1455540,Coginian_Dante,KaterinaÃÂs CafÃÂ©,36.12,0,Unknown,Unknown,24.892,36.089
+1455600,Bergen_Linnea,KaterinaÃÂs CafÃÂ©,19.09,6,Information Technology,IT Group Manager,24.892,36.089
+1455660,Ferro_Inga,Guy's Gyros,8.31,13,Security,Site Control,24.8978,36.057
+1455660,Herrero_Kanon,Shoppers' Delight,289.33,22,Security,Badging Office,24.892,36.089
+1455840,Bodrogi_Loreto,Guy's Gyros,8.54,15,Security,Site Control,24.8978,36.057
+1455840,Calixto_Nils,KaterinaÃÂs CafÃÂ©,72.13,8,Information Technology,IT Technician,24.892,36.089
+1456080,Alcazar_Lucas,Ouzeri Elian,35.81,1,Information Technology,IT Helpdesk,24.8716,36.0526
+1456500,Pantanal_Rachel,Ouzeri Elian,26.4,0,Unknown,Unknown,24.8716,36.0526
+1456860,Cocinaro_Hideki,General Grocer,98.03,12,Security,Site Control,24.857,36.0608
+1456860,Vann_Isia,Frydos Autosupply n' More,260.08,16,Security,Perimeter Control,24.9042,36.0587
+1457640,Barranco_Ingrid,Hippokampos,11.93,4,Executive,SVP/CFO,24.892,36.089
+1457880,Nubarron_Adra,KaterinaÃÂs CafÃÂ©,38.21,25,Engineering,Geologist,24.892,36.089
+1457940,Tempestad_Brand,Guy's Gyros,29.71,33,Engineering,Drill Technician,24.8978,36.057
+1458300,Mies Haber_Ruscella,KaterinaÃÂs CafÃÂ©,33.73,0,Unknown,Unknown,24.892,36.089
+1458360,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,27.49,21,Security,Perimeter Control,24.892,36.089
+1458420,Mies_Minke,Guy's Gyros,55.4,24,Security,Perimeter Control,24.8978,36.057
+1458900,Lais_Cornelia,Frydos Autosupply n' More,67.29,0,Unknown,Unknown,24.9042,36.0587
+1459740,Vasco-Pais_Willem,Hippokampos,38.19,35,Executive,Environmental Safety Advisor,24.892,36.089
+1461480,Balas_Felix,Hippokampos,12.86,3,Engineering,Engineer,24.892,36.089
+1512180,Sanjorge Jr._Sten,Chostus Hotel,600.0,31,Executive,President/CEO,24.8935,36.0699
+1515840,Strum_Orhan,Abila Zacharo,111.93,32,Executive,SVP/COO,24.892,36.089
+1515900,Borrasca_Isande,Abila Zacharo,25.59,7,Engineering,Drill Technician,24.892,36.089
+1516500,Ribera_Anda,KaterinaÃÂs CafÃÂ©,34.54,0,Unknown,Unknown,24.892,36.089
+1516680,Frente_Vira,Ouzeri Elian,33.57,19,Engineering,Hydraulic Technician,24.8716,36.0526
+1516740,Lais_Cornelia,Kalami Kafenion,30.12,0,Unknown,Unknown,24.892,36.089
+1516860,Calzas_Axel,Hippokampos,100.11,9,Engineering,Drill Technician,24.892,36.089
+1517100,Bergen_Linnea,Abila Zacharo,18.45,6,Information Technology,IT Group Manager,24.892,36.089
+1517220,Flecha_Sven,Guy's Gyros,55.21,17,Information Technology,IT Technician,24.8978,36.057
+1517280,Dedos_Lidelse,Guy's Gyros,27.4,14,Engineering,Engineering Group Manager,24.8978,36.057
+1517280,Vasco-Pais_Willem,Kalami Kafenion,38.91,35,Executive,Environmental Safety Advisor,24.892,36.089
+1517520,Alcazar_Lucas,Abila Zacharo,16.59,1,Information Technology,IT Helpdesk,24.892,36.089
+1517640,Lagos_Varja,KaterinaÃÂs CafÃÂ©,19.3,23,Security,Badging Office,24.892,36.089
+1517640,Ovan_Bertrand,Ouzeri Elian,25.75,29,Facilities,Facilities Group Manager,24.8716,36.0526
+1519080,Cazar_Gustav,Kalami Kafenion,24.14,11,Engineering,Hydraulic Technician,24.892,36.089
+1519080,Pantanal_Rachel,Gelatogalore,84.38,0,Unknown,Unknown,24.8613,36.0604
+1519200,Lagos_Linda,KaterinaÃÂs CafÃÂ©,37.26,0,Unknown,Unknown,24.892,36.089
+1519320,Coginian_Dante,Kalami Kafenion,42.73,0,Unknown,Unknown,24.892,36.089
+1519380,Barranco_Ingrid,KaterinaÃÂs CafÃÂ©,96.36,4,Executive,SVP/CFO,24.892,36.089
+1519500,Frente_Birgitta,Guy's Gyros,47.89,18,Engineering,Geologist,24.8978,36.057
+1519560,Ferro_Inga,KaterinaÃÂs CafÃÂ©,24.14,13,Security,Site Control,24.892,36.089
+1520220,Resumir_Felix,Kalami Kafenion,53.36,30,Security,Security Group Manager,24.892,36.089
+1522260,Herrero_Kanon,Ahaggo Museum,55.55,22,Security,Badging Office,24.8776,36.0759
+1522500,Flecha_Sven,Ahaggo Museum,120.2,17,Information Technology,IT Technician,24.8776,36.0759
+1524000,Frente_Vira,Albert's Fine Clothing,35.66,19,Engineering,Hydraulic Technician,24.8562,36.0754
+1524660,Lais_Cornelia,Frydos Autosupply n' More,103.41,0,Unknown,Unknown,24.9042,36.0587
+1524660,Ovan_Bertrand,General Grocer,177.6,29,Facilities,Facilities Group Manager,24.857,36.0608
+1524720,Dedos_Lidelse,Frydos Autosupply n' More,361.54,14,Engineering,Engineering Group Manager,24.9042,36.0587
+1525200,Strum_Orhan,Shoppers' Delight,258.33,32,Executive,SVP/COO,24.892,36.089
+1525260,Bergen_Linnea,Roberts and Sons,62.47,6,Information Technology,IT Group Manager,24.8506,36.0634
+1525860,Calzas_Axel,Frydos Autosupply n' More,103.55,9,Engineering,Drill Technician,24.9042,36.0587
+1525980,Vasco-Pais_Willem,Frydos Autosupply n' More,120.67,35,Executive,Environmental Safety Advisor,24.9042,36.0587
+1526220,Ribera_Anda,Albert's Fine Clothing,189.52,0,Unknown,Unknown,24.8562,36.0754
+1535940,Balas_Felix,Frank's Fuel,52.66,3,Engineering,Engineer,24.8377,36.0729
+1536660,Mies Haber_Ruscella,Frydos Autosupply n' More,234.53,0,Unknown,Unknown,24.9042,36.0587
+1537140,Strum_Orhan,Albert's Fine Clothing,226.49,32,Executive,SVP/COO,24.8562,36.0754
+1537680,Lagos_Varja,Guy's Gyros,39.68,23,Security,Badging Office,24.8978,36.057
+1538220,Arpa_Emile,KaterinaÃÂs CafÃÂ©,21.63,0,Unknown,Unknown,24.892,36.089
+1538400,Frente_Birgitta,Roberts and Sons,266.69,18,Engineering,Geologist,24.8506,36.0634
+1538460,Baza_Isak,Ouzeri Elian,57.63,5,Information Technology,IT Technician,24.8716,36.0526
+1538460,Cazar_Gustav,Hippokampos,21.34,11,Engineering,Hydraulic Technician,24.892,36.089
+1538460,Lais_Cornelia,Guy's Gyros,28.07,0,Unknown,Unknown,24.8978,36.057
+1538760,Alcazar_Lucas,Ouzeri Elian,61.56,1,Information Technology,IT Helpdesk,24.8716,36.0526
+1539000,Calixto_Nils,KaterinaÃÂs CafÃÂ©,8.14,8,Information Technology,IT Technician,24.892,36.089
+1539060,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,22.74,14,Engineering,Engineering Group Manager,24.892,36.089
+1539120,Mies_Minke,KaterinaÃÂs CafÃÂ©,33.41,24,Security,Perimeter Control,24.892,36.089
+1539300,Frente_Vira,Hippokampos,27.21,19,Engineering,Hydraulic Technician,24.892,36.089
+1539360,Ribera_Anda,KaterinaÃÂs CafÃÂ©,35.79,0,Unknown,Unknown,24.892,36.089
+1539360,Vann_Edvard,Abila Zacharo,21.29,34,Security,Perimeter Control,24.892,36.089
+1539360,Vasco-Pais_Willem,Hippokampos,53.21,35,Executive,Environmental Safety Advisor,24.892,36.089
+1539540,Balas_Felix,Kalami Kafenion,71.14,3,Engineering,Engineer,24.892,36.089
+1539540,Fusil_Stenig,Guy's Gyros,78.36,20,Security,Building Control,24.8978,36.057
+1539720,Campo-Corrente_Ada,Hippokampos,63.21,10,Executive,SVP/CIO,24.892,36.089
+1539960,Barranco_Ingrid,Roberts and Sons,125.35,4,Executive,SVP/CFO,24.8506,36.0634
+1539960,Coginian_Dante,KaterinaÃÂs CafÃÂ©,11.19,0,Unknown,Unknown,24.892,36.089
+1539960,Pantanal_Rachel,Ouzeri Elian,14.9,0,Unknown,Unknown,24.8716,36.0526
+1540020,Bramar_Mat,KaterinaÃÂs CafÃÂ©,16.48,0,Unknown,Unknown,24.892,36.089
+1540380,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,76.1,29,Facilities,Facilities Group Manager,24.892,36.089
+1540440,Onda_Marin,KaterinaÃÂs CafÃÂ©,33.63,26,Engineering,Drill Site Manager,24.892,36.089
+1540560,Forluniau_Carla,KaterinaÃÂs CafÃÂ©,32.68,0,Unknown,Unknown,24.892,36.089
+1540860,Herrero_Kanon,Hippokampos,49.21,22,Security,Badging Office,24.892,36.089
+1540860,Osvaldo_Hennie,KaterinaÃÂs CafÃÂ©,17.37,21,Security,Perimeter Control,24.892,36.089
+1541040,Lagos_Linda,KaterinaÃÂs CafÃÂ©,45.88,0,Unknown,Unknown,24.892,36.089
+1541220,Resumir_Felix,General Grocer,108.49,30,Security,Security Group Manager,24.857,36.0608
+1541340,Vann_Isia,KaterinaÃÂs CafÃÂ©,19.31,16,Security,Perimeter Control,24.892,36.089
+1541460,Azada_Lars,Hippokampos,72.5,2,Engineering,Engineer,24.892,36.089
+1541580,Bodrogi_Loreto,KaterinaÃÂs CafÃÂ©,9.72,15,Security,Site Control,24.892,36.089
+1541700,Ferro_Inga,KaterinaÃÂs CafÃÂ©,37.21,13,Security,Site Control,24.892,36.089
+1542180,Calzas_Axel,Hippokampos,29.21,9,Engineering,Drill Technician,24.892,36.089
+1542360,Awelon_Varro,Hippokampos,55.03,0,Unknown,Unknown,24.892,36.089
+1566780,Lagos_Varja,Kronos Mart,87.66,23,Security,Badging Office,24.848,36.0664
+1568700,Alcazar_Lucas,Kronos Mart,194.51,1,Information Technology,IT Helpdesk,24.848,36.0664
+1568880,Campo-Corrente_Ada,Kronos Mart,150.36,10,Executive,SVP/CIO,24.848,36.0664
+1600860,Strum_Orhan,Desafio Golf Course,150.07,32,Executive,SVP/COO,24.8656,36.087
+1601820,Barranco_Ingrid,Desafio Golf Course,145.72,4,Executive,SVP/CFO,24.8656,36.087
+1602000,Vann_Isia,KaterinaÃÂs CafÃÂ©,35.01,16,Security,Perimeter Control,24.892,36.089
+1602540,Frente_Vira,Gelatogalore,22.36,19,Engineering,Hydraulic Technician,24.8613,36.0604
+1603380,Vann_Edvard,KaterinaÃÂs CafÃÂ©,70.22,34,Security,Perimeter Control,24.892,36.089
+1603560,Orilla_Elsa,Ahaggo Museum,26.91,28,Engineering,Drill Technician,24.8776,36.0759
+1603620,Lagos_Varja,Ouzeri Elian,23.65,23,Security,Badging Office,24.8716,36.0526
+1603980,Nubarron_Adra,Hippokampos,64.37,25,Engineering,Geologist,24.892,36.089
+1605060,Campo-Corrente_Ada,Desafio Golf Course,190.91,10,Executive,SVP/CIO,24.8656,36.087
+1605180,Mies_Minke,KaterinaÃÂs CafÃÂ©,26.76,24,Security,Perimeter Control,24.892,36.089
+1605660,Onda_Marin,KaterinaÃÂs CafÃÂ©,12.78,26,Engineering,Drill Site Manager,24.892,36.089
+1606080,Flecha_Sven,Ouzeri Elian,45.32,17,Information Technology,IT Technician,24.8716,36.0526
+1606800,Orilla_Kare,KaterinaÃÂs CafÃÂ©,54.2,27,Engineering,Drill Technician,24.892,36.089
+1606800,Resumir_Felix,Abila Zacharo,47.8,30,Security,Security Group Manager,24.892,36.089
+1609380,Frente_Vira,General Grocer,70.22,19,Engineering,Hydraulic Technician,24.857,36.0608
+1610100,Vasco-Pais_Willem,Desafio Golf Course,110.02,35,Executive,Environmental Safety Advisor,24.8656,36.087
+1610760,Lagos_Varja,Frydos Autosupply n' More,56.09,23,Security,Badging Office,24.9042,36.0587
+1611540,Nubarron_Adra,Albert's Fine Clothing,274.66,25,Engineering,Geologist,24.8562,36.0754
+1611960,Sanjorge Jr._Sten,Desafio Golf Course,148.22,31,Executive,President/CEO,24.8656,36.087
+1612380,Vann_Edvard,Frydos Autosupply n' More,209.76,34,Security,Perimeter Control,24.9042,36.0587
+1623240,Ovan_Bertrand,KaterinaÃÂs CafÃÂ©,72.25,29,Facilities,Facilities Group Manager,24.892,36.089
+1626180,Balas_Felix,Hippokampos,101.25,3,Engineering,Engineer,24.892,36.089
+1626180,Campo-Corrente_Ada,Hippokampos,48.23,10,Executive,SVP/CIO,24.892,36.089
+1626240,Cazar_Gustav,Hippokampos,88.27,11,Engineering,Hydraulic Technician,24.892,36.089
+1626240,Frente_Vira,Hippokampos,46.32,19,Engineering,Hydraulic Technician,24.892,36.089
+1626300,Flecha_Sven,Guy's Gyros,65.21,17,Information Technology,IT Technician,24.8978,36.057
+1626300,Herrero_Kanon,Guy's Gyros,23.21,22,Security,Badging Office,24.8978,36.057
+1626300,Lagos_Varja,Guy's Gyros,58.35,23,Security,Badging Office,24.8978,36.057
+1626300,Osvaldo_Hennie,Frydos Autosupply n' More,98.04,21,Security,Perimeter Control,24.9042,36.0587
+1626300,Sanjorge Jr._Sten,Guy's Gyros,25.79,31,Executive,President/CEO,24.8978,36.057
+1626480,Baza_Isak,Ouzeri Elian,67.98,5,Information Technology,IT Technician,24.8716,36.0526
+1626540,Alcazar_Lucas,Ouzeri Elian,32.77,1,Information Technology,IT Helpdesk,24.8716,36.0526
+1626540,Fusil_Stenig,Guy's Gyros,100.36,20,Security,Building Control,24.8978,36.057
+1626780,Calixto_Nils,KaterinaÃÂs CafÃÂ©,34.03,8,Information Technology,IT Technician,24.892,36.089
+1626960,Nubarron_Adra,Shoppers' Delight,30.39,25,Engineering,Geologist,24.892,36.089
+1626960,Vasco-Pais_Willem,Hippokampos,63.17,35,Executive,Environmental Safety Advisor,24.892,36.089
+1627200,Vann_Isia,Guy's Gyros,18.08,16,Security,Perimeter Control,24.8978,36.057
+1627320,Borrasca_Isande,Albert's Fine Clothing,254.29,7,Engineering,Drill Technician,24.8562,36.0754
+1627500,Dedos_Lidelse,KaterinaÃÂs CafÃÂ©,33.79,14,Engineering,Engineering Group Manager,24.892,36.089
+1628040,Cocinaro_Hideki,Guy's Gyros,36.87,12,Security,Site Control,24.8978,36.057
+1628160,Azada_Lars,Hippokampos,78.96,2,Engineering,Engineer,24.892,36.089
+1628160,Tempestad_Brand,Guy's Gyros,37.48,33,Engineering,Drill Technician,24.8978,36.057
+1628520,Frente_Birgitta,KaterinaÃÂs CafÃÂ©,38.9,18,Engineering,Geologist,24.892,36.089
+1628700,Bodrogi_Loreto,Guy's Gyros,20.94,15,Security,Site Control,24.8978,36.057
+1629000,Mies_Minke,Guy's Gyros,31.94,24,Security,Perimeter Control,24.8978,36.057
+1630260,Resumir_Felix,Guy's Gyros,39.6,30,Security,Security Group Manager,24.8978,36.057
