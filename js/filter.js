@@ -16,16 +16,22 @@ Filter.prototype.init = function() {
     .attr("width", self.svgWidth)
     .attr("height", self.svgHeight);
 
+  // figuring out nearest time to start/end date
+  // console.log(getDateTime(432000));
+  // console.log(getDateTime(1641599));
   // https://bl.ocks.org/johnwalley/e1d256b81e51da68f7feb632a53c3518
   var sliderRange = d3
     .sliderBottom()
-    .min(this.timestampDomain[0])
-    .max(this.timestampDomain[1])
+    .min(432000)
+    .max(1641599)
+    // .min(this.timestampDomain[0])
+    // .max(this.timestampDomain[1])
     .width(self.svgWidth - self.margin.left)
     .height(self.svgHeight / 2)
     .ticks(0)
-    .step(1)
-    .default([this.timestampDomain[0], this.timestampDomain[1]])
+    .step(3600) // seconds / hr (makes each step 1 hr)
+    // .default([this.timestampDomain[0], this.timestampDomain[1]])
+    .default([432000, 1641599])
     .handle(d3.symbol()
         .type(d3.symbolCircle)
         .size(200)())
