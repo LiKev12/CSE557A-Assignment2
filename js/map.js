@@ -22,11 +22,12 @@ Map.prototype.init = function () {
               .direction('se')
               .offset(() => [0,0])
               .html((d) => {
-                let employmentType = d.employmentType;
-                let employmentTitle = d.employmentTitle;
-      				  let namePara = "<p><b class='text-white'>Employee:</b> " + d.name + "</p>"
-                let typePara = "<p><b class='text-white'>Type:</b> " + d.employmentType + "</p>"
-                let titlePara = "<p><b class='text-white'>Type:</b> " + d.employmentTitle + "</p>"
+                let name = d.name ? d.name : "Unknown";
+                let employmentType = d.employmentType ? d.employmentType : "Unknown";
+                let employmentTitle = d.employmentTitle ? d.employmentTitle : "Unknown";
+      				  let namePara = "<p><b class='text-white'>Employee:</b> " + name + "</p>"
+                let typePara = "<p><b class='text-white'>Type:</b> " + employmentType + "</p>"
+                let titlePara = "<p><b class='text-white'>Title:</b> " + employmentTitle + "</p>"
                 let carIdPara = "<p><b class='text-white'>Car ID:</b> " + d.id + "</p>"
                 let timestamp = getDateTime(d.timestamp)
                 let timestampPara = "<p><b class='text-white'>Timestamp:</b> " + timestamp + "</p>"
