@@ -40,8 +40,9 @@ Map.prototype.init = function () {
   // Potential problem: might lag even though map loaded
   // could be better to load in main.js
   self.getTripData("../Postprocess_Data/gps_data_a20.csv");
-  self.getCardData("../Postprocess_Data/cc_car_data.csv", "ccData");
-  self.getCardData("../Postprocess_Data/loyalty_car_data.csv", "loyaltyData");
+  self.getCardData("../Postprocess_Data/payment_data.csv", "paymentData");
+  // self.getCardData("../Postprocess_Data/cc_car_data.csv", "ccData");
+  // self.getCardData("../Postprocess_Data/loyalty_car_data.csv", "loyaltyData");
 };
 
 Map.prototype.drawPaths = function () {
@@ -63,12 +64,12 @@ Map.prototype.drawPaths = function () {
 Map.prototype.drawCardTable = function () {
   // http://bl.ocks.org/yan2014/c9dd6919658991d33b87
   let self = this;
-  this.arrayOfObjToArrayOfArray();
+  this.preparePaymentDataDrawForTable();
   // TODO: exit remove is not working w/ table, so using this method temporarily
   d3.selectAll(".row-del").remove();
 
   self.tableRows = self.tableBody.selectAll(".row-del")
-    .data(this.ccDataDraw)
+    .data(this.paymentDataDraw)
     .enter()
     .append("tr")
     .attr("class", "row-del")
@@ -88,12 +89,10 @@ Map.prototype.drawCardTable = function () {
 Map.prototype.wrangleData = function () {
   if(!this.carIDs.size && !this.timestampRange.length) {
     this.tripDataDraw = this.tripData
-    this.ccDataDraw = this.ccData;
-    this.loyaltyDataDraw = this.loyaltyData;
+    this.paymentDataDraw = this.paymentData;
   } else {
     this.filterDataset("tripData");
-    this.filterDataset("ccData");
-    this.filterDataset("loyaltyData");
+    this.filterDataset("paymentData");
   }
   let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
   if(!this.carIDs.size) {
@@ -137,7 +136,7 @@ Map.prototype.removeCarIDs = function (carId) {
   d3.selectAll(".path-dot-"+carId).remove();
 
   // TODO: kinda janky...
-  this.filterDataset("ccData");
+  this.filterDataset("paymentData");
   this.drawCardTable();
 };
 
@@ -149,7 +148,7 @@ Map.prototype.getTripData = function (filepath) {
       id: +d.id,
       lat: +d.lat,
       long: +d.long,
-      name: d.Name,
+      name: d.Name.split("_").join(" "),
       employmentType: d.CurrentEmploymentType,
       employmentTitle: d.CurrentEmploymentTitle
     }
@@ -168,12 +167,16 @@ Map.prototype.getCardData = function (filepath, attr) {
       timestamp: +d.Timestamp,
       location: d.Location,
       price: +d.Price,
-      name: d.Name,
-      id: +d.CarID
+      name: d.Name.split("_").join(" "),
+      id: +d.CarID,
+      employmentType: d.CurrentEmploymentType,
+      employmentTitle: d.CurrentEmploymentTitle,
+      method: d.Payment_Method
     }
   }).get((error, rows) => {
     if (error) throw error;
     this[attr] = rows;
+    console.log(this.paymentData);
   });
 };
 
@@ -205,7 +208,6 @@ Map.prototype.filterDataset = function (attr) {
   const ts1 = this.timestampRange[0];
   const ts2 = this.timestampRange[1];
   this[attr+"Draw"] = this[attr].filter((d) => {
-    // let currCarId = d.id ? d.id : +this.employeeToCarId[d.name];
     if(this.carIDs.size && this.timestampRange.length) {
       return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
     } else if (this.carIDs.size) {
@@ -216,14 +218,18 @@ Map.prototype.filterDataset = function (attr) {
   });
 };
 
-Map.prototype.arrayOfObjToArrayOfArray = function () {
+Map.prototype.preparePaymentDataDrawForTable = function () {
   let temp = [];
-  for(let i = 0; i < this.ccDataDraw.length; i++) {
-    temp.push([getDateTime(this.ccDataDraw[i].timestamp),
-      this.ccDataDraw[i].name,
-      this.ccDataDraw[i].id,
-      this.ccDataDraw[i].price,
-      this.ccDataDraw[i].location]);
+  for(let i = 0; i < this.paymentDataDraw.length; i++) {
+    temp.push([getDateTime(this.paymentDataDraw[i].timestamp),
+      this.paymentDataDraw[i].name,
+      this.paymentDataDraw[i].id,
+      this.paymentDataDraw[i].employmentType,
+      this.paymentDataDraw[i].employmentTitle,
+      this.paymentDataDraw[i].price,
+      this.paymentDataDraw[i].location,
+      this.paymentDataDraw[i].method,
+    ]);
   }
-  this.ccDataDraw = temp;
+  this.paymentDataDraw = temp;
 };

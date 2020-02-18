@@ -42,8 +42,11 @@
                     <th>Date</th>
                     <th>Name</th>
                     <th>Car</th>
+                    <th>Type</th>
+                    <th>Title</th>
                     <th>Price</th>
                     <th>Location</th>
+                    <th>Method</th>
                   </tr>
                 </thead>
                 <tbody id="card-table-body"></tbody>
@@ -75,10 +78,12 @@
           </p>
           <h2>Example Use Cases</h2>
           <ul>
-            <li>To see all GPS data, simply remove all selected cars (you can
-              see which ones you've selected in the column to the left of the
-              map), and set the range sliders as far apart as possible and click
-              "Update Dates".
+            <li>To quickly see all GPS data, simply remove all selected cars
+              (you can see which ones you've selected in the column to the left
+              of the map). Once you remove every car, the column immediately
+              repopulates with all the car ids in the set date range. The reason
+              for this feature is because we felt that there's no point in
+              viewing an empty map!
             </li>
             <li>To see all GPS data of a certain car, type a car ID into the
               "Car ID" input form, and press add.
