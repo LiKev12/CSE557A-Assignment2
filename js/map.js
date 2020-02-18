@@ -158,7 +158,6 @@ Map.prototype.getTripData = function (filepath) {
     this.tripData = rows;
     let domain = d3.extent(this.tripData, (row) => row.timestamp);
     self.setScales();
-    // self.createCarIdEmployeeMap();
     $(this.filterHandler).trigger("createFilter", [+domain[0], +domain[1], self.colorScale]);
   });
 };
@@ -176,17 +175,6 @@ Map.prototype.getCardData = function (filepath, attr) {
     if (error) throw error;
     this[attr] = rows;
   });
-};
-
-Map.prototype.createCarIdEmployeeMap = function () {
-  this.carIdToEmplyee = {};
-  this.employeeToCarId = {};
-  for(let i = 0; i < this.tripData.length; i++) {
-    const carId = this.tripData[i].id;
-    const employee = this.tripData[i].name;
-    this.carIdToEmplyee[carId] &&  this.carIdToEmplyee[carId].indexOf(employee) ? this.carIdToEmplyee[carId].push(employee) : this.carIdToEmplyee[carId] = [employee];
-    employee !== "" && (this.employeeToCarId[employee] &&  this.employeeToCarId[employee].indexOf(carId)) ? this.employeeToCarId[employee].push(carId) : this.employeeToCarId[employee] = [carId];
-  }
 };
 
 Map.prototype.setScales = function () {
