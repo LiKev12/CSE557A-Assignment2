@@ -66,8 +66,9 @@
           self.instance = new Main();
 
           //called only once when the class is initialized
-          let imgLoader = document.getElementById("abila-map")
-          imgLoader.onload= function() {
+          // let imgLoader = document.getElementById("abila-map")
+          window.onload= function() {
+            console.log("here");
             init();
           }
 
