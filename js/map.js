@@ -157,7 +157,8 @@ Map.prototype.getTripData = function (filepath) {
     this.tripData = rows;
     let domain = d3.extent(this.tripData, (row) => row.timestamp);
     self.setScales();
-    $(this.filterHandler).trigger("createFilter", [+domain[0], +domain[1], self.colorScale]);
+    this.getValidCarIds();
+    $(this.filterHandler).trigger("createFilter", [+domain[0], +domain[1], self.colorScale, self.validCarIds]);
   });
 };
 
@@ -176,7 +177,6 @@ Map.prototype.getCardData = function (filepath, attr) {
   }).get((error, rows) => {
     if (error) throw error;
     this[attr] = rows;
-    console.log(this.paymentData);
   });
 };
 
@@ -232,4 +232,9 @@ Map.prototype.preparePaymentDataDrawForTable = function () {
     ]);
   }
   this.paymentDataDraw = temp;
+};
+
+Map.prototype.getValidCarIds = function () {
+  this.validCarIds = [... new Set(this.tripData.map(d => +d.id))];
+  console.log(this.validCarIds);
 };

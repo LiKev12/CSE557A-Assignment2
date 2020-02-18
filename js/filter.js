@@ -1,9 +1,10 @@
-function Filter(_carIdHandler, _timestampHandler, _compareHandler, timestampDomain, colorScale) {
+function Filter(_carIdHandler, _timestampHandler, _compareHandler, timestampDomain, colorScale, validCarIds) {
   this.cardId = _carIdHandler;
   this.timestampRange = _timestampHandler;
   this.compare = _compareHandler;
   this.timestampDomain = timestampDomain;
   this.colorScale = colorScale;
+  this.validCarIds = validCarIds;
   this.init();
 }
 
@@ -49,9 +50,13 @@ Filter.prototype.initEventTriggers = function() {
   self = this;
   $("#car-id-submit").on("click", (e) => {
     let carId = $("#car-id-input").val();
-    $(this.cardId).trigger("addCarId", carId);
-    $(this.compare).trigger("draw");
-    $("#car-id-input").val('');
+    if(this.validCarIds.includes(+carId)) {
+      $(this.cardId).trigger("addCarId", carId);
+      $(this.compare).trigger("draw");
+      $("#car-id-input").val('');
+    } else {
+      alert(`${carId} is an invalid car id.`)
+    }
   });
 
   $("#compare").on("click", (e) => {

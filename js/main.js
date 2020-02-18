@@ -15,8 +15,8 @@
     let filterHandler = {};
     var map = new Map(filterHandler);
     var filter;
-    $(filterHandler).bind("createFilter", (event, l, u, colorScale) => {
-      filter = new Filter(carId, timestampRange, compare, [l,u], colorScale);
+    $(filterHandler).bind("createFilter", (event, l, u, colorScale, validCarIds) => {
+      filter = new Filter(carId, timestampRange, compare, [l,u], colorScale, validCarIds);
     });
 
     $(filterHandler).bind("createCarButton", (event, success, carId) => {
