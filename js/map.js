@@ -40,8 +40,8 @@ Map.prototype.init = function () {
   // Potential problem: might lag even though map loaded
   // could be better to load in main.js
   self.getTripData("../Postprocess_Data/gps_data_a20.csv");
-  self.getCardData("../Postprocess_Data/cc_data.csv", "ccData");
-  self.getCardData("../Postprocess_Data/loyalty_data.csv", "loyaltyData");
+  self.getCardData("../Postprocess_Data/cc_car_data.csv", "ccData");
+  self.getCardData("../Postprocess_Data/loyalty_car_data.csv", "loyaltyData");
 };
 
 Map.prototype.drawPaths = function () {
@@ -64,18 +64,24 @@ Map.prototype.drawCardTable = function () {
   // http://bl.ocks.org/yan2014/c9dd6919658991d33b87
   let self = this;
   this.arrayOfObjToArrayOfArray();
+  // TODO: exit remove is not working w/ table, so using this method temporarily
+  d3.selectAll(".row-del").remove();
+
   self.tableRows = self.tableBody.selectAll(".row-del")
     .data(this.ccDataDraw)
     .enter()
     .append("tr")
     .attr("class", "row-del")
-  d3.selectAll(".row-del").data(this.ccDataDraw).exit().remove();
+    .style("background-color" , d => this.colorScale(+d[2]) + "B3");
+  // d3.selectAll(".row-del").data(this.ccDataDraw).exit().remove();
   // self.tableRows.exit().remove();
 
   self.tableCells = self.tableRows.selectAll("td").data((d) => d)
     .enter()
     .append("td")
+    .attr("class", "cell-del")
     .text((d) => d);
+  // d3.selectAll(".cell-del").data(this.ccDataDraw).exit().remove();
   // self.tableCells.exit().remove();
 };
 
@@ -152,7 +158,7 @@ Map.prototype.getTripData = function (filepath) {
     this.tripData = rows;
     let domain = d3.extent(this.tripData, (row) => row.timestamp);
     self.setScales();
-    self.createCarIdEmployeeMap();
+    // self.createCarIdEmployeeMap();
     $(this.filterHandler).trigger("createFilter", [+domain[0], +domain[1], self.colorScale]);
   });
 };
@@ -163,7 +169,8 @@ Map.prototype.getCardData = function (filepath, attr) {
       timestamp: +d.Timestamp,
       location: d.Location,
       price: +d.Price,
-      name: d.Name
+      name: d.Name,
+      id: +d.CarID
     }
   }).get((error, rows) => {
     if (error) throw error;
@@ -210,11 +217,11 @@ Map.prototype.filterDataset = function (attr) {
   const ts1 = this.timestampRange[0];
   const ts2 = this.timestampRange[1];
   this[attr+"Draw"] = this[attr].filter((d) => {
-    let currCarId = d.id ? d.id : +this.employeeToCarId[d.name];
+    // let currCarId = d.id ? d.id : +this.employeeToCarId[d.name];
     if(this.carIDs.size && this.timestampRange.length) {
-      return this.carIDs.has(currCarId) && (ts1 <= d.timestamp && d.timestamp <= ts2);
+      return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
     } else if (this.carIDs.size) {
-      return this.carIDs.has(currCarId);
+      return this.carIDs.has(d.id);
     } else {
       return ts1 <= d.timestamp && d.timestamp <= ts2;
     }
@@ -224,7 +231,11 @@ Map.prototype.filterDataset = function (attr) {
 Map.prototype.arrayOfObjToArrayOfArray = function () {
   let temp = [];
   for(let i = 0; i < this.ccDataDraw.length; i++) {
-    temp.push([getDateTime(this.ccDataDraw[i].timestamp), this.ccDataDraw[i].name, this.ccDataDraw[i].price, this.ccDataDraw[i].location]);
+    temp.push([getDateTime(this.ccDataDraw[i].timestamp),
+      this.ccDataDraw[i].name,
+      this.ccDataDraw[i].id,
+      this.ccDataDraw[i].price,
+      this.ccDataDraw[i].location]);
   }
   this.ccDataDraw = temp;
 };

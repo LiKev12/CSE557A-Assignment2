@@ -68,7 +68,6 @@
           //called only once when the class is initialized
           // let imgLoader = document.getElementById("abila-map")
           window.onload= function() {
-            console.log("here");
             init();
           }
 

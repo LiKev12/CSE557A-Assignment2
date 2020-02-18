@@ -40,6 +40,7 @@ Filter.prototype.init = function() {
                   .attr("transform", "translate(15, 15)");
     gRange.call(sliderRange);
     updateTimeRangeDisplay(sliderRange.value());
+    $(this.timestampRange).trigger("newTimestamp", [sliderRange.value()[0], sliderRange.value()[1]]);
     // d3.select('#value-range').append("p").text(sliderRange.value().join('-'));
     this.initEventTriggers();
 };
@@ -70,7 +71,7 @@ Filter.prototype.createCarButton = function (carId) {
     let carId = e.target.parentNode.type === "button" ? e.target.parentNode.value : e.target.value;
     $(btnId).remove();
     $(this.cardId).trigger("removeCarId", carId);
-    // $(this.compare).trigger("draw");
+    $(this.compare).trigger("draw");
   });
 };
 
