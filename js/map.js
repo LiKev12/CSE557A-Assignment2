@@ -6,9 +6,11 @@ function Map(_handler) {
 }
 
 Map.prototype.init = function () {
+ 
+
   var self = this;
   self.margin = { top: 30, right: 30, bottom: 30, left: 30 };
-
+  
   let divMap = d3.select("#map");
   self.svgBounds = divMap.node().getBoundingClientRect();
   self.svgWidth = self.svgBounds.width - self.margin.left - self.margin.right;
@@ -222,7 +224,7 @@ Map.prototype.filterDataset = function (attr) {
 Map.prototype.arrayOfObjToArrayOfArray = function () {
   let temp = [];
   for(let i = 0; i < this.ccDataDraw.length; i++) {
-    temp.push([getDateTime(this.ccDataDraw[i].timestamp), this.ccDataDraw[i].name, this.ccDataDraw[i].location, this.ccDataDraw[i].price]);
+    temp.push([getDateTime(this.ccDataDraw[i].timestamp), this.ccDataDraw[i].name, this.ccDataDraw[i].price, this.ccDataDraw[i].location]);
   }
   this.ccDataDraw = temp;
 };

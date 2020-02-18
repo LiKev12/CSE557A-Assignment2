@@ -66,7 +66,11 @@
           self.instance = new Main();
 
           //called only once when the class is initialized
-          init();
+          let imgLoader = document.getElementById("abila-map")
+          imgLoader.onload= function() {
+            init();
+          }
+
       }
       return instance;
   }
