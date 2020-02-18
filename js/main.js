@@ -35,6 +35,10 @@
       map.removeCarIDs(+carId);
     });
 
+    $(carId).bind("removeAllCarIds", (event) => {
+      map.removeAllCarIDs();
+    });
+
     $(timestampRange).bind("newTimestamp", (event, ts1, ts2) => {
       map.updateTimestampRange(ts1, ts2);
     });

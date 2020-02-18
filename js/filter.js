@@ -59,6 +59,11 @@ Filter.prototype.initEventTriggers = function() {
     }
   });
 
+  $("#car-id-remove").on("click", (e) => {
+    $("#cars-added").empty();
+    $(this.cardId).trigger("removeAllCarIds");
+  });
+
   $("#compare").on("click", (e) => {
     $(this.compare).trigger("draw");
   });

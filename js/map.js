@@ -6,8 +6,6 @@ function Map(_handler) {
 }
 
 Map.prototype.init = function () {
-
-
   var self = this;
   self.margin = { top: 30, right: 30, bottom: 30, left: 30 };
 
@@ -87,13 +85,9 @@ Map.prototype.drawCardTable = function () {
 };
 
 Map.prototype.wrangleData = function () {
-  if(!this.carIDs.size && !this.timestampRange.length) {
-    this.tripDataDraw = this.tripData
-    this.paymentDataDraw = this.paymentData;
-  } else {
-    this.filterDataset("tripData");
-    this.filterDataset("paymentData");
-  }
+  this.filterDataset("tripData");
+  this.filterDataset("paymentData");
+
   let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
   if(!this.carIDs.size) {
     // if there are no car ids selected, then add the car ids within the
@@ -136,6 +130,14 @@ Map.prototype.removeCarIDs = function (carId) {
   d3.selectAll(".path-dot-"+carId).remove();
 
   // TODO: kinda janky...
+  this.filterDataset("paymentData");
+  this.drawCardTable();
+};
+
+Map.prototype.removeAllCarIDs = function () {
+  this.carIDs.clear();
+  // TODO: janky way of doing this
+  d3.selectAll("circle").remove();
   this.filterDataset("paymentData");
   this.drawCardTable();
 };
@@ -185,12 +187,18 @@ Map.prototype.setScales = function () {
   // range generated using: http://jnnnnn.github.io/category-colors-2L-inplace.html
   // range of values are "perceptually different", different dots are more clear
   // using ordinal scale vs the sequential
-  let range = ["#0bb414", "#fe22fd", "#ff5e07", "#26a5df", "#eb74a2", "#b09a50",
-              "#9b7ffc", "#09a781", "#9d8f98", "#df755a", "#87a705", "#d98902",
-              "#e65dd2", "#a88fd2", "#549fa5", "#62a34e", "#87a37c", "#3195fb",
-              "#fc5b71", "#c19176", "#d162fc", "#b09b0f", "#fc5f46", "#fa52a8",
-              "#d67bcb", "#c97e8b", "#0cb25c", "#899bc3", "#c68542", "#ed7c3b",
-              "#8fa446", "#60ae32", "#bd80ae", "#8c92f6", "#f842e0"];
+  // let range = ["#0bb414", "#fe22fd", "#ff5e07", "#26a5df", "#eb74a2", "#b09a50",
+  //             "#9b7ffc", "#09a781", "#9d8f98", "#df755a", "#87a705", "#d98902",
+  //             "#e65dd2", "#a88fd2", "#549fa5", "#62a34e", "#87a37c", "#3195fb",
+  //             "#fc5b71", "#c19176", "#d162fc", "#b09b0f", "#fc5f46", "#fa52a8",
+  //             "#d67bcb", "#c97e8b", "#0cb25c", "#899bc3", "#c68542", "#ed7c3b",
+  //             "#8fa446", "#60ae32", "#bd80ae", "#8c92f6", "#f842e0"];
+  let range = ["#13d318", "#fd8cfe", "#fca14b", "#2bc8d7", "#ffff0e", "#d9aab4",
+    "#9fc16f", "#95b5fd", "#dffeec", "#1cce9c", "#c8b825", "#8ec704", "#d6b079",
+    "#fe94cb", "#f8fd8c", "#5fcd5e", "#fe9c89", "#9bbad0", "#88c2a4", "#d3a4ef",
+    "#fafabd", "#3ac2fc", "#eea901", "#beb69e", "#c1aed8", "#ddaf51", "#f9ff5e",
+    "#a1c245", "#73c87e", "#fb9aae", "#12ccb9", "#f9f5fc", "#10d07d", "#c0b961",
+    "#afbc87", "#7ec2c1", "#60ce38", "#f1a572", "#dcac97"];
   self.colorScale = d3.scaleOrdinal()
                       .domain(d3.extent(this.tripData, (row) => row.id))
                       .range(range);
@@ -208,13 +216,7 @@ Map.prototype.filterDataset = function (attr) {
   const ts1 = this.timestampRange[0];
   const ts2 = this.timestampRange[1];
   this[attr+"Draw"] = this[attr].filter((d) => {
-    if(this.carIDs.size && this.timestampRange.length) {
-      return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
-    } else if (this.carIDs.size) {
-      return this.carIDs.has(d.id);
-    } else {
-      return ts1 <= d.timestamp && d.timestamp <= ts2;
-    }
+    return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
   });
 };
 
@@ -236,5 +238,4 @@ Map.prototype.preparePaymentDataDrawForTable = function () {
 
 Map.prototype.getValidCarIds = function () {
   this.validCarIds = [... new Set(this.tripData.map(d => +d.id))];
-  console.log(this.validCarIds);
 };
