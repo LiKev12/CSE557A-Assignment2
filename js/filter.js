@@ -60,7 +60,7 @@ Filter.prototype.initEventTriggers = function() {
   });
 
   $("#car-id-remove").on("click", (e) => {
-    $("#cars-added").empty();
+    $("#cars-added button").remove();
     $(this.cardId).trigger("removeAllCarIds");
   });
 
@@ -81,7 +81,7 @@ Filter.prototype.createCarButton = function (carId) {
     let carId = e.target.parentNode.type === "button" ? e.target.parentNode.value : e.target.value;
     $(btnId).remove();
     $(this.cardId).trigger("removeCarId", carId);
-    $(this.compare).trigger("draw");
+    // $(this.compare).trigger("draw");
   });
 };
 

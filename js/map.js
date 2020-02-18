@@ -22,15 +22,16 @@ Map.prototype.init = function () {
               .direction('se')
               .offset(() => [0,0])
               .html((d) => {
-        				let name = d.name.split("_");
                 let employmentType = d.employmentType;
                 let employmentTitle = d.employmentTitle;
-      				  let namePara = "<p><b class='text-white'>Emplyee:</b> " + name[0] + " " + name[1] + "</p>"
+      				  let namePara = "<p><b class='text-white'>Employee:</b> " + d.name + "</p>"
+                let typePara = "<p><b class='text-white'>Type:</b> " + d.employmentType + "</p>"
+                let titlePara = "<p><b class='text-white'>Type:</b> " + d.employmentTitle + "</p>"
                 let carIdPara = "<p><b class='text-white'>Car ID:</b> " + d.id + "</p>"
                 let timestamp = getDateTime(d.timestamp)
                 let timestampPara = "<p><b class='text-white'>Timestamp:</b> " + timestamp + "</p>"
                 let locPara = "<p><b class='text-white'>Long:</b> " + d.long.toFixed(5) + " <b class='text-white'>Lat:</b>  " + d.lat.toFixed(5) +"</p>"
-                return namePara + carIdPara + timestampPara + locPara;
+                return namePara + typePara + titlePara + carIdPara + timestampPara + locPara;
               });
   self.svg.call(self.tip)
   self.tableBody = d3.select("#card-table-body");
@@ -85,28 +86,34 @@ Map.prototype.drawCardTable = function () {
 };
 
 Map.prototype.wrangleData = function () {
-  this.filterDataset("tripData");
-  this.filterDataset("paymentData");
-
-  let temp = [... new Set(this.tripDataDraw.map(d => +d.id))]
-  if(!this.carIDs.size) {
-    // if there are no car ids selected, then add the car ids within the
-    // selected time range to this.carIDs
-    for(let i = 0; i < temp.length; i++) {
-      this.updateCarIDs(temp[i]);
-    }
+  if(this.carIDs.size) {
+    this.filterDataset("tripData");
+    this.filterDataset("paymentData");
   } else {
-    // IF we want to prioritize filtering by timestamp, then uncomment out this
-    // code. (e.g. user updates timestamps, and their previously applied car ids
-    // are updated to be)
+    this.filterDataset("tripData", timestampOnly=true);
+    this.filterDataset("paymentData", timestampOnly=true);
+    let temp = [... new Set(this.tripDataDraw.map(d => +d.id))];
+    console.log(this.carIDs.size);
+    if(!this.carIDs.size) {
+      // if there are no car ids selected, then add the car ids within the
+      // selected time range to this.carIDs
+      for(let i = 0; i < temp.length; i++) {
+        this.updateCarIDs(temp[i]);
+      }
+      console.log(this.carIDs);
+    } else {
+      // IF we want to prioritize filtering by timestamp, then uncomment out this
+      // code. (e.g. user updates timestamps, and their previously applied car ids
+      // are updated to be)
 
-    // this.carIDs.forEach((k, v, set) => {
-    //   if(!temp.includes(v)) {
-    //     this.removeCarIDs(v);
-    //     // TODO: removing the button should really be handled by the Filter object...
-    //     $("#btn-"+v).remove();
-    //   }
-    // });
+      // this.carIDs.forEach((k, v, set) => {
+      //   if(!temp.includes(v)) {
+      //     this.removeCarIDs(v);
+      //     // TODO: removing the button should really be handled by the Filter object...
+      //     $("#btn-"+v).remove();
+      //   }
+      // });
+    }
   }
 };
 
@@ -212,10 +219,13 @@ Map.prototype.setScales = function () {
       .range([self.svgHeight, 0]);
 };
 
-Map.prototype.filterDataset = function (attr) {
+Map.prototype.filterDataset = function (attr, timestampOnly=false) {
   const ts1 = this.timestampRange[0];
   const ts2 = this.timestampRange[1];
   this[attr+"Draw"] = this[attr].filter((d) => {
+    if(timestampOnly) {
+      return ts1 <= d.timestamp && d.timestamp <= ts2;
+    }
     return this.carIDs.has(d.id) && (ts1 <= d.timestamp && d.timestamp <= ts2);
   });
 };

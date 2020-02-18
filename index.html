@@ -71,8 +71,11 @@
             must click on the "Update Dates" button to apply a new time range.
             Cars you have selected will appear in the column to the left of the
             map in the form of buttons. You can click on a button to remove that
-            car's GPS data from the map. Paths and rows in the transaction table
-            are color coded by the car's ID.
+            car's GPS data from the map, or click "Remove All" underneath the
+            car id input to remove all cars selected. The transaction table will
+            also immediately respond to changes in the car ids and dates chosen.
+            Paths and rows in the transaction table are color coded by the car's
+            ID.
           </p>
           <p>Note: If you have not selected any cars (the column to the left of
             the map is empty), then selecting a date range will automatically
@@ -80,18 +83,16 @@
           </p>
           <h2>Example Use Cases</h2>
           <ul>
-            <li>To quickly see all GPS data, simply remove all selected cars
-              (you can see which ones you've selected in the column to the left
-              of the map). Once you remove every car, the column immediately
-              repopulates with all the car ids in the set date range. The reason
-              for this feature is because we felt that there's no point in
-              viewing an empty map!
-            </li>
             <li>To see all GPS data of a certain car, type a car ID into the
               "Car ID" input form, and press add.
             </li>
             <li>To see all GPS data on certain days, just move the range sliders
               around and click "Update Dates".
+            </li>
+            <li>If you're interested in what cars drove on certain days, then
+              remove all cars, chose your desired date range, and click "Update
+              Dates". This will automatically select all cars that drove on that
+              day, and plot their coordinates on the map.
             </li>
             <li>Combine these filters to look at more specific information!</li>
           </ul>
