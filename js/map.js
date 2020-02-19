@@ -39,9 +39,9 @@ Map.prototype.init = function () {
 
   // Potential problem: might lag even though map loaded
   // could be better to load in main.js
-  self.getTripData("CSE557A-Assignment2/Postprocess_Data/gps_data_a20.csv");
+  self.getTripData("Postprocess_Data/gps_data_a20.csv");
 //   self.getTripData("../Postprocess_Data/gps_data_a100.csv");
-  self.getCardData("CSE557A-Assignment2/Postprocess_Data/payment_data.csv", "paymentData");
+  self.getCardData("Postprocess_Data/payment_data.csv", "paymentData");
   // self.getCardData("../Postprocess_Data/cc_car_data.csv", "ccData");
   // self.getCardData("../Postprocess_Data/loyalty_car_data.csv", "loyaltyData");
 };
