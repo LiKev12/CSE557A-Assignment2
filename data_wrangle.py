@@ -140,7 +140,7 @@ def joinCarGPS():
     # print(res)
 
 
-    time_margin = 20
+    time_margin = 100
 
 
 
@@ -368,7 +368,7 @@ def addCoordsToPayments():
 # format_data_gps()
 # format_loyalty_data()
 
-# joinCarGPS()
+joinCarGPS()
 # joinCC_Car()
 # joinLoy_Car()
 
@@ -376,4 +376,4 @@ def addCoordsToPayments():
 # getAllShoppingSpots()
 # getCoordinatesOfShops()
 
-addCoordsToPayments()
+# addCoordsToPayments()

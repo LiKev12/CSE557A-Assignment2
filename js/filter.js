@@ -41,6 +41,7 @@ Filter.prototype.init = function() {
       let ts2 = getDateTime(val[1]);
       updateTimeRangeDisplay(val);
       $(this.timestampRange).trigger("newTimestamp", [val[0], val[1]]);
+    //   $(this.compare).trigger("draw");
     });
 
     var gRange = self.svg.append("g")
